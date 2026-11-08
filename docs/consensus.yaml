@@ -1,0 +1,64 @@
+# External "consensus" references for the face-validity check (scripts read this file; typed by hand
+# from the sources below on 2026-11-08). Only players / seasons covered by our data are listed.
+#
+# Sources
+#   ballon_dor : https://en.wikipedia.org/wiki/Ballon_d%27Or (winners table, top three; verbatim)
+#   lfp        : https://en.wikipedia.org/wiki/La_Liga_Awards (LFP / La Liga Awards, by season).
+#                Every row below was checked against the page's verbatim tables on 2026-11-08 and,
+#                for 2008/09-2014/15 and the 2015/16 defender, also against
+#                https://es.wikipedia.org/wiki/Premios_LaLiga (mejor defensa / mediocentro /
+#                centrocampista / delantero = best defender / midfielder / attacking midfielder / forward).
+#   laliga1516 : https://www.laliga.com/en-GB/news/antoine-griezmann-named-best-player-in-laliga-santander-201516
+#
+# Ballon d'Or is a calendar-year award; it is mapped to the season that ends in that year
+# (2005 -> our Rijkaard 2004-08 unit). `layers`: which of our cores it should match
+# (any = any of att / prog / def / link).
+
+ballon_dor:
+  - {year: 2005, rank: 1, player: Ronaldinho, team: Barcelona, label: "Rijkaard 2004-08"}
+  - {year: 2009, rank: 1, player: Lionel Messi, team: Barcelona, label: "2008/09"}
+  - {year: 2009, rank: 3, player: Xavi, team: Barcelona, label: "2008/09"}
+  - {year: 2010, rank: 1, player: Lionel Messi, team: Barcelona, label: "2009/10"}
+  - {year: 2010, rank: 2, player: Andrés Iniesta, team: Barcelona, label: "2009/10"}
+  - {year: 2010, rank: 3, player: Xavi, team: Barcelona, label: "2009/10"}
+  - {year: 2011, rank: 1, player: Lionel Messi, team: Barcelona, label: "2010/11"}
+  - {year: 2011, rank: 3, player: Xavi, team: Barcelona, label: "2010/11"}
+  - {year: 2012, rank: 1, player: Lionel Messi, team: Barcelona, label: "2011/12"}
+  - {year: 2012, rank: 3, player: Andrés Iniesta, team: Barcelona, label: "2011/12"}
+  - {year: 2013, rank: 2, player: Lionel Messi, team: Barcelona, label: "2012/13"}
+  - {year: 2014, rank: 2, player: Lionel Messi, team: Barcelona, label: "2013/14"}
+  - {year: 2015, rank: 1, player: Lionel Messi, team: Barcelona, label: "2014/15"}
+  - {year: 2015, rank: 3, player: Neymar, team: Barcelona, label: "2014/15"}
+  - {year: 2016, rank: 2, player: Lionel Messi, team: Barcelona, label: "2015/16"}
+  - {year: 2016, rank: 3, player: Antoine Griezmann, team: Atlético Madrid, label: "2015/16"}
+  - {year: 2019, rank: 1, player: Lionel Messi, team: Barcelona, label: "2018/19"}
+
+lfp:
+  - {label: "2008/09", award: best_player, player: Lionel Messi, team: Barcelona, layers: [any]}
+  - {label: "2008/09", award: best_defender, player: Dani Alves, team: Barcelona, layers: [def]}
+  - {label: "2008/09", award: best_midfielder, player: Xavi, team: Barcelona, layers: [prog, link]}
+  - {label: "2008/09", award: best_attacking_midfielder, player: Andrés Iniesta, team: Barcelona, layers: [att, prog]}
+  - {label: "2008/09", award: best_forward, player: Lionel Messi, team: Barcelona, layers: [att]}
+  - {label: "2009/10", award: best_player, player: Lionel Messi, team: Barcelona, layers: [any]}
+  - {label: "2009/10", award: best_defender, player: Gerard Piqué, team: Barcelona, layers: [def]}
+  - {label: "2009/10", award: best_midfielder, player: Xavi, team: Barcelona, layers: [prog, link]}
+  - {label: "2009/10", award: best_forward, player: Lionel Messi, team: Barcelona, layers: [att]}
+  - {label: "2010/11", award: best_player, player: Lionel Messi, team: Barcelona, layers: [any]}
+  - {label: "2010/11", award: best_defender, player: Éric Abidal, team: Barcelona, layers: [def]}
+  - {label: "2010/11", award: best_midfielder, player: Xavi, team: Barcelona, layers: [prog, link]}
+  - {label: "2010/11", award: best_attacking_midfielder, player: Andrés Iniesta, team: Barcelona, layers: [att, prog]}
+  - {label: "2010/11", award: best_forward, player: Lionel Messi, team: Barcelona, layers: [att]}
+  - {label: "2011/12", award: best_player, player: Lionel Messi, team: Barcelona, layers: [any]}
+  - {label: "2011/12", award: best_attacking_midfielder, player: Andrés Iniesta, team: Barcelona, layers: [att, prog]}
+  - {label: "2011/12", award: best_forward, player: Lionel Messi, team: Barcelona, layers: [att]}
+  - {label: "2012/13", award: best_player, player: Lionel Messi, team: Barcelona, layers: [any]}
+  - {label: "2012/13", award: best_attacking_midfielder, player: Andrés Iniesta, team: Barcelona, layers: [att, prog]}
+  - {label: "2012/13", award: best_forward, player: Lionel Messi, team: Barcelona, layers: [att]}
+  - {label: "2013/14", award: best_attacking_midfielder, player: Andrés Iniesta, team: Barcelona, layers: [att, prog]}
+  - {label: "2014/15", award: best_player, player: Lionel Messi, team: Barcelona, layers: [any]}
+  - {label: "2014/15", award: best_forward, player: Lionel Messi, team: Barcelona, layers: [att]}
+  - {label: "2015/16", award: best_player, player: Antoine Griezmann, team: Atlético Madrid, layers: [any]}
+  - {label: "2015/16", award: best_defender, player: Diego Godín, team: Atlético Madrid, layers: [def]}
+  - {label: "2015/16", award: best_midfielder, player: Luka Modrić, team: Real Madrid, layers: [prog, link]}
+  - {label: "2015/16", award: best_forward, player: Lionel Messi, team: Barcelona, layers: [att]}
+  - {label: "2016/17", award: best_player, player: Lionel Messi, team: Barcelona, layers: [any]}

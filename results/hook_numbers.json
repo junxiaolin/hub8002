@@ -1,0 +1,131 @@
+{
+ "definition": "regular starter = started >= 50% of the team matches; passes = org layer (completed passes made)",
+ "seasons": [
+  {
+   "season": "2005/06",
+   "n_regulars": 10,
+   "rank_total": 9,
+   "rank_per90": 8,
+   "top_per90": "Rafael Márquez"
+  },
+  {
+   "season": "2006/07",
+   "n_regulars": 13,
+   "rank_total": 8,
+   "rank_per90": 11,
+   "top_per90": "Xavi"
+  },
+  {
+   "season": "2007/08",
+   "n_regulars": 10,
+   "rank_total": 7,
+   "rank_per90": 8,
+   "top_per90": "Xavi"
+  },
+  {
+   "season": "2008/09",
+   "n_regulars": 13,
+   "rank_total": 3,
+   "rank_per90": 10,
+   "top_per90": "Xavi"
+  },
+  {
+   "season": "2009/10",
+   "n_regulars": 12,
+   "rank_total": 5,
+   "rank_per90": 9,
+   "top_per90": "Xavi"
+  },
+  {
+   "season": "2010/11",
+   "n_regulars": 10,
+   "rank_total": 5,
+   "rank_per90": 7,
+   "top_per90": "Xavi"
+  },
+  {
+   "season": "2011/12",
+   "n_regulars": 14,
+   "rank_total": 4,
+   "rank_per90": 10,
+   "top_per90": "Xavi"
+  },
+  {
+   "season": "2012/13",
+   "n_regulars": 11,
+   "rank_total": 6,
+   "rank_per90": 9,
+   "top_per90": "Xavi"
+  },
+  {
+   "season": "2013/14",
+   "n_regulars": 12,
+   "rank_total": 6,
+   "rank_per90": 9,
+   "top_per90": "Xavi"
+  },
+  {
+   "season": "2014/15",
+   "n_regulars": 13,
+   "rank_total": 2,
+   "rank_per90": 10,
+   "top_per90": "Xavi"
+  },
+  {
+   "season": "2015/16",
+   "n_regulars": 12,
+   "rank_total": 8,
+   "rank_per90": 9,
+   "top_per90": "Sergio Busquets"
+  },
+  {
+   "season": "2016/17",
+   "n_regulars": 11,
+   "rank_total": 5,
+   "rank_per90": 8,
+   "top_per90": "Javier Mascherano"
+  },
+  {
+   "season": "2017/18",
+   "n_regulars": 11,
+   "rank_total": 5,
+   "rank_per90": 9,
+   "top_per90": "Ivan Rakitić"
+  },
+  {
+   "season": "2018/19",
+   "n_regulars": 13,
+   "rank_total": 5,
+   "rank_per90": 9,
+   "top_per90": "Ivan Rakitić"
+  },
+  {
+   "season": "2019/20",
+   "n_regulars": 11,
+   "rank_total": 5,
+   "rank_per90": 8,
+   "top_per90": "Sergio Busquets"
+  },
+  {
+   "season": "2020/21",
+   "n_regulars": 11,
+   "rank_total": 5,
+   "rank_per90": 8,
+   "top_per90": "Sergio Busquets"
+  }
+ ],
+ "from_2008_09": {
+  "rank_per90_range": [
+   7,
+   10
+  ],
+  "rank_total_range": [
+   2,
+   8
+  ],
+  "n_regulars_range": [
+   10,
+   14
+  ]
+ }
+}

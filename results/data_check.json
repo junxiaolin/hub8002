@@ -1,0 +1,1567 @@
+{
+ "files": {
+  "expected": 866,
+  "parsed": 866,
+  "missing": []
+ },
+ "minutes": {
+  "team_matches": 1732,
+  "within_1_min": 1514,
+  "share_ok": 0.874133949191686,
+  "ok_or_explained_by_treatment": 1729,
+  "unexplained": 3,
+  "max_on_pitch_gt_11": 3,
+  "with_red_card": 214,
+  "deviations": [
+   {
+    "match_id": 70220,
+    "team": "Barcelona",
+    "duration": 91.1,
+    "sum_minutes": 1048.18,
+    "temp_off": false,
+    "red_lost": 0.0,
+    "dev": -46.08,
+    "max_on_pitch": 12,
+    "min_on_pitch": 11,
+    "short_handed_min": -46.1,
+    "ok": false,
+    "ok_explained": false
+   },
+   {
+    "match_id": 3825873,
+    "team": "Valencia",
+    "duration": 95.05,
+    "sum_minutes": 1033.7,
+    "temp_off": false,
+    "red_lost": 0.0,
+    "dev": 11.85,
+    "max_on_pitch": 11,
+    "min_on_pitch": 10,
+    "short_handed_min": 11.83,
+    "ok": false,
+    "ok_explained": false
+   },
+   {
+    "match_id": 69222,
+    "team": "Recreativo Huelva",
+    "duration": 93.42,
+    "sum_minutes": 1028.6,
+    "temp_off": false,
+    "red_lost": 0.0,
+    "dev": -1.02,
+    "max_on_pitch": 13,
+    "min_on_pitch": 11,
+    "short_handed_min": -1.03,
+    "ok": false,
+    "ok_explained": false
+   }
+  ]
+ },
+ "goalkeepers": {
+  "team_matches": 1729,
+  "exactly_one": 1725,
+  "exceptions": [
+   {
+    "match_id": 68340,
+    "team": "Racing Santander",
+    "gk": 2
+   },
+   {
+    "match_id": 69183,
+    "team": "RC Deportivo La Coruña",
+    "gk": 2
+   },
+   {
+    "match_id": 70306,
+    "team": "Espanyol",
+    "gk": 2
+   },
+   {
+    "match_id": 3825809,
+    "team": "Granada",
+    "gk": 2
+   }
+  ]
+ },
+ "off_reasons": {
+  "Final Whistle": 18815,
+  "Substitution": 4771,
+  "Injury": 318,
+  "Red Card": 229,
+  "Replaced after Player Off": 10,
+  "Player Off": 9
+ },
+ "group_share_below_70": {
+  "n_player_seasons": 857,
+  "n_below": 89,
+  "list": [
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Jonathan Viera",
+    "group": "MID",
+    "group_share": 0.529,
+    "minutes": 3234.85
+   },
+   {
+    "team": "Celta Vigo",
+    "season": "2015/16",
+    "name": "Fabián Orellana",
+    "group": "FWD",
+    "group_share": 0.547,
+    "minutes": 3029.167
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Jony",
+    "group": "FWD",
+    "group_share": 0.632,
+    "minutes": 2971.95
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Fayçal Fajr",
+    "group": "MID",
+    "group_share": 0.618,
+    "minutes": 2968.917
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Marco Asensio Willemsen",
+    "group": "MID",
+    "group_share": 0.622,
+    "minutes": 2940.35
+   },
+   {
+    "team": "Levante UD",
+    "season": "2015/16",
+    "name": "José Luis Morales",
+    "group": "MID",
+    "group_share": 0.576,
+    "minutes": 2775.083
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Pablo Sarabia",
+    "group": "MID",
+    "group_share": 0.552,
+    "minutes": 2620.933
+   },
+   {
+    "team": "Real Sociedad",
+    "season": "2015/16",
+    "name": "Xabi Prieto",
+    "group": "MID",
+    "group_share": 0.599,
+    "minutes": 2482.8
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Alen Halilović",
+    "group": "MID",
+    "group_share": 0.652,
+    "minutes": 2453.05
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Keko",
+    "group": "MID",
+    "group_share": 0.514,
+    "minutes": 2387.217
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Luis Alberto",
+    "group": "MID",
+    "group_share": 0.624,
+    "minutes": 2182.7
+   },
+   {
+    "team": "Barcelona",
+    "season": "2019/20",
+    "name": "Sergi Roberto",
+    "group": "DEF",
+    "group_share": 0.683,
+    "minutes": 2128.017
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Joaquín",
+    "group": "MID",
+    "group_share": 0.593,
+    "minutes": 2029.817
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Víctor Álvarez",
+    "group": "DEF",
+    "group_share": 0.458,
+    "minutes": 2028.883
+   },
+   {
+    "team": "Barcelona",
+    "season": "2015/16",
+    "name": "Sergi Roberto",
+    "group": "MID",
+    "group_share": 0.556,
+    "minutes": 1992.2
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Pablo Hernández",
+    "group": "MID",
+    "group_share": 0.551,
+    "minutes": 1987.183
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Álvaro Cejudo",
+    "group": "FWD",
+    "group_share": 0.529,
+    "minutes": 1947.767
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Pedro León",
+    "group": "FWD",
+    "group_share": 0.616,
+    "minutes": 1900.967
+   },
+   {
+    "team": "Real Madrid",
+    "season": "2015/16",
+    "name": "Isco",
+    "group": "MID",
+    "group_share": 0.592,
+    "minutes": 1890.583
+   },
+   {
+    "team": "Barcelona",
+    "season": "2009/10",
+    "name": "Andrés Iniesta",
+    "group": "MID",
+    "group_share": 0.612,
+    "minutes": 1885.167
+   },
+   {
+    "team": "Barcelona",
+    "season": "2012/13",
+    "name": "Andrés Iniesta",
+    "group": "MID",
+    "group_share": 0.656,
+    "minutes": 1847.617
+   },
+   {
+    "team": "Barcelona",
+    "season": "2008/09",
+    "name": "Andrés Iniesta",
+    "group": "FWD",
+    "group_share": 0.526,
+    "minutes": 1815.733
+   },
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Nabil El Zhar",
+    "group": "MID",
+    "group_share": 0.513,
+    "minutes": 1778.717
+   },
+   {
+    "team": "Sevilla",
+    "season": "2015/16",
+    "name": "Michael Krohn-Dehli",
+    "group": "FWD",
+    "group_share": 0.638,
+    "minutes": 1753.3
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Takashi Inui",
+    "group": "FWD",
+    "group_share": 0.559,
+    "minutes": 1689.8
+   },
+   {
+    "team": "Valencia",
+    "season": "2015/16",
+    "name": "Santi Mina",
+    "group": "FWD",
+    "group_share": 0.689,
+    "minutes": 1642.05
+   },
+   {
+    "team": "Real Madrid",
+    "season": "2015/16",
+    "name": "James Rodríguez",
+    "group": "MID",
+    "group_share": 0.58,
+    "minutes": 1574.1
+   },
+   {
+    "team": "Atlético Madrid",
+    "season": "2015/16",
+    "name": "Yannick Carrasco",
+    "group": "MID",
+    "group_share": 0.678,
+    "minutes": 1560.117
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Saúl Berjón",
+    "group": "FWD",
+    "group_share": 0.589,
+    "minutes": 1463.183
+   },
+   {
+    "team": "Valencia",
+    "season": "2015/16",
+    "name": "Rodrigo",
+    "group": "FWD",
+    "group_share": 0.683,
+    "minutes": 1445.417
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Fede Cartabia",
+    "group": "FWD",
+    "group_share": 0.54,
+    "minutes": 1405.033
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Juan Carlos",
+    "group": "MID",
+    "group_share": 0.455,
+    "minutes": 1310.367
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Charly Musonda",
+    "group": "MID",
+    "group_share": 0.569,
+    "minutes": 1283.5
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Óscar Duarte",
+    "group": "DEF",
+    "group_share": 0.651,
+    "minutes": 1253.417
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Carlos Carmona",
+    "group": "FWD",
+    "group_share": 0.629,
+    "minutes": 1253.233
+   },
+   {
+    "team": "Athletic Club",
+    "season": "2015/16",
+    "name": "Iñigo Lekue",
+    "group": "DEF",
+    "group_share": 0.513,
+    "minutes": 1215.833
+   },
+   {
+    "team": "Real Sociedad",
+    "season": "2015/16",
+    "name": "David Zurutuza",
+    "group": "FWD",
+    "group_share": 0.675,
+    "minutes": 1159.667
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Luisinho",
+    "group": "DEF",
+    "group_share": 0.407,
+    "minutes": 1159.233
+   },
+   {
+    "team": "Barcelona",
+    "season": "2017/18",
+    "name": "Philippe Coutinho",
+    "group": "MID",
+    "group_share": 0.601,
+    "minutes": 1151.35
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Duda",
+    "group": "MID",
+    "group_share": 0.652,
+    "minutes": 1147.55
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Álex Menéndez",
+    "group": "FWD",
+    "group_share": 0.497,
+    "minutes": 1103.65
+   },
+   {
+    "team": "Levante UD",
+    "season": "2015/16",
+    "name": "Rubén García",
+    "group": "FWD",
+    "group_share": 0.549,
+    "minutes": 1084.467
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Burgui",
+    "group": "FWD",
+    "group_share": 0.643,
+    "minutes": 1050.517
+   },
+   {
+    "team": "Barcelona",
+    "season": "2011/12",
+    "name": "Isaac Cuenca",
+    "group": "FWD",
+    "group_share": 0.576,
+    "minutes": 1035.883
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Nordin Amrabat",
+    "group": "MID",
+    "group_share": 0.6,
+    "minutes": 1027.933
+   },
+   {
+    "team": "Atlético Madrid",
+    "season": "2015/16",
+    "name": "Ángel Correa",
+    "group": "FWD",
+    "group_share": 0.595,
+    "minutes": 1016.933
+   },
+   {
+    "team": "Barcelona",
+    "season": "2016/17",
+    "name": "Arda Turan",
+    "group": "FWD",
+    "group_share": 0.557,
+    "minutes": 1006.617
+   },
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Mubarak Wakaso",
+    "group": "MID",
+    "group_share": 0.627,
+    "minutes": 982.183
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Moi Gómez",
+    "group": "MID",
+    "group_share": 0.566,
+    "minutes": 976.633
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Cani",
+    "group": "FWD",
+    "group_share": 0.596,
+    "minutes": 911.783
+   },
+   {
+    "team": "Barcelona",
+    "season": "2016/17",
+    "name": "Rafinha",
+    "group": "MID",
+    "group_share": 0.601,
+    "minutes": 879.767
+   },
+   {
+    "team": "Valencia",
+    "season": "2015/16",
+    "name": "Pablo Piatti",
+    "group": "FWD",
+    "group_share": 0.696,
+    "minutes": 840.617
+   },
+   {
+    "team": "Granada",
+    "season": "2015/16",
+    "name": "Isaac Cuenca",
+    "group": "MID",
+    "group_share": 0.6,
+    "minutes": 829.65
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Wanderson Maciel Sousa Campos",
+    "group": "FWD",
+    "group_share": 0.602,
+    "minutes": 824.5
+   },
+   {
+    "team": "Villarreal",
+    "season": "2015/16",
+    "name": "Samu",
+    "group": "MID",
+    "group_share": 0.595,
+    "minutes": 818.7
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Ricardo Horta",
+    "group": "MID",
+    "group_share": 0.595,
+    "minutes": 813.75
+   },
+   {
+    "team": "Barcelona",
+    "season": "2017/18",
+    "name": "Ousmane Dembélé",
+    "group": "FWD",
+    "group_share": 0.623,
+    "minutes": 810.45
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Pablo Pérez",
+    "group": "FWD",
+    "group_share": 0.561,
+    "minutes": 794.917
+   },
+   {
+    "team": "Granada",
+    "season": "2015/16",
+    "name": "Edgar Méndez",
+    "group": "FWD",
+    "group_share": 0.473,
+    "minutes": 793.2
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Emiliano Buendía",
+    "group": "DEF",
+    "group_share": 0.411,
+    "minutes": 786.683
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Jota Peleteiro",
+    "group": "MID",
+    "group_share": 0.588,
+    "minutes": 726.517
+   },
+   {
+    "team": "Barcelona",
+    "season": "2017/18",
+    "name": "Paco Alcácer",
+    "group": "MID",
+    "group_share": 0.598,
+    "minutes": 690.833
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Patrick Ebert",
+    "group": "FWD",
+    "group_share": 0.537,
+    "minutes": 573.667
+   },
+   {
+    "team": "Levante UD",
+    "season": "2015/16",
+    "name": "Jordi Xumetra",
+    "group": "MID",
+    "group_share": 0.643,
+    "minutes": 554.4
+   },
+   {
+    "team": "Valencia",
+    "season": "2015/16",
+    "name": "Rodrigo De Paul",
+    "group": "MID",
+    "group_share": 0.569,
+    "minutes": 543.517
+   },
+   {
+    "team": "Barcelona",
+    "season": "2004/05",
+    "name": "Andrés Iniesta",
+    "group": "MID",
+    "group_share": 0.571,
+    "minutes": 540.633
+   },
+   {
+    "team": "Barcelona",
+    "season": "2017/18",
+    "name": "Gerard Deulofeu",
+    "group": "MID",
+    "group_share": 0.592,
+    "minutes": 523.783
+   },
+   {
+    "team": "Levante UD",
+    "season": "2015/16",
+    "name": "Mauricio Cuero",
+    "group": "MID",
+    "group_share": 0.596,
+    "minutes": 514.75
+   },
+   {
+    "team": "Athletic Club",
+    "season": "2015/16",
+    "name": "Gorka Elustondo",
+    "group": "MID",
+    "group_share": 0.585,
+    "minutes": 502.85
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Foued Kadir",
+    "group": "MID",
+    "group_share": 0.556,
+    "minutes": 493.033
+   },
+   {
+    "team": "Barcelona",
+    "season": "2011/12",
+    "name": "Cristian Tello",
+    "group": "FWD",
+    "group_share": 0.675,
+    "minutes": 452.533
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Jonás Gutiérrez",
+    "group": "FWD",
+    "group_share": 0.591,
+    "minutes": 428.75
+   },
+   {
+    "team": "Celta Vigo",
+    "season": "2015/16",
+    "name": "Josep Señé",
+    "group": "FWD",
+    "group_share": 0.664,
+    "minutes": 415.283
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Adnane Tighadouini",
+    "group": "FWD",
+    "group_share": 0.616,
+    "minutes": 408.833
+   },
+   {
+    "team": "Barcelona",
+    "season": "2009/10",
+    "name": "Jeffrén",
+    "group": "FWD",
+    "group_share": 0.607,
+    "minutes": 399.367
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Piti",
+    "group": "MID",
+    "group_share": 0.553,
+    "minutes": 354.883
+   },
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Nili",
+    "group": "MID",
+    "group_share": 0.559,
+    "minutes": 329.883
+   },
+   {
+    "team": "Sevilla",
+    "season": "2015/16",
+    "name": "Curro Sánchez",
+    "group": "MID",
+    "group_share": 0.544,
+    "minutes": 319.917
+   },
+   {
+    "team": "Barcelona",
+    "season": "2015/16",
+    "name": "Rafinha",
+    "group": "MID",
+    "group_share": 0.502,
+    "minutes": 292.267
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Paco Montañés",
+    "group": "FWD",
+    "group_share": 0.587,
+    "minutes": 291.117
+   },
+   {
+    "team": "Sevilla",
+    "season": "2015/16",
+    "name": "Diogo Figueiras",
+    "group": "DEF",
+    "group_share": 0.659,
+    "minutes": 285.583
+   },
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Nauzet Alemán",
+    "group": "FWD",
+    "group_share": 0.585,
+    "minutes": 277.2
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Jonhatan Montiel",
+    "group": "MID",
+    "group_share": 0.611,
+    "minutes": 230.467
+   },
+   {
+    "team": "Barcelona",
+    "season": "2005/06",
+    "name": "Gabri",
+    "group": "DEF",
+    "group_share": 0.6,
+    "minutes": 210.1
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Izet Hajrović",
+    "group": "FWD",
+    "group_share": 0.504,
+    "minutes": 188.717
+   },
+   {
+    "team": "Granada",
+    "season": "2015/16",
+    "name": "Nicolás López",
+    "group": "FWD",
+    "group_share": 0.531,
+    "minutes": 185.0
+   },
+   {
+    "team": "Barcelona",
+    "season": "2011/12",
+    "name": "Ibrahim Afellay",
+    "group": "MID",
+    "group_share": 0.541,
+    "minutes": 127.05
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Aras Özbiliz",
+    "group": "MID",
+    "group_share": 0.62,
+    "minutes": 108.367
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Álvaro Vadillo",
+    "group": "MID",
+    "group_share": 0.514,
+    "minutes": 92.567
+   }
+  ]
+ },
+ "messi_box_share": {
+  "2004/05": {
+   "is_box": {
+    "messi_share": 0.0,
+    "messi_rank": null,
+    "team_total": 54
+   },
+   "is_box_pilot": {
+    "messi_share": 0.0,
+    "messi_rank": null,
+    "team_total": 89
+   }
+  },
+  "2005/06": {
+   "is_box": {
+    "messi_share": 0.06060606060606061,
+    "messi_rank": 5,
+    "team_total": 132
+   },
+   "is_box_pilot": {
+    "messi_share": 0.05454545454545454,
+    "messi_rank": 8,
+    "team_total": 220
+   }
+  },
+  "2006/07": {
+   "is_box": {
+    "messi_share": 0.16842105263157894,
+    "messi_rank": 2,
+    "team_total": 190
+   },
+   "is_box_pilot": {
+    "messi_share": 0.14864864864864866,
+    "messi_rank": 3,
+    "team_total": 296
+   }
+  },
+  "2007/08": {
+   "is_box": {
+    "messi_share": 0.20187793427230047,
+    "messi_rank": 1,
+    "team_total": 213
+   },
+   "is_box_pilot": {
+    "messi_share": 0.1691842900302115,
+    "messi_rank": 2,
+    "team_total": 331
+   }
+  },
+  "2008/09": {
+   "is_box": {
+    "messi_share": 0.19327731092436976,
+    "messi_rank": 1,
+    "team_total": 357
+   },
+   "is_box_pilot": {
+    "messi_share": 0.19891500904159132,
+    "messi_rank": 2,
+    "team_total": 553
+   }
+  },
+  "2009/10": {
+   "is_box": {
+    "messi_share": 0.2062146892655367,
+    "messi_rank": 1,
+    "team_total": 354
+   },
+   "is_box_pilot": {
+    "messi_share": 0.17830882352941177,
+    "messi_rank": 2,
+    "team_total": 544
+   }
+  },
+  "2010/11": {
+   "is_box": {
+    "messi_share": 0.2727272727272727,
+    "messi_rank": 1,
+    "team_total": 418
+   },
+   "is_box_pilot": {
+    "messi_share": 0.24190800681431004,
+    "messi_rank": 1,
+    "team_total": 587
+   }
+  },
+  "2011/12": {
+   "is_box": {
+    "messi_share": 0.30021141649048627,
+    "messi_rank": 1,
+    "team_total": 473
+   },
+   "is_box_pilot": {
+    "messi_share": 0.2624633431085044,
+    "messi_rank": 1,
+    "team_total": 682
+   }
+  },
+  "2012/13": {
+   "is_box": {
+    "messi_share": 0.24449877750611246,
+    "messi_rank": 1,
+    "team_total": 409
+   },
+   "is_box_pilot": {
+    "messi_share": 0.21227197346600332,
+    "messi_rank": 1,
+    "team_total": 603
+   }
+  },
+  "2013/14": {
+   "is_box": {
+    "messi_share": 0.22033898305084745,
+    "messi_rank": 1,
+    "team_total": 413
+   },
+   "is_box_pilot": {
+    "messi_share": 0.1921259842519685,
+    "messi_rank": 1,
+    "team_total": 635
+   }
+  },
+  "2014/15": {
+   "is_box": {
+    "messi_share": 0.2961608775137112,
+    "messi_rank": 1,
+    "team_total": 547
+   },
+   "is_box_pilot": {
+    "messi_share": 0.24623115577889448,
+    "messi_rank": 1,
+    "team_total": 796
+   }
+  },
+  "2015/16": {
+   "is_box": {
+    "messi_share": 0.2747826086956522,
+    "messi_rank": 1,
+    "team_total": 575
+   },
+   "is_box_pilot": {
+    "messi_share": 0.22668240850059032,
+    "messi_rank": 1,
+    "team_total": 847
+   }
+  },
+  "2016/17": {
+   "is_box": {
+    "messi_share": 0.3333333333333333,
+    "messi_rank": 1,
+    "team_total": 465
+   },
+   "is_box_pilot": {
+    "messi_share": 0.2573426573426573,
+    "messi_rank": 1,
+    "team_total": 715
+   }
+  },
+  "2017/18": {
+   "is_box": {
+    "messi_share": 0.2899543378995434,
+    "messi_rank": 1,
+    "team_total": 438
+   },
+   "is_box_pilot": {
+    "messi_share": 0.25685425685425683,
+    "messi_rank": 1,
+    "team_total": 693
+   }
+  },
+  "2018/19": {
+   "is_box": {
+    "messi_share": 0.3127962085308057,
+    "messi_rank": 1,
+    "team_total": 422
+   },
+   "is_box_pilot": {
+    "messi_share": 0.2787682333873582,
+    "messi_rank": 1,
+    "team_total": 617
+   }
+  },
+  "2019/20": {
+   "is_box": {
+    "messi_share": 0.33152173913043476,
+    "messi_rank": 1,
+    "team_total": 368
+   },
+   "is_box_pilot": {
+    "messi_share": 0.30412371134020616,
+    "messi_rank": 1,
+    "team_total": 582
+   }
+  },
+  "2020/21": {
+   "is_box": {
+    "messi_share": 0.284,
+    "messi_rank": 1,
+    "team_total": 500
+   },
+   "is_box_pilot": {
+    "messi_share": 0.26151761517615174,
+    "messi_rank": 1,
+    "team_total": 738
+   }
+  }
+ },
+ "manual_check_sample": [
+  {
+   "match_id": 3825603,
+   "date": "2015-09-24",
+   "fixture": "Real Betis 1-2 RC Deportivo La Coruña",
+   "changes": [
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Fede Cartabia",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 67.7,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Juan Domínguez",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 60.4,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Jonathan Rodríguez",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 64.7,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Celso Borges",
+     "started": false,
+     "on_min": 60.4,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Lucas Pérez",
+     "started": false,
+     "on_min": 64.7,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Juanfran",
+     "started": false,
+     "on_min": 67.7,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Real Betis",
+     "name": "Jorge Molina",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 60.0,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Real Betis",
+     "name": "Rafael van der Vaart",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 49.7,
+     "off_reason": "Injury"
+    },
+    {
+     "team": "Real Betis",
+     "name": "Xavi Torres",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 75.2,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Real Betis",
+     "name": "Dani Ceballos",
+     "started": false,
+     "on_min": 49.7,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Real Betis",
+     "name": "Ricky van Wolfswinkel",
+     "started": false,
+     "on_min": 60.0,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Real Betis",
+     "name": "Vincenzo Renato Rennella",
+     "started": false,
+     "on_min": 75.2,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    }
+   ]
+  },
+  {
+   "match_id": 69279,
+   "date": "2008-11-08",
+   "fixture": "Barcelona 6-0 Real Valladolid",
+   "changes": [
+    {
+     "team": "Barcelona",
+     "name": "Rafael Márquez",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 68.5,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Eiður Guðjohnsen",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 72.2,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Samuel Eto'o",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 75.5,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Martín Cáceres",
+     "started": false,
+     "on_min": 68.5,
+     "off_min": 92.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Seydou Kéita",
+     "started": false,
+     "on_min": 72.2,
+     "off_min": 92.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Aleksandr Hleb",
+     "started": false,
+     "on_min": 75.5,
+     "off_min": 92.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Real Valladolid",
+     "name": "Pedro León",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 45.4,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Real Valladolid",
+     "name": "Haris Medunjanin",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 45.4,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Real Valladolid",
+     "name": "Jonathan Sesma",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 84.1,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Real Valladolid",
+     "name": "Fabián Canobbio",
+     "started": false,
+     "on_min": 45.4,
+     "off_min": 92.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Real Valladolid",
+     "name": "Marcos Aguirre",
+     "started": false,
+     "on_min": 45.4,
+     "off_min": 92.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Real Valladolid",
+     "name": "Damián Escudero",
+     "started": false,
+     "on_min": 84.1,
+     "off_min": 92.2,
+     "off_reason": "Final Whistle"
+    }
+   ]
+  },
+  {
+   "match_id": 266961,
+   "date": "2015-12-12",
+   "fixture": "Barcelona 2-2 RC Deportivo La Coruña",
+   "changes": [
+    {
+     "team": "Barcelona",
+     "name": "Sandro Ramírez",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 68.6,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Jordi Alba",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 77.1,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Ivan Rakitić",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 73.0,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Munir El Haddadi",
+     "started": false,
+     "on_min": 68.6,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Sergi Roberto",
+     "started": false,
+     "on_min": 73.0,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Jérémy Mathieu",
+     "started": false,
+     "on_min": 77.1,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Luisinho",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 46.0,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Juanfran",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 70.2,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Jonathan Rodríguez",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 58.4,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Juan Domínguez",
+     "started": false,
+     "on_min": 46.0,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Luis Alberto",
+     "started": false,
+     "on_min": 58.4,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "RC Deportivo La Coruña",
+     "name": "Miguel Cardoso",
+     "started": false,
+     "on_min": 70.2,
+     "off_min": 95.1,
+     "off_reason": "Final Whistle"
+    }
+   ]
+  },
+  {
+   "match_id": 3825641,
+   "date": "2015-10-26",
+   "fixture": "Athletic Club 3-0 Sporting Gijón",
+   "changes": [
+    {
+     "team": "Athletic Club",
+     "name": "Markel Susaeta",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 80.4,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Athletic Club",
+     "name": "Iñaki Williams",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 73.0,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Athletic Club",
+     "name": "Beñat Etxebarria",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 83.3,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Athletic Club",
+     "name": "Eneko Bóveda",
+     "started": false,
+     "on_min": 73.0,
+     "off_min": 93.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Athletic Club",
+     "name": "Ibai Gómez",
+     "started": false,
+     "on_min": 80.4,
+     "off_min": 93.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Athletic Club",
+     "name": "Javi Eraso",
+     "started": false,
+     "on_min": 83.3,
+     "off_min": 93.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Sporting Gijón",
+     "name": "Miguel Ángel Guerrero",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 60.3,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Sporting Gijón",
+     "name": "Alen Halilović",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 69.2,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Sporting Gijón",
+     "name": "Omar Mascarell",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 45.2,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Sporting Gijón",
+     "name": "Carlos Carmona",
+     "started": false,
+     "on_min": 45.2,
+     "off_min": 93.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Sporting Gijón",
+     "name": "Sergio Mendigutxia Iglesias",
+     "started": false,
+     "on_min": 60.3,
+     "off_min": 93.2,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Sporting Gijón",
+     "name": "Pablo Pérez",
+     "started": false,
+     "on_min": 69.2,
+     "off_min": 93.2,
+     "off_reason": "Final Whistle"
+    }
+   ]
+  },
+  {
+   "match_id": 3773587,
+   "date": "2020-10-17",
+   "fixture": "Getafe 1-0 Barcelona",
+   "changes": [
+    {
+     "team": "Barcelona",
+     "name": "Ousmane Dembélé",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 61.6,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Antoine Griezmann",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 79.5,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Sergi Roberto",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 86.3,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Frenkie de Jong",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 79.7,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Pedri",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 61.4,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Philippe Coutinho",
+     "started": false,
+     "on_min": 61.4,
+     "off_min": 97.3,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Ansu Fati",
+     "started": false,
+     "on_min": 61.6,
+     "off_min": 97.3,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Francisco Trincão",
+     "started": false,
+     "on_min": 79.5,
+     "off_min": 97.3,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Martin Braithwaite",
+     "started": false,
+     "on_min": 79.7,
+     "off_min": 97.3,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Barcelona",
+     "name": "Riqui Puig",
+     "started": false,
+     "on_min": 86.3,
+     "off_min": 97.3,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Getafe",
+     "name": "Nemanja Maksimović",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 94.4,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Getafe",
+     "name": "Jaime Mata",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 70.9,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Getafe",
+     "name": "Cucho Hernández",
+     "started": true,
+     "on_min": 0.0,
+     "off_min": 88.9,
+     "off_reason": "Substitution"
+    },
+    {
+     "team": "Getafe",
+     "name": "Enes Ünal",
+     "started": false,
+     "on_min": 70.9,
+     "off_min": 97.3,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Getafe",
+     "name": "David Timor",
+     "started": false,
+     "on_min": 88.9,
+     "off_min": 97.3,
+     "off_reason": "Final Whistle"
+    },
+    {
+     "team": "Getafe",
+     "name": "Víctor Mollejo",
+     "started": false,
+     "on_min": 94.4,
+     "off_min": 97.3,
+     "off_reason": "Final Whistle"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+# External check of substitution times (2026-11-08): five sample matches from results/data_check.json,
+# our official-minute substitutions versus published match pages (read by hand / web fetch).
+# Agreement = same pair of players and minute within +-2.
+sources:
+  3825603: https://datencenter.dfb.de/en/data-center/la-liga/2015-2016/5-matchday/real-betis-balompie-deportivo-de-la-coruna-2226760
+  69279: https://africa.espn.com/football/match/_/gameId/253011/real-valladolid-barcelona
+  266961: https://datencenter.dfb.de/en/data-center/la-liga/2015-2016/15-matchday/fc-barcelona-deportivo-de-la-coruna-2226905
+  3825641: https://africa.espn.com/football/match/_/gameId/433894/sporting-gijon-athletic-club
+  3773587: https://africa.espn.com/football/match/_/gameId/582144/barcelona-getafe
+notes:
+  3825603: >-
+    The three Deportivo substitutions differ by 3-5 minutes from the DFB page, whose layout is ambiguous
+    (a stray 60' next to another substitution). StatsBomb's own substitution events (59:25, 63:39, 66:43)
+    agree with our minutes. No third source was found. DFB may list a second Betis card for Piccini at 45';
+    StatsBomb has one yellow card for him (42') and he finished the match.
+  3825641: ESPN names the 61' substitute "Mendi"; StatsBomb's name is Sergio Mendigutxia Iglesias.
+pairs:   # match_id, off, on, our minute, source minute
+  - [3825603, Rafael van der Vaart, Dani Ceballos, 49, 49]
+  - [3825603, Jorge Molina, Ricky van Wolfswinkel, 59, 60]
+  - [3825603, Juan Domínguez, Celso Borges, 60, 64]
+  - [3825603, Jonathan Rodríguez, Lucas Pérez, 64, 67]
+  - [3825603, Fede Cartabia, Juanfran, 67, 72]
+  - [3825603, Xavi Torres, Vincenzo Rennella, 75, 75]
+  - [69279, Rafael Márquez, Martín Cáceres, 69, 68]
+  - [69279, Eiður Guðjohnsen, Seydou Keita, 72, 72]
+  - [69279, Samuel Eto'o, Aleksandr Hleb, 76, 75]
+  - [69279, Pedro León, Fabián Canobbio, 46, 45]
+  - [69279, Haris Medunjanin, Marcos Aguirre, 46, 45]
+  - [69279, Jonathan Sesma, Damián Escudero, 84, 83]
+  - [266961, Sandro Ramírez, Munir El Haddadi, 68, 68]
+  - [266961, Ivan Rakitić, Sergi Roberto, 72, 72]
+  - [266961, Jordi Alba, Jérémy Mathieu, 77, 76]
+  - [266961, Luisinho, Juan Domínguez, 47, 46]
+  - [266961, Jonathan Rodríguez, Luis Alberto, 58, 58]
+  - [266961, Juanfran, Miguel Cardoso, 70, 70]
+  - [3825641, Iñaki Williams, Eneko Bóveda, 73, 73]
+  - [3825641, Markel Susaeta, Ibai Gómez, 81, 81]
+  - [3825641, Beñat Etxebarria, Javi Eraso, 84, 84]
+  - [3825641, Omar Mascarell, Carlos Carmona, 46, 45]
+  - [3825641, Miguel Ángel Guerrero, Sergio Mendigutxia, 61, 61]
+  - [3825641, Alen Halilović, Pablo Pérez, 70, 70]
+  - [3773587, Ousmane Dembélé, Ansu Fati, 62, 62]
+  - [3773587, Pedri, Philippe Coutinho, 62, 62]
+  - [3773587, Antoine Griezmann, Francisco Trincão, 80, 80]
+  - [3773587, Frenkie de Jong, Martin Braithwaite, 80, 80]
+  - [3773587, Sergi Roberto, Riqui Puig, 87, 87]
+  - [3773587, Jaime Mata, Enes Ünal, 71, 71]
+  - [3773587, Cucho Hernández, David Timor, 89, 89]
+  - [3773587, Nemanja Maksimović, Víctor Mollejo, 95, 95]

@@ -1,0 +1,1655 @@
+{
+ "minutes": {
+  "team_matches": 1732,
+  "within_1_min": 1514,
+  "ok_or_explained": 1729,
+  "unexplained_cases": [
+   {
+    "match_id": 70220,
+    "team": "Barcelona",
+    "deviation_min": -46.08,
+    "max_on_pitch": 12,
+    "min_on_pitch": 11,
+    "events": [
+     "2-45:00 Substitution Eric-Sylvain Bilal Abidal",
+     "2-54:09 Substitution Carles Puyol i Saforcada",
+     "2-60:38 Substitution Xavier Hernández Creus"
+    ],
+    "explanation": "StatsBomb 阵容数据错误：事件里阿比达尔在下半场开始（45:00）被阿德里亚诺换下，但阵容中他的出场时段一直到终场，多算约 46 分钟（占他本季约 2%）。"
+   },
+   {
+    "match_id": 3825873,
+    "team": "Valencia",
+    "deviation_min": 11.85,
+    "max_on_pitch": 11,
+    "min_on_pitch": 10,
+    "events": [
+     "2-58:08 Substitution Santiago Mina Lorenzo",
+     "2-69:29 Substitution Javier Fuego Martínez",
+     "2-75:29 Substitution André Filipe Tavares Gomes",
+     "2-81:06 Player Off Denis Cheryshev",
+     "2-92:57 Player On Denis Cheryshev"
+    ],
+    "explanation": "真实的 10 人时段：切里舍夫 81:06 受伤离场（三个换人名额已用完），92:57 才回场；我们只少算了他回场后的约 2 分钟。"
+   },
+   {
+    "match_id": 69222,
+    "team": "Recreativo Huelva",
+    "deviation_min": -1.02,
+    "max_on_pitch": 13,
+    "min_on_pitch": 11,
+    "events": [
+     "2-74:15 Substitution Sebastián Ricardo Nayar",
+     "2-74:16 Substitution Marco Gastón Ruben Rodríguez"
+    ],
+    "explanation": "阵容与事件的换人时间相差约 30 秒，造成 13 人重叠半分钟，可忽略。"
+   }
+  ]
+ },
+ "external": {
+  "n_pairs": 32,
+  "n_agree": 29,
+  "pairs": [
+   {
+    "match_id": 3825603,
+    "off": "Rafael van der Vaart",
+    "on": "Dani Ceballos",
+    "ours": 49,
+    "source": 49,
+    "agree": true
+   },
+   {
+    "match_id": 3825603,
+    "off": "Jorge Molina",
+    "on": "Ricky van Wolfswinkel",
+    "ours": 59,
+    "source": 60,
+    "agree": true
+   },
+   {
+    "match_id": 3825603,
+    "off": "Juan Domínguez",
+    "on": "Celso Borges",
+    "ours": 60,
+    "source": 64,
+    "agree": false
+   },
+   {
+    "match_id": 3825603,
+    "off": "Jonathan Rodríguez",
+    "on": "Lucas Pérez",
+    "ours": 64,
+    "source": 67,
+    "agree": false
+   },
+   {
+    "match_id": 3825603,
+    "off": "Fede Cartabia",
+    "on": "Juanfran",
+    "ours": 67,
+    "source": 72,
+    "agree": false
+   },
+   {
+    "match_id": 3825603,
+    "off": "Xavi Torres",
+    "on": "Vincenzo Rennella",
+    "ours": 75,
+    "source": 75,
+    "agree": true
+   },
+   {
+    "match_id": 69279,
+    "off": "Rafael Márquez",
+    "on": "Martín Cáceres",
+    "ours": 69,
+    "source": 68,
+    "agree": true
+   },
+   {
+    "match_id": 69279,
+    "off": "Eiður Guðjohnsen",
+    "on": "Seydou Keita",
+    "ours": 72,
+    "source": 72,
+    "agree": true
+   },
+   {
+    "match_id": 69279,
+    "off": "Samuel Eto'o",
+    "on": "Aleksandr Hleb",
+    "ours": 76,
+    "source": 75,
+    "agree": true
+   },
+   {
+    "match_id": 69279,
+    "off": "Pedro León",
+    "on": "Fabián Canobbio",
+    "ours": 46,
+    "source": 45,
+    "agree": true
+   },
+   {
+    "match_id": 69279,
+    "off": "Haris Medunjanin",
+    "on": "Marcos Aguirre",
+    "ours": 46,
+    "source": 45,
+    "agree": true
+   },
+   {
+    "match_id": 69279,
+    "off": "Jonathan Sesma",
+    "on": "Damián Escudero",
+    "ours": 84,
+    "source": 83,
+    "agree": true
+   },
+   {
+    "match_id": 266961,
+    "off": "Sandro Ramírez",
+    "on": "Munir El Haddadi",
+    "ours": 68,
+    "source": 68,
+    "agree": true
+   },
+   {
+    "match_id": 266961,
+    "off": "Ivan Rakitić",
+    "on": "Sergi Roberto",
+    "ours": 72,
+    "source": 72,
+    "agree": true
+   },
+   {
+    "match_id": 266961,
+    "off": "Jordi Alba",
+    "on": "Jérémy Mathieu",
+    "ours": 77,
+    "source": 76,
+    "agree": true
+   },
+   {
+    "match_id": 266961,
+    "off": "Luisinho",
+    "on": "Juan Domínguez",
+    "ours": 47,
+    "source": 46,
+    "agree": true
+   },
+   {
+    "match_id": 266961,
+    "off": "Jonathan Rodríguez",
+    "on": "Luis Alberto",
+    "ours": 58,
+    "source": 58,
+    "agree": true
+   },
+   {
+    "match_id": 266961,
+    "off": "Juanfran",
+    "on": "Miguel Cardoso",
+    "ours": 70,
+    "source": 70,
+    "agree": true
+   },
+   {
+    "match_id": 3825641,
+    "off": "Iñaki Williams",
+    "on": "Eneko Bóveda",
+    "ours": 73,
+    "source": 73,
+    "agree": true
+   },
+   {
+    "match_id": 3825641,
+    "off": "Markel Susaeta",
+    "on": "Ibai Gómez",
+    "ours": 81,
+    "source": 81,
+    "agree": true
+   },
+   {
+    "match_id": 3825641,
+    "off": "Beñat Etxebarria",
+    "on": "Javi Eraso",
+    "ours": 84,
+    "source": 84,
+    "agree": true
+   },
+   {
+    "match_id": 3825641,
+    "off": "Omar Mascarell",
+    "on": "Carlos Carmona",
+    "ours": 46,
+    "source": 45,
+    "agree": true
+   },
+   {
+    "match_id": 3825641,
+    "off": "Miguel Ángel Guerrero",
+    "on": "Sergio Mendigutxia",
+    "ours": 61,
+    "source": 61,
+    "agree": true
+   },
+   {
+    "match_id": 3825641,
+    "off": "Alen Halilović",
+    "on": "Pablo Pérez",
+    "ours": 70,
+    "source": 70,
+    "agree": true
+   },
+   {
+    "match_id": 3773587,
+    "off": "Ousmane Dembélé",
+    "on": "Ansu Fati",
+    "ours": 62,
+    "source": 62,
+    "agree": true
+   },
+   {
+    "match_id": 3773587,
+    "off": "Pedri",
+    "on": "Philippe Coutinho",
+    "ours": 62,
+    "source": 62,
+    "agree": true
+   },
+   {
+    "match_id": 3773587,
+    "off": "Antoine Griezmann",
+    "on": "Francisco Trincão",
+    "ours": 80,
+    "source": 80,
+    "agree": true
+   },
+   {
+    "match_id": 3773587,
+    "off": "Frenkie de Jong",
+    "on": "Martin Braithwaite",
+    "ours": 80,
+    "source": 80,
+    "agree": true
+   },
+   {
+    "match_id": 3773587,
+    "off": "Sergi Roberto",
+    "on": "Riqui Puig",
+    "ours": 87,
+    "source": 87,
+    "agree": true
+   },
+   {
+    "match_id": 3773587,
+    "off": "Jaime Mata",
+    "on": "Enes Ünal",
+    "ours": 71,
+    "source": 71,
+    "agree": true
+   },
+   {
+    "match_id": 3773587,
+    "off": "Cucho Hernández",
+    "on": "David Timor",
+    "ours": 89,
+    "source": 89,
+    "agree": true
+   },
+   {
+    "match_id": 3773587,
+    "off": "Nemanja Maksimović",
+    "on": "Víctor Mollejo",
+    "ours": 95,
+    "source": 95,
+    "agree": true
+   }
+  ],
+  "sources": {
+   "3825603": "https://datencenter.dfb.de/en/data-center/la-liga/2015-2016/5-matchday/real-betis-balompie-deportivo-de-la-coruna-2226760",
+   "69279": "https://africa.espn.com/football/match/_/gameId/253011/real-valladolid-barcelona",
+   "266961": "https://datencenter.dfb.de/en/data-center/la-liga/2015-2016/15-matchday/fc-barcelona-deportivo-de-la-coruna-2226905",
+   "3825641": "https://africa.espn.com/football/match/_/gameId/433894/sporting-gijon-athletic-club",
+   "3773587": "https://africa.espn.com/football/match/_/gameId/582144/barcelona-getafe"
+  },
+  "notes": {
+   "3825603": "The three Deportivo substitutions differ by 3-5 minutes from the DFB page, whose layout is ambiguous (a stray 60' next to another substitution). StatsBomb's own substitution events (59:25, 63:39, 66:43) agree with our minutes. No third source was found. DFB may list a second Betis card for Piccini at 45'; StatsBomb has one yellow card for him (42') and he finished the match.",
+   "3825641": "ESPN names the 61' substitute \"Mendi\"; StatsBomb's name is Sergio Mendigutxia Iglesias."
+  }
+ },
+ "positions": {
+  "n_player_seasons": 857,
+  "n_below": 89,
+  "splits": [
+   [
+    "边锋 / 边前卫",
+    41
+   ],
+   [
+    "中前卫 / 边锋",
+    14
+   ],
+   [
+    "前腰 / 边锋",
+    12
+   ],
+   [
+    "边后卫 / 边锋",
+    8
+   ],
+   [
+    "中前卫 / 边后卫",
+    4
+   ],
+   [
+    "中锋 / 边前卫",
+    4
+   ],
+   [
+    "中卫 / 后腰",
+    2
+   ],
+   [
+    "前腰 / 边前卫",
+    1
+   ],
+   [
+    "前腰 / 边后卫",
+    1
+   ],
+   [
+    "前腰 / 中锋",
+    1
+   ],
+   [
+    "后腰 / 边锋",
+    1
+   ]
+  ],
+  "n_in_cores": 16,
+  "rows": [
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Jonathan Viera",
+    "group": "MID",
+    "group_share": 0.529,
+    "minutes": 3234.85,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.33172068771864743,
+     "中前卫": 0.23688372979684788
+    },
+    "in_cores": [
+     "att（头号）",
+     "prog"
+    ]
+   },
+   {
+    "team": "Celta Vigo",
+    "season": "2015/16",
+    "name": "Fabián Orellana",
+    "group": "FWD",
+    "group_share": 0.547,
+    "minutes": 3029.167,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "边锋": 0.5247207702888583,
+     "前腰": 0.3263933975240715
+    },
+    "in_cores": [
+     "prog（头号）"
+    ]
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Jony",
+    "group": "FWD",
+    "group_share": 0.632,
+    "minutes": 2971.95,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.6231991341263031,
+     "边前卫": 0.36638121996220213
+    },
+    "in_cores": [
+     "prog"
+    ]
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Fayçal Fajr",
+    "group": "MID",
+    "group_share": 0.618,
+    "minutes": 2968.917,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.3679063631515424,
+     "边前卫": 0.27622870295000984
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Marco Asensio Willemsen",
+    "group": "MID",
+    "group_share": 0.622,
+    "minutes": 2940.35,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "前腰": 0.39456187188600006,
+     "边锋": 0.3547593540451534
+    },
+    "in_cores": [
+     "att（头号）"
+    ]
+   },
+   {
+    "team": "Levante UD",
+    "season": "2015/16",
+    "name": "José Luis Morales",
+    "group": "MID",
+    "group_share": 0.576,
+    "minutes": 2775.083,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5492087324704963,
+     "边锋": 0.2604966817813279
+    },
+    "in_cores": [
+     "att（头号）"
+    ]
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Pablo Sarabia",
+    "group": "MID",
+    "group_share": 0.552,
+    "minutes": 2620.933,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.3982550745281579,
+     "边前卫": 0.29480592155466245
+    },
+    "in_cores": [
+     "att（头号）"
+    ]
+   },
+   {
+    "team": "Real Sociedad",
+    "season": "2015/16",
+    "name": "Xabi Prieto",
+    "group": "MID",
+    "group_share": 0.599,
+    "minutes": 2482.8,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "边锋": 0.3940242199667042,
+     "前腰": 0.28844449814725304
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Alen Halilović",
+    "group": "MID",
+    "group_share": 0.652,
+    "minutes": 2453.05,
+    "split": "前腰 / 边前卫",
+    "split_shares": {
+     "前腰": 0.42306516377570774,
+     "边前卫": 0.22510072494785405
+    },
+    "in_cores": [
+     "att（头号）",
+     "prog（头号）"
+    ]
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Keko",
+    "group": "MID",
+    "group_share": 0.514,
+    "minutes": 2387.217,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.514308853406687,
+     "边锋": 0.4856911465933131
+    },
+    "in_cores": [
+     "att"
+    ]
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Luis Alberto",
+    "group": "MID",
+    "group_share": 0.624,
+    "minutes": 2182.7,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "前腰": 0.3988943357615186,
+     "边锋": 0.21917808219178084
+    },
+    "in_cores": [
+     "att"
+    ]
+   },
+   {
+    "team": "Barcelona",
+    "season": "2019/20",
+    "name": "Sergi Roberto",
+    "group": "DEF",
+    "group_share": 0.683,
+    "minutes": 2128.017,
+    "split": "中前卫 / 边后卫",
+    "split_shares": {
+     "边后卫": 0.5936278694559097,
+     "中前卫": 0.27704983513600306
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Joaquín",
+    "group": "MID",
+    "group_share": 0.593,
+    "minutes": 2029.817,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.41794414930740875,
+     "边锋": 0.36442535861202574
+    },
+    "in_cores": [
+     "att（头号）"
+    ]
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Víctor Álvarez",
+    "group": "DEF",
+    "group_share": 0.458,
+    "minutes": 2028.883,
+    "split": "边后卫 / 边锋",
+    "split_shares": {
+     "边后卫": 0.4569837266805222,
+     "边锋": 0.4424519234718605
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2015/16",
+    "name": "Sergi Roberto",
+    "group": "MID",
+    "group_share": 0.556,
+    "minutes": 1992.2,
+    "split": "中前卫 / 边后卫",
+    "split_shares": {
+     "边后卫": 0.4142823679014825,
+     "中前卫": 0.3815630960746913
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Pablo Hernández",
+    "group": "MID",
+    "group_share": 0.551,
+    "minutes": 1987.183,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "边锋": 0.3398696647683908,
+     "前腰": 0.24217695062525685
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Álvaro Cejudo",
+    "group": "FWD",
+    "group_share": 0.529,
+    "minutes": 1947.767,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.5292813992093509,
+     "边前卫": 0.32918042886724963
+    },
+    "in_cores": [
+     "prog"
+    ]
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Pedro León",
+    "group": "FWD",
+    "group_share": 0.616,
+    "minutes": 1900.967,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.6156779883918708,
+     "边前卫": 0.35218923705483174
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Real Madrid",
+    "season": "2015/16",
+    "name": "Isco",
+    "group": "MID",
+    "group_share": 0.592,
+    "minutes": 1890.583,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "中前卫": 0.4995459955040332,
+     "边锋": 0.32973068276986817
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2009/10",
+    "name": "Andrés Iniesta",
+    "group": "MID",
+    "group_share": 0.612,
+    "minutes": 1885.167,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "中前卫": 0.5916187781805322,
+     "边锋": 0.38820617098399796
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2012/13",
+    "name": "Andrés Iniesta",
+    "group": "MID",
+    "group_share": 0.656,
+    "minutes": 1847.617,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "中前卫": 0.6267082818405694,
+     "边锋": 0.34389348439882006
+    },
+    "in_cores": [
+     "att"
+    ]
+   },
+   {
+    "team": "Barcelona",
+    "season": "2008/09",
+    "name": "Andrés Iniesta",
+    "group": "FWD",
+    "group_share": 0.526,
+    "minutes": 1815.733,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.5262795564693787,
+     "中前卫": 0.4469635776178588
+    },
+    "in_cores": [
+     "link"
+    ]
+   },
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Nabil El Zhar",
+    "group": "MID",
+    "group_share": 0.513,
+    "minutes": 1778.717,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5003513769290593,
+     "边锋": 0.43203433186848195
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Sevilla",
+    "season": "2015/16",
+    "name": "Michael Krohn-Dehli",
+    "group": "FWD",
+    "group_share": 0.638,
+    "minutes": 1753.3,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "边锋": 0.6285765889085344,
+     "前腰": 0.1527310405140782
+    },
+    "in_cores": [
+     "link（头号）"
+    ]
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Takashi Inui",
+    "group": "FWD",
+    "group_share": 0.559,
+    "minutes": 1689.8,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.5557166528583265,
+     "边前卫": 0.41570008285004134
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Valencia",
+    "season": "2015/16",
+    "name": "Santi Mina",
+    "group": "FWD",
+    "group_share": 0.689,
+    "minutes": 1642.05,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.6322280076733351,
+     "边前卫": 0.16774763253250508
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Real Madrid",
+    "season": "2015/16",
+    "name": "James Rodríguez",
+    "group": "MID",
+    "group_share": 0.58,
+    "minutes": 1574.1,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "中前卫": 0.44096097240751325,
+     "边锋": 0.40156279778921283
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Atlético Madrid",
+    "season": "2015/16",
+    "name": "Yannick Carrasco",
+    "group": "MID",
+    "group_share": 0.678,
+    "minutes": 1560.117,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.6523657418782783,
+     "边锋": 0.23937312380484366
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Saúl Berjón",
+    "group": "FWD",
+    "group_share": 0.589,
+    "minutes": 1463.183,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.582292034491007,
+     "边前卫": 0.3935141415407046
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Valencia",
+    "season": "2015/16",
+    "name": "Rodrigo",
+    "group": "FWD",
+    "group_share": 0.683,
+    "minutes": 1445.417,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.517474776592678,
+     "边前卫": 0.19632170654367254
+    },
+    "in_cores": []
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Fede Cartabia",
+    "group": "FWD",
+    "group_share": 0.54,
+    "minutes": 1405.033,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.5002135180660008,
+     "边前卫": 0.3913193044055894
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Juan Carlos",
+    "group": "MID",
+    "group_share": 0.455,
+    "minutes": 1310.367,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.45464373839383376,
+     "边锋": 0.3472946503523187
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Charly Musonda",
+    "group": "MID",
+    "group_share": 0.569,
+    "minutes": 1283.5,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5327879496169329,
+     "边锋": 0.40050642773665757
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Óscar Duarte",
+    "group": "DEF",
+    "group_share": 0.651,
+    "minutes": 1253.417,
+    "split": "中卫 / 后腰",
+    "split_shares": {
+     "中卫": 0.6506216341998539,
+     "后腰": 0.33977794029652286
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Carlos Carmona",
+    "group": "FWD",
+    "group_share": 0.629,
+    "minutes": 1253.233,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.6285341915578371,
+     "边前卫": 0.3331382823097587
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Athletic Club",
+    "season": "2015/16",
+    "name": "Iñigo Lekue",
+    "group": "DEF",
+    "group_share": 0.513,
+    "minutes": 1215.833,
+    "split": "边后卫 / 边锋",
+    "split_shares": {
+     "边后卫": 0.5132282385195338,
+     "边锋": 0.44718300205620287
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Real Sociedad",
+    "season": "2015/16",
+    "name": "David Zurutuza",
+    "group": "FWD",
+    "group_share": 0.675,
+    "minutes": 1159.667,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.6720753089968381,
+     "中前卫": 0.22129922391491805
+    },
+    "in_cores": []
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Luisinho",
+    "group": "DEF",
+    "group_share": 0.407,
+    "minutes": 1159.233,
+    "split": "边后卫 / 边锋",
+    "split_shares": {
+     "边后卫": 0.40710814618857294,
+     "边锋": 0.3267245593351928
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2017/18",
+    "name": "Philippe Coutinho",
+    "group": "MID",
+    "group_share": 0.601,
+    "minutes": 1151.35,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.4897004965185796,
+     "边锋": 0.37877274503843317
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Duda",
+    "group": "MID",
+    "group_share": 0.652,
+    "minutes": 1147.55,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.3980363963806951,
+     "边锋": 0.2557913235443626
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Álex Menéndez",
+    "group": "FWD",
+    "group_share": 0.497,
+    "minutes": 1103.65,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.4973497032573732,
+     "边前卫": 0.2779866805599601
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Levante UD",
+    "season": "2015/16",
+    "name": "Rubén García",
+    "group": "FWD",
+    "group_share": 0.549,
+    "minutes": 1084.467,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.5236214421835618,
+     "边前卫": 0.3704893342349542
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Burgui",
+    "group": "FWD",
+    "group_share": 0.643,
+    "minutes": 1050.517,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.6344497152194952,
+     "边前卫": 0.2970760419476131
+    },
+    "in_cores": [
+     "link（头号）"
+    ]
+   },
+   {
+    "team": "Barcelona",
+    "season": "2011/12",
+    "name": "Isaac Cuenca",
+    "group": "FWD",
+    "group_share": 0.576,
+    "minutes": 1035.883,
+    "split": "边后卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.5756922433349959,
+     "边后卫": 0.37021543610123403
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Nordin Amrabat",
+    "group": "MID",
+    "group_share": 0.6,
+    "minutes": 1027.933,
+    "split": "中锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.41609378040080414,
+     "中锋": 0.3858064725338868
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Atlético Madrid",
+    "season": "2015/16",
+    "name": "Ángel Correa",
+    "group": "FWD",
+    "group_share": 0.595,
+    "minutes": 1016.933,
+    "split": "中锋 / 边前卫",
+    "split_shares": {
+     "中锋": 0.42757637341025306,
+     "边前卫": 0.33956667103710503
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2016/17",
+    "name": "Arda Turan",
+    "group": "FWD",
+    "group_share": 0.557,
+    "minutes": 1006.617,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.5297448548768978,
+     "中前卫": 0.29133897379008894
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Mubarak Wakaso",
+    "group": "MID",
+    "group_share": 0.627,
+    "minutes": 982.183,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.35986153297924695,
+     "中前卫": 0.23286555463168787
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Moi Gómez",
+    "group": "MID",
+    "group_share": 0.566,
+    "minutes": 976.633,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.37683879995904296,
+     "中前卫": 0.33257107751117787
+    },
+    "in_cores": []
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Cani",
+    "group": "FWD",
+    "group_share": 0.596,
+    "minutes": 911.783,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.5957738497815637,
+     "边前卫": 0.30061966475953716
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2016/17",
+    "name": "Rafinha",
+    "group": "MID",
+    "group_share": 0.601,
+    "minutes": 879.767,
+    "split": "中前卫 / 边后卫",
+    "split_shares": {
+     "中前卫": 0.6014094646307734,
+     "边后卫": 0.3752699579433941
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Valencia",
+    "season": "2015/16",
+    "name": "Pablo Piatti",
+    "group": "FWD",
+    "group_share": 0.696,
+    "minutes": 840.617,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.6945892896088189,
+     "边前卫": 0.176675853044392
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Granada",
+    "season": "2015/16",
+    "name": "Isaac Cuenca",
+    "group": "MID",
+    "group_share": 0.6,
+    "minutes": 829.65,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5700395749211514,
+     "边锋": 0.3997468812149702
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Wanderson Maciel Sousa Campos",
+    "group": "FWD",
+    "group_share": 0.602,
+    "minutes": 824.5,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.48237315544774606,
+     "边前卫": 0.18655750960177886
+    },
+    "in_cores": [
+     "prog"
+    ]
+   },
+   {
+    "team": "Villarreal",
+    "season": "2015/16",
+    "name": "Samu",
+    "group": "MID",
+    "group_share": 0.595,
+    "minutes": 818.7,
+    "split": "中锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5884125239200356,
+     "中锋": 0.3778347787142218
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Ricardo Horta",
+    "group": "MID",
+    "group_share": 0.595,
+    "minutes": 813.75,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5644239631336405,
+     "边锋": 0.3442293906810036
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2017/18",
+    "name": "Ousmane Dembélé",
+    "group": "FWD",
+    "group_share": 0.623,
+    "minutes": 810.45,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.6233162646266477,
+     "边前卫": 0.3671005819812038
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Sporting Gijón",
+    "season": "2015/16",
+    "name": "Pablo Pérez",
+    "group": "FWD",
+    "group_share": 0.561,
+    "minutes": 794.917,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "边锋": 0.46120138379285036,
+     "前腰": 0.24537163224656672
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Granada",
+    "season": "2015/16",
+    "name": "Edgar Méndez",
+    "group": "FWD",
+    "group_share": 0.473,
+    "minutes": 793.2,
+    "split": "边后卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.46030845520255503,
+     "边后卫": 0.2691628845184065
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Getafe",
+    "season": "2015/16",
+    "name": "Emiliano Buendía",
+    "group": "DEF",
+    "group_share": 0.411,
+    "minutes": 786.683,
+    "split": "前腰 / 边后卫",
+    "split_shares": {
+     "边后卫": 0.41130484523632976,
+     "前腰": 0.25493103959661867
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Jota Peleteiro",
+    "group": "MID",
+    "group_share": 0.588,
+    "minutes": 726.517,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.40336307953476636,
+     "边前卫": 0.40122961161707693
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2017/18",
+    "name": "Paco Alcácer",
+    "group": "MID",
+    "group_share": 0.598,
+    "minutes": 690.833,
+    "split": "中锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5727623642943306,
+     "中锋": 0.19987937273823883
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Patrick Ebert",
+    "group": "FWD",
+    "group_share": 0.537,
+    "minutes": 573.667,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "边锋": 0.5257117954677513,
+     "前腰": 0.3126961069145845
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Levante UD",
+    "season": "2015/16",
+    "name": "Jordi Xumetra",
+    "group": "MID",
+    "group_share": 0.643,
+    "minutes": 554.4,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.6160413660413661,
+     "边锋": 0.29494348244348245
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Valencia",
+    "season": "2015/16",
+    "name": "Rodrigo De Paul",
+    "group": "MID",
+    "group_share": 0.569,
+    "minutes": 543.517,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.42954831191929105,
+     "中前卫": 0.32761951488761465
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2004/05",
+    "name": "Andrés Iniesta",
+    "group": "MID",
+    "group_share": 0.571,
+    "minutes": 540.633,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "中前卫": 0.5712127751402676,
+     "边锋": 0.4287872248597324
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2017/18",
+    "name": "Gerard Deulofeu",
+    "group": "MID",
+    "group_share": 0.592,
+    "minutes": 523.783,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5699875902886054,
+     "边锋": 0.40761128965539184
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Levante UD",
+    "season": "2015/16",
+    "name": "Mauricio Cuero",
+    "group": "MID",
+    "group_share": 0.596,
+    "minutes": 514.75,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5549295774647887,
+     "边锋": 0.2490853164966812
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Athletic Club",
+    "season": "2015/16",
+    "name": "Gorka Elustondo",
+    "group": "MID",
+    "group_share": 0.585,
+    "minutes": 502.85,
+    "split": "中卫 / 后腰",
+    "split_shares": {
+     "后腰": 0.47121407974545104,
+     "中卫": 0.4080739783235558
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Foued Kadir",
+    "group": "MID",
+    "group_share": 0.556,
+    "minutes": 493.033,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.4447637076600635,
+     "边锋": 0.44418903387194913
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2011/12",
+    "name": "Cristian Tello",
+    "group": "FWD",
+    "group_share": 0.675,
+    "minutes": 452.533,
+    "split": "边后卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.6754566882734236,
+     "边后卫": 0.32454331172657636
+    },
+    "in_cores": []
+   },
+   {
+    "team": "RC Deportivo La Coruña",
+    "season": "2015/16",
+    "name": "Jonás Gutiérrez",
+    "group": "FWD",
+    "group_share": 0.591,
+    "minutes": 428.75,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.5091156462585034,
+     "边前卫": 0.29461613216715254
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Celta Vigo",
+    "season": "2015/16",
+    "name": "Josep Señé",
+    "group": "FWD",
+    "group_share": 0.664,
+    "minutes": 415.283,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "边锋": 0.6589075731428342,
+     "前腰": 0.27527390937913876
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Málaga",
+    "season": "2015/16",
+    "name": "Adnane Tighadouini",
+    "group": "FWD",
+    "group_share": 0.616,
+    "minutes": 408.833,
+    "split": "前腰 / 中锋",
+    "split_shares": {
+     "中锋": 0.3942111699959233,
+     "前腰": 0.3600489196901752
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2009/10",
+    "name": "Jeffrén",
+    "group": "FWD",
+    "group_share": 0.607,
+    "minutes": 399.367,
+    "split": "边后卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.6025790835489524,
+     "边后卫": 0.21421417243969618
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Piti",
+    "group": "MID",
+    "group_share": 0.553,
+    "minutes": 354.883,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "前腰": 0.47762175362795284,
+     "边锋": 0.4472361809045227
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Nili",
+    "group": "MID",
+    "group_share": 0.559,
+    "minutes": 329.883,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边前卫": 0.5593391603092002,
+     "边锋": 0.3652806547769413
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Sevilla",
+    "season": "2015/16",
+    "name": "Curro Sánchez",
+    "group": "MID",
+    "group_share": 0.544,
+    "minutes": 319.917,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.4560041677520188,
+     "边前卫": 0.4421463922896588
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2015/16",
+    "name": "Rafinha",
+    "group": "MID",
+    "group_share": 0.502,
+    "minutes": 292.267,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.49834625912408764,
+     "中前卫": 0.48243613138686114
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Espanyol",
+    "season": "2015/16",
+    "name": "Paco Montañés",
+    "group": "FWD",
+    "group_share": 0.587,
+    "minutes": 291.117,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.5666685750271941,
+     "边前卫": 0.3308524646476212
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Sevilla",
+    "season": "2015/16",
+    "name": "Diogo Figueiras",
+    "group": "DEF",
+    "group_share": 0.659,
+    "minutes": 285.583,
+    "split": "边后卫 / 边锋",
+    "split_shares": {
+     "边后卫": 0.6594105631747883,
+     "边锋": 0.18272541581558213
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Las Palmas",
+    "season": "2015/16",
+    "name": "Nauzet Alemán",
+    "group": "FWD",
+    "group_share": 0.585,
+    "minutes": 277.2,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.5851972101972102,
+     "边前卫": 0.40416065416065416
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Jonhatan Montiel",
+    "group": "MID",
+    "group_share": 0.611,
+    "minutes": 230.467,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "前腰": 0.518657795776685,
+     "边锋": 0.18614405553948513
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2005/06",
+    "name": "Gabri",
+    "group": "DEF",
+    "group_share": 0.6,
+    "minutes": 210.1,
+    "split": "中前卫 / 边后卫",
+    "split_shares": {
+     "边后卫": 0.5998730763128669,
+     "中前卫": 0.3822782801840393
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Eibar",
+    "season": "2015/16",
+    "name": "Izet Hajrović",
+    "group": "FWD",
+    "group_share": 0.504,
+    "minutes": 188.717,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.5042833171421001,
+     "边前卫": 0.4955400512231742
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Granada",
+    "season": "2015/16",
+    "name": "Nicolás López",
+    "group": "FWD",
+    "group_share": 0.531,
+    "minutes": 185.0,
+    "split": "边锋 / 边前卫",
+    "split_shares": {
+     "边锋": 0.4581081081081081,
+     "边前卫": 0.25486486486486487
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Barcelona",
+    "season": "2011/12",
+    "name": "Ibrahim Afellay",
+    "group": "MID",
+    "group_share": 0.541,
+    "minutes": 127.05,
+    "split": "中前卫 / 边锋",
+    "split_shares": {
+     "边锋": 0.4592680047225501,
+     "中前卫": 0.38790502426866064
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Rayo Vallecano",
+    "season": "2015/16",
+    "name": "Aras Özbiliz",
+    "group": "MID",
+    "group_share": 0.62,
+    "minutes": 108.367,
+    "split": "前腰 / 边锋",
+    "split_shares": {
+     "前腰": 0.42509996924023385,
+     "边锋": 0.259766225776684
+    },
+    "in_cores": []
+   },
+   {
+    "team": "Real Betis",
+    "season": "2015/16",
+    "name": "Álvaro Vadillo",
+    "group": "MID",
+    "group_share": 0.514,
+    "minutes": 92.567,
+    "split": "后腰 / 边锋",
+    "split_shares": {
+     "边锋": 0.4863161685271876,
+     "后腰": 0.34641699675909243
+    },
+    "in_cores": []
+   }
+  ]
+ }
+}

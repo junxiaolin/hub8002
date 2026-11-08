@@ -1,0 +1,16 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# StatsBomb data and tables derived from it (download with `make data`; not redistributed here)
+data/raw/
+data/interim/
+
+# third-party code without a licence file: fetch it with scripts/fetch_third_party.sh
+third_party/kirkley_hubs/
+
+# run logs
+logs/

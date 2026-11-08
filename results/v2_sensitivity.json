@@ -1,0 +1,9791 @@
+{
+ "summary": [
+  {
+   "variant": "base",
+   "att_top_same": 1.0,
+   "att_set_same": 1.0,
+   "att_clear_share": 0.3333333333333333,
+   "prog_top_same": 1.0,
+   "prog_set_same": 1.0,
+   "prog_clear_share": 0.3333333333333333,
+   "def_top_same": 1.0,
+   "def_set_same": 1.0,
+   "def_clear_share": 0.42424242424242425
+  },
+  {
+   "variant": "alpha x0.5",
+   "att_top_same": 1.0,
+   "att_set_same": 0.9696969696969697,
+   "att_clear_share": 0.30303030303030304,
+   "prog_top_same": 1.0,
+   "prog_set_same": 1.0,
+   "prog_clear_share": 0.3333333333333333,
+   "def_top_same": 1.0,
+   "def_set_same": 0.9696969696969697,
+   "def_clear_share": 0.42424242424242425
+  },
+  {
+   "variant": "alpha x2",
+   "att_top_same": 0.9393939393939394,
+   "att_set_same": 1.0,
+   "att_clear_share": 0.3333333333333333,
+   "prog_top_same": 0.9393939393939394,
+   "prog_set_same": 0.9090909090909091,
+   "prog_clear_share": 0.3333333333333333,
+   "def_top_same": 1.0,
+   "def_set_same": 0.8787878787878788,
+   "def_clear_share": 0.42424242424242425
+  },
+  {
+   "variant": "core set 80%",
+   "att_top_same": 1.0,
+   "att_set_same": 0.7878787878787878,
+   "att_clear_share": 0.45454545454545453,
+   "prog_top_same": 1.0,
+   "prog_set_same": 0.7272727272727273,
+   "prog_clear_share": 0.3939393939393939,
+   "def_top_same": 1.0,
+   "def_set_same": 0.7878787878787878,
+   "def_clear_share": 0.5151515151515151
+  },
+  {
+   "variant": "core set 95%",
+   "att_top_same": 1.0,
+   "att_set_same": 0.8181818181818182,
+   "att_clear_share": 0.30303030303030304,
+   "prog_top_same": 1.0,
+   "prog_set_same": 0.8181818181818182,
+   "prog_clear_share": 0.2727272727272727,
+   "def_top_same": 1.0,
+   "def_set_same": 0.7272727272727273,
+   "def_clear_share": 0.3333333333333333
+  },
+  {
+   "variant": "P(VOA>0) >= 0.8",
+   "att_top_same": 1.0,
+   "att_set_same": 1.0,
+   "att_clear_share": 0.3333333333333333,
+   "prog_top_same": 1.0,
+   "prog_set_same": 1.0,
+   "prog_clear_share": 0.3333333333333333,
+   "def_top_same": 1.0,
+   "def_set_same": 1.0,
+   "def_clear_share": 0.42424242424242425
+  },
+  {
+   "variant": "P(VOA>0) >= 0.95",
+   "att_top_same": 1.0,
+   "att_set_same": 0.9696969696969697,
+   "att_clear_share": 0.3333333333333333,
+   "prog_top_same": 1.0,
+   "prog_set_same": 0.9696969696969697,
+   "prog_clear_share": 0.3333333333333333,
+   "def_top_same": 1.0,
+   "def_set_same": 1.0,
+   "def_clear_share": 0.42424242424242425
+  },
+  {
+   "variant": "min minutes 450",
+   "att_top_same": 1.0,
+   "att_set_same": 1.0,
+   "att_clear_share": 0.3333333333333333,
+   "prog_top_same": 1.0,
+   "prog_set_same": 1.0,
+   "prog_clear_share": 0.3333333333333333,
+   "def_top_same": 1.0,
+   "def_set_same": 0.9696969696969697,
+   "def_clear_share": 0.3939393939393939
+  },
+  {
+   "variant": "baseline = team-mates",
+   "att_top_same": 0.8787878787878788,
+   "att_set_same": 0.6363636363636364,
+   "att_clear_share": 0.21212121212121213,
+   "prog_top_same": 0.7575757575757576,
+   "prog_set_same": 0.5454545454545454,
+   "prog_clear_share": 0.2727272727272727,
+   "def_top_same": 0.8787878787878788,
+   "def_set_same": 0.696969696969697,
+   "def_clear_share": 0.30303030303030304
+  },
+  {
+   "variant": "exposure = minutes",
+   "att_top_same": 0.8787878787878788,
+   "att_set_same": 0.8181818181818182,
+   "att_clear_share": 0.42424242424242425,
+   "prog_top_same": 0.9696969696969697,
+   "prog_set_same": 0.8181818181818182,
+   "prog_clear_share": 0.3333333333333333,
+   "def_top_same": 0.7878787878787878,
+   "def_set_same": 0.7575757575757576,
+   "def_clear_share": 0.30303030303030304
+  },
+  {
+   "variant": "six roles",
+   "att_top_same": 0.6666666666666666,
+   "att_set_same": 0.5757575757575758,
+   "att_clear_share": 0.36363636363636365,
+   "prog_top_same": 0.7272727272727273,
+   "prog_set_same": 0.3939393939393939,
+   "prog_clear_share": 0.24242424242424243,
+   "def_top_same": 0.48484848484848486,
+   "def_set_same": 0.36363636363636365,
+   "def_clear_share": 0.2727272727272727
+  }
+ ],
+ "fits": {
+  "base": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Carles Puyol"
+     ],
+     "top": "Carles Puyol"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Samuel Eto'o"
+     ],
+     "top": "Xavi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Rafael Márquez",
+      "Yaya Touré"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Gerard Piqué"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas",
+      "Andrés Iniesta"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Suárez",
+      "Lionel Messi"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano",
+      "Sergio Busquets"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Sergio Busquets"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Beñat Etxebarria"
+     ],
+     "top": "Aymeric Laporte"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Antoine Griezmann"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Gabi",
+      "Koke",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Fabián Orellana"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [
+      "Borja Bastón",
+      "Keko",
+      "Adrián González"
+     ],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Iván Ramis",
+      "Aleksandar Pantić",
+      "Mauro dos Santos"
+     ],
+     "top": "Iván Ramis"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Saúl Berjón"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [
+      "Damián Suárez",
+      "Abdoul Karim Yoda",
+      "Wanderson Maciel Sousa Campos"
+     ],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [
+      "Santiago Vergini",
+      "Juan Rodríguez",
+      "Juan Cala"
+     ],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez",
+      "Isaac Success"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Fran Rico"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Juanfran",
+      "Verza"
+     ],
+     "top": "Juanfran"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Simão"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Roque Santa Cruz"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Lucas Pérez",
+      "Luis Alberto"
+     ],
+     "top": "Lucas Pérez"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Sidnei"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera",
+      "Fede Cartabia"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Miku Fedor",
+      "Jozabed Sánchez"
+     ],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Llorente"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo",
+      "Karim Benzema"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos",
+      "Marcelo"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Sergio Ramos"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Imanol Agirretxe"
+    },
+    "prog": {
+     "core_set": [
+      "Carlos Vela",
+      "Íñigo Martínez"
+     ],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [
+      "Íñigo Martínez",
+      "Diego Reyes",
+      "Mikel González"
+     ],
+     "top": "Íñigo Martínez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli",
+      "Éver Banega"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa",
+      "Luis Hernández"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Álvaro Negredo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi",
+      "Aderllan Santos"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [
+      "Denis Suárez",
+      "Cédric Bakambu"
+     ],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Eric Bailly"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "alpha x0.5": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Carles Puyol"
+     ],
+     "top": "Carles Puyol"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Samuel Eto'o"
+     ],
+     "top": "Xavi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Yaya Touré",
+      "Rafael Márquez"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Gerard Piqué"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas",
+      "Andrés Iniesta"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Suárez",
+      "Lionel Messi"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Jordi Alba"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Sergio Busquets"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Beñat Etxebarria",
+      "Iker Muniain"
+     ],
+     "top": "Aymeric Laporte"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Antoine Griezmann"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Gabi",
+      "Koke",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Fabián Orellana"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [
+      "Borja Bastón",
+      "Keko",
+      "Adrián González"
+     ],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Iván Ramis",
+      "Aleksandar Pantić",
+      "Mauro dos Santos"
+     ],
+     "top": "Iván Ramis"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Saúl Berjón"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [
+      "Damián Suárez",
+      "Abdoul Karim Yoda",
+      "Wanderson Maciel Sousa Campos"
+     ],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [
+      "Santiago Vergini",
+      "Juan Rodríguez",
+      "Juan Cala"
+     ],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez",
+      "Isaac Success"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Fran Rico"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [
+      "Juanfran",
+      "Zouhair Feddal",
+      "Verza"
+     ],
+     "top": "Juanfran"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Simão"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Roque Santa Cruz"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Lucas Pérez",
+      "Luis Alberto"
+     ],
+     "top": "Lucas Pérez"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Sidnei"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera",
+      "Fede Cartabia"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Miku Fedor",
+      "Jozabed Sánchez"
+     ],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Llorente"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo",
+      "Karim Benzema"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos",
+      "Marcelo"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Sergio Ramos"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Imanol Agirretxe"
+    },
+    "prog": {
+     "core_set": [
+      "Carlos Vela",
+      "Íñigo Martínez"
+     ],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Íñigo Martínez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa",
+      "Luis Hernández"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Álvaro Negredo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi",
+      "Aderllan Santos"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [
+      "Denis Suárez",
+      "Cédric Bakambu"
+     ],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Eric Bailly"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "alpha x2": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Carles Puyol"
+     ],
+     "top": "Carles Puyol"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Samuel Eto'o"
+     ],
+     "top": "Xavi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Rafael Márquez",
+      "Yaya Touré"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Gerard Piqué"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets",
+      "Carles Puyol"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas",
+      "Andrés Iniesta"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Suárez",
+      "Lionel Messi"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano",
+      "Sergio Busquets"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Sergio Busquets"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Beñat Etxebarria",
+      "Aymeric Laporte"
+     ],
+     "top": "Beñat Etxebarria"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Antoine Griezmann"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Gabi",
+      "Koke",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Fabián Orellana"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [
+      "Borja Bastón",
+      "Keko",
+      "Adrián González"
+     ],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Iván Ramis",
+      "Aleksandar Pantić",
+      "Mauro dos Santos"
+     ],
+     "top": "Iván Ramis"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Saúl Berjón"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [
+      "Santiago Vergini",
+      "Juan Rodríguez",
+      "Juan Cala"
+     ],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez",
+      "Isaac Success"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Fran Rico"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas",
+      "Aythami Artiles"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Zouhair Feddal"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Simão"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Roque Santa Cruz"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Lucas Pérez",
+      "Luis Alberto"
+     ],
+     "top": "Lucas Pérez"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Sidnei"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera",
+      "Fede Cartabia"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Miku Fedor",
+      "Jozabed Sánchez"
+     ],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [
+      "Diego Llorente",
+      "Antonio Amaya",
+      "Zé Castro"
+     ],
+     "top": "Diego Llorente"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo",
+      "Karim Benzema"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Sergio Ramos"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Pardo"
+    },
+    "prog": {
+     "core_set": [
+      "Carlos Vela",
+      "Íñigo Martínez"
+     ],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [
+      "Íñigo Martínez",
+      "Diego Reyes",
+      "Mikel González"
+     ],
+     "top": "Íñigo Martínez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli",
+      "Éver Banega"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa",
+      "Luis Hernández"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Paco Alcácer"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [
+      "Denis Suárez",
+      "Cédric Bakambu"
+     ],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Eric Bailly"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "core set 80%": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Carles Puyol"
+     ],
+     "top": "Carles Puyol"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Samuel Eto'o"
+     ],
+     "top": "Xavi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Rafael Márquez",
+      "Yaya Touré"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Suárez"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Javier Mascherano",
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Sergio Busquets",
+      "Clément Lenglet",
+      "Jordi Alba"
+     ],
+     "top": "Sergio Busquets"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Mikel San José"
+     ],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Beñat Etxebarria"
+     ],
+     "top": "Aymeric Laporte"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Antoine Griezmann"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [
+      "Diego Godín",
+      "Saúl Ñíguez",
+      "Gabi"
+     ],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Gabi",
+      "Koke"
+     ],
+     "top": "Gabi"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [
+      "Borja Bastón",
+      "Keko"
+     ],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [
+      "David Juncà",
+      "Ander Capa"
+     ],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Iván Ramis",
+      "Aleksandar Pantić"
+     ],
+     "top": "Iván Ramis"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Saúl Berjón"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [
+      "Hernán Pérez",
+      "Álvaro González",
+      "Burgui"
+     ],
+     "top": "Hernán Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [
+      "Hernán Pérez",
+      "Joan Jordán",
+      "Burgui"
+     ],
+     "top": "Hernán Pérez"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [
+      "Damián Suárez",
+      "Abdoul Karim Yoda"
+     ],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [
+      "Santiago Vergini",
+      "Juan Rodríguez",
+      "Juan Cala"
+     ],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [
+      "Rubén Rochina"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Fran Rico"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Juanfran",
+      "Verza"
+     ],
+     "top": "Juanfran"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [
+      "Juanpi",
+      "Duda",
+      "Nordin Amrabat"
+     ],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Roque Santa Cruz"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Lucas Pérez",
+      "Luis Alberto"
+     ],
+     "top": "Lucas Pérez"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Sidnei"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera",
+      "Fede Cartabia"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Miku Fedor",
+      "Jozabed Sánchez"
+     ],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [
+      "Diego Llorente",
+      "Antonio Amaya",
+      "Zé Castro"
+     ],
+     "top": "Diego Llorente"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [
+      "Joaquín"
+     ],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Imanol Agirretxe"
+    },
+    "prog": {
+     "core_set": [
+      "Carlos Vela",
+      "Íñigo Martínez"
+     ],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [
+      "Íñigo Martínez",
+      "Diego Reyes",
+      "Mikel González"
+     ],
+     "top": "Íñigo Martínez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [
+      "Éver Banega",
+      "Kolo",
+      "Michael Krohn-Dehli"
+     ],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa",
+      "Luis Hernández"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Álvaro Negredo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [
+      "Denis Suárez",
+      "Cédric Bakambu"
+     ],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Eric Bailly"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "core set 95%": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Carles Puyol"
+     ],
+     "top": "Carles Puyol"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [],
+     "top": "Xavi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Rafael Márquez",
+      "Yaya Touré"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Gerard Piqué"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Éric Abidal"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets",
+      "Carles Puyol"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas",
+      "Andrés Iniesta"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Suárez",
+      "Lionel Messi",
+      "Neymar"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano",
+      "Sergio Busquets"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Jordi Alba"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Jordi Alba"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Sergio Busquets"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria",
+      "Aymeric Laporte"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Beñat Etxebarria",
+      "Iker Muniain"
+     ],
+     "top": "Aymeric Laporte"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Antoine Griezmann",
+      "Yannick Carrasco"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Gabi",
+      "Koke",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez",
+      "Pablo Hernández"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Fabián Orellana"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Iván Ramis",
+      "Aleksandar Pantić",
+      "Mauro dos Santos"
+     ],
+     "top": "Iván Ramis"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Saúl Berjón"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez",
+      "Isaac Success"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Fran Rico"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas",
+      "Aythami Artiles"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Juanfran"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Simão"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa",
+      "Ignacio Camacho"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Roque Santa Cruz"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Lucas Pérez",
+      "Luis Alberto"
+     ],
+     "top": "Lucas Pérez"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Sidnei"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera",
+      "Fede Cartabia"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Llorente"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo",
+      "Karim Benzema"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos",
+      "Marcelo"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Sergio Ramos"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos",
+      "Luka Modrić"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Imanol Agirretxe"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Íñigo Martínez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli",
+      "Éver Banega",
+      "Kolo"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony",
+      "Isma López"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa",
+      "Luis Hernández"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Álvaro Negredo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo",
+      "André Gomes"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi",
+      "Aderllan Santos"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi",
+      "Javi Fuego"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [
+      "Denis Suárez",
+      "Cédric Bakambu"
+     ],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Eric Bailly",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano",
+      "Víctor Ruíz"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "P(VOA>0) >= 0.8": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Carles Puyol"
+     ],
+     "top": "Carles Puyol"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Samuel Eto'o"
+     ],
+     "top": "Xavi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Rafael Márquez",
+      "Yaya Touré"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Gerard Piqué"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas",
+      "Andrés Iniesta"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Suárez",
+      "Lionel Messi"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano",
+      "Sergio Busquets"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Sergio Busquets"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Beñat Etxebarria"
+     ],
+     "top": "Aymeric Laporte"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Antoine Griezmann"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Gabi",
+      "Koke",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Fabián Orellana"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [
+      "Borja Bastón",
+      "Keko",
+      "Adrián González"
+     ],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Iván Ramis",
+      "Aleksandar Pantić",
+      "Mauro dos Santos"
+     ],
+     "top": "Iván Ramis"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Saúl Berjón"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [
+      "Damián Suárez",
+      "Abdoul Karim Yoda",
+      "Wanderson Maciel Sousa Campos"
+     ],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [
+      "Santiago Vergini",
+      "Juan Rodríguez",
+      "Juan Cala"
+     ],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez",
+      "Isaac Success"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Fran Rico"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Juanfran",
+      "Verza"
+     ],
+     "top": "Juanfran"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Simão"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Roque Santa Cruz"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Lucas Pérez",
+      "Luis Alberto"
+     ],
+     "top": "Lucas Pérez"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Sidnei"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera",
+      "Fede Cartabia"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Miku Fedor",
+      "Jozabed Sánchez"
+     ],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Llorente"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo",
+      "Karim Benzema"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos",
+      "Marcelo"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Sergio Ramos"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Imanol Agirretxe"
+    },
+    "prog": {
+     "core_set": [
+      "Carlos Vela",
+      "Íñigo Martínez"
+     ],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [
+      "Íñigo Martínez",
+      "Diego Reyes",
+      "Mikel González"
+     ],
+     "top": "Íñigo Martínez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli",
+      "Éver Banega"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa",
+      "Luis Hernández"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Álvaro Negredo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi",
+      "Aderllan Santos"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [
+      "Denis Suárez",
+      "Cédric Bakambu"
+     ],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Eric Bailly"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "P(VOA>0) >= 0.95": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Carles Puyol"
+     ],
+     "top": "Carles Puyol"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Samuel Eto'o"
+     ],
+     "top": "Xavi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Rafael Márquez",
+      "Yaya Touré"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Gerard Piqué"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas",
+      "Andrés Iniesta"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Suárez",
+      "Lionel Messi"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano",
+      "Sergio Busquets"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Sergio Busquets"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Beñat Etxebarria"
+     ],
+     "top": "Aymeric Laporte"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Antoine Griezmann"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Gabi",
+      "Koke",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Fabián Orellana"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Iván Ramis",
+      "Aleksandar Pantić",
+      "Mauro dos Santos"
+     ],
+     "top": "Iván Ramis"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Saúl Berjón"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [
+      "Damián Suárez",
+      "Abdoul Karim Yoda",
+      "Wanderson Maciel Sousa Campos"
+     ],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [
+      "Santiago Vergini",
+      "Juan Rodríguez",
+      "Juan Cala"
+     ],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez",
+      "Isaac Success"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Fran Rico"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Juanfran"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Simão"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Roque Santa Cruz"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Lucas Pérez",
+      "Luis Alberto"
+     ],
+     "top": "Lucas Pérez"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Sidnei"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera",
+      "Fede Cartabia"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Miku Fedor",
+      "Jozabed Sánchez"
+     ],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Llorente"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo",
+      "Karim Benzema"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos",
+      "Marcelo"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Sergio Ramos"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Imanol Agirretxe"
+    },
+    "prog": {
+     "core_set": [
+      "Carlos Vela",
+      "Íñigo Martínez"
+     ],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [
+      "Íñigo Martínez",
+      "Diego Reyes",
+      "Mikel González"
+     ],
+     "top": "Íñigo Martínez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli",
+      "Éver Banega"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa",
+      "Luis Hernández"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Álvaro Negredo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi",
+      "Aderllan Santos"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [
+      "Denis Suárez",
+      "Cédric Bakambu"
+     ],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Eric Bailly"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "min minutes 450": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Carles Puyol"
+     ],
+     "top": "Carles Puyol"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Samuel Eto'o"
+     ],
+     "top": "Xavi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Rafael Márquez",
+      "Yaya Touré"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi",
+      "Gerard Piqué"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas",
+      "Andrés Iniesta"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Suárez",
+      "Lionel Messi"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano",
+      "Sergio Busquets"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Sergio Busquets"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Beñat Etxebarria"
+     ],
+     "top": "Aymeric Laporte"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Antoine Griezmann"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Gabi",
+      "Koke",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Fabián Orellana"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [
+      "Borja Bastón",
+      "Keko",
+      "Adrián González"
+     ],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Iván Ramis",
+      "Aleksandar Pantić",
+      "Mauro dos Santos"
+     ],
+     "top": "Iván Ramis"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Saúl Berjón"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [
+      "Damián Suárez",
+      "Abdoul Karim Yoda",
+      "Wanderson Maciel Sousa Campos"
+     ],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [
+      "Santiago Vergini",
+      "Juan Rodríguez",
+      "Juan Cala"
+     ],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez",
+      "Isaac Success"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Fran Rico"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas",
+      "Aythami Artiles"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Juanfran",
+      "Verza"
+     ],
+     "top": "Juanfran"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Simão"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Roque Santa Cruz"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Lucas Pérez",
+      "Luis Alberto"
+     ],
+     "top": "Lucas Pérez"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Sidnei"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera",
+      "Fede Cartabia"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Miku Fedor",
+      "Jozabed Sánchez"
+     ],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Llorente"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo",
+      "Karim Benzema"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos",
+      "Marcelo"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Sergio Ramos"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Imanol Agirretxe"
+    },
+    "prog": {
+     "core_set": [
+      "Carlos Vela",
+      "Íñigo Martínez"
+     ],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [
+      "Íñigo Martínez",
+      "Diego Reyes",
+      "Mikel González"
+     ],
+     "top": "Íñigo Martínez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa",
+      "Luis Hernández"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Álvaro Negredo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi",
+      "Aderllan Santos"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [
+      "Denis Suárez",
+      "Cédric Bakambu"
+     ],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Eric Bailly"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "baseline = team-mates": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o",
+      "Deco"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Rafael Márquez",
+      "Ronaldinho"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Carles Puyol",
+      "Edmilson"
+     ],
+     "top": "Carles Puyol"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [],
+     "top": "Xavi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Andrés Iniesta"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Yaya Touré",
+      "Rafael Márquez"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi",
+      "Andrés Iniesta"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Éric Abidal"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Sergio Busquets",
+      "Gerard Piqué"
+     ],
+     "top": "Sergio Busquets"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Cesc Fàbregas",
+      "Lionel Messi"
+     ],
+     "top": "Cesc Fàbregas"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Luis Suárez",
+      "Lionel Messi"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [],
+     "top": "Paulinho"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Lionel Messi"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Philippe Coutinho",
+      "Lionel Messi",
+      "Ivan Rakitić"
+     ],
+     "top": "Philippe Coutinho"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi",
+      "Sergio Busquets"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Jordi Alba"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Clément Lenglet"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi",
+      "Sergio Busquets"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria",
+      "Aymeric Laporte"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Xabier Etxeita"
+     ],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Beñat Etxebarria",
+      "Aymeric Laporte"
+     ],
+     "top": "Beñat Etxebarria"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Yannick Carrasco"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Filipe Luis",
+      "Gabi"
+     ],
+     "top": "Filipe Luis"
+    },
+    "def": {
+     "core_set": [
+      "Diego Godín",
+      "José Giménez"
+     ],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Filipe Luis"
+     ],
+     "top": "Filipe Luis"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Fabián Orellana",
+      "Gustavo Cabral"
+     ],
+     "top": "Fabián Orellana"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [
+      "Borja Bastón",
+      "Keko",
+      "Adrián González"
+     ],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Iván Ramis",
+      "Aleksandar Pantić",
+      "Mauro dos Santos"
+     ],
+     "top": "Iván Ramis"
+    },
+    "org": {
+     "core_set": [
+      "Dani García"
+     ],
+     "top": "Dani García"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Álvaro González"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Álvaro González"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [
+      "Damián Suárez",
+      "Pedro León",
+      "Mehdi Lacen"
+     ],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [
+      "Santiago Vergini",
+      "Juan Rodríguez",
+      "Juan Cala"
+     ],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [
+      "Mehdi Lacen",
+      "Damián Suárez"
+     ],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [
+      "Rubén Rochina",
+      "Youssef El-Arabi"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "David Lombán"
+    },
+    "org": {
+     "core_set": [
+      "Rubén Pérez",
+      "Fran Rico",
+      "Jean-Sylvain Babin"
+     ],
+     "top": "Rubén Pérez"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera",
+      "Aythami Artiles"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales",
+      "Deyverson"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Verza"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Simão"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [
+      "Verza",
+      "Víctor Camarasa"
+     ],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa",
+      "Ignacio Camacho"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [
+      "Recio",
+      "Ignacio Camacho",
+      "Pablo Fornals"
+     ],
+     "top": "Recio"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Lucas Pérez",
+      "Luis Alberto"
+     ],
+     "top": "Lucas Pérez"
+    },
+    "prog": {
+     "core_set": [
+      "Sidnei",
+      "Pedro Mosquera",
+      "Fernando Navarro"
+     ],
+     "top": "Sidnei"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Miku Fedor",
+      "Jozabed Sánchez"
+     ],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [
+      "Diego Llorente",
+      "Antonio Amaya",
+      "Zé Castro"
+     ],
+     "top": "Diego Llorente"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [
+      "Dani Ceballos",
+      "Petros",
+      "Francisco Portillo"
+     ],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "James Rodríguez"
+    },
+    "prog": {
+     "core_set": [
+      "Marcelo",
+      "Luka Modrić",
+      "Toni Kroos"
+     ],
+     "top": "Marcelo"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Casemiro",
+      "Sergio Ramos"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos",
+      "Luka Modrić"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Imanol Agirretxe"
+    },
+    "prog": {
+     "core_set": [
+      "Íñigo Martínez",
+      "Carlos Vela",
+      "Asier Illarramendi"
+     ],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Íñigo Martínez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [
+      "Éver Banega",
+      "Kolo"
+     ],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak",
+      "Adil Rami"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli",
+      "Kolo",
+      "Éver Banega"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [
+      "Alen Halilović",
+      "Antonio Sanabria"
+     ],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony",
+      "Isma López"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa",
+      "Luis Hernández"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [
+      "Luis Hernández",
+      "Nacho Cases",
+      "Sergio Álvarez"
+     ],
+     "top": "Luis Hernández"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Álvaro Negredo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi",
+      "João Cancelo"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi",
+      "Aderllan Santos"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [
+      "Denis Suárez",
+      "Cédric Bakambu"
+     ],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Eric Bailly",
+      "Víctor Ruíz"
+     ],
+     "top": "Eric Bailly"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "exposure = minutes": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Edmilson"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Samuel Eto'o",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Yaya Touré"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Gerard Piqué"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Lionel Messi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Suárez",
+      "Neymar"
+     ],
+     "top": "Luis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano",
+      "Sergio Busquets"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Antoine Griezmann"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Sergio Busquets"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [
+      "Aritz Aduriz",
+      "Raúl García"
+     ],
+     "top": "Aritz Aduriz"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aymeric Laporte"
+    },
+    "org": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Beñat Etxebarria"
+     ],
+     "top": "Aymeric Laporte"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke",
+      "Antoine Griezmann"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Diego Godín"
+    },
+    "org": {
+     "core_set": [
+      "Gabi",
+      "Koke",
+      "Filipe Luis"
+     ],
+     "top": "Gabi"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Iago Aspas"
+    },
+    "prog": {
+     "core_set": [
+      "Fabián Orellana",
+      "Nolito"
+     ],
+     "top": "Fabián Orellana"
+    },
+    "def": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Sergi Gómez",
+      "Pablo Hernández"
+     ],
+     "top": "Gustavo Cabral"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral",
+      "Fabián Orellana"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [
+      "Aleksandar Pantić",
+      "Iván Ramis",
+      "Mauro dos Santos"
+     ],
+     "top": "Aleksandar Pantić"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Saúl Berjón"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Álvaro González"
+     ],
+     "top": "Álvaro González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Hernán Pérez"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [
+      "Pablo Sarabia"
+     ],
+     "top": "Pablo Sarabia"
+    },
+    "prog": {
+     "core_set": [
+      "Damián Suárez",
+      "Abdoul Karim Yoda",
+      "Wanderson Maciel Sousa Campos"
+     ],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [
+      "Santiago Vergini",
+      "Juan Rodríguez",
+      "Juan Cala"
+     ],
+     "top": "Santiago Vergini"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Mehdi Lacen"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez",
+      "Isaac Success"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Fran Rico"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [
+      "Pedro Bigas"
+     ],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [
+      "José Luis Morales"
+     ],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Juanfran"
+    },
+    "def": {
+     "core_set": [
+      "Zouhair Feddal",
+      "Simão"
+     ],
+     "top": "Zouhair Feddal"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Verza"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [
+      "Weligton",
+      "Raúl Albentosa"
+     ],
+     "top": "Weligton"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Roque Santa Cruz"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Alberto",
+      "Lucas Pérez"
+     ],
+     "top": "Luis Alberto"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fede Cartabia"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Pedro Mosquera",
+      "Fede Cartabia"
+     ],
+     "top": "Pedro Mosquera"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Miku Fedor",
+      "Jozabed Sánchez"
+     ],
+     "top": "Miku Fedor"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Bebé"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Antonio Amaya"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [
+      "Joaquín"
+     ],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Ceballos",
+      "Álvaro Cejudo"
+     ],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Bruno González",
+      "Heiko Westermann"
+     ],
+     "top": "Bruno González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo",
+      "Karim Benzema"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Sergio Ramos",
+      "Pepe"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Imanol Agirretxe"
+    },
+    "prog": {
+     "core_set": [
+      "Carlos Vela",
+      "Íñigo Martínez"
+     ],
+     "top": "Carlos Vela"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Mikel González"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Kévin Gameiro",
+      "Vicente Iborra"
+     ],
+     "top": "Kévin Gameiro"
+    },
+    "prog": {
+     "core_set": [
+      "Éver Banega",
+      "Kolo",
+      "Yevgen Konoplyanka"
+     ],
+     "top": "Éver Banega"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli",
+      "Éver Banega"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Jony"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Luis Hernández",
+      "Bernardo Espinosa"
+     ],
+     "top": "Luis Hernández"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Álvaro Negredo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo",
+      "André Gomes"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi",
+      "Aderllan Santos"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Denis Suárez"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Eric Bailly"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  },
+  "six roles": {
+   "Barcelona|Rijkaard 2004-08": {
+    "att": {
+     "core_set": [
+      "Samuel Eto'o",
+      "Deco",
+      "Xavi"
+     ],
+     "top": "Samuel Eto'o"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [
+      "Edmilson",
+      "Oleguer"
+     ],
+     "top": "Edmilson"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2008/09": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Yaya Touré"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2009/10": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Xavi",
+      "Gerard Piqué"
+     ],
+     "top": "Xavi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2010/11": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2011/12": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Sergio Busquets",
+      "Gerard Piqué"
+     ],
+     "top": "Sergio Busquets"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2012/13": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Cesc Fàbregas",
+      "Andrés Iniesta"
+     ],
+     "top": "Cesc Fàbregas"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Xavi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Sergio Busquets",
+      "Gerard Piqué"
+     ],
+     "top": "Sergio Busquets"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2013/14": {
+    "att": {
+     "core_set": [
+      "Cesc Fàbregas",
+      "Lionel Messi"
+     ],
+     "top": "Cesc Fàbregas"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Xavi"
+     ],
+     "top": "Xavi"
+    }
+   },
+   "Barcelona|2014/15": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Javier Mascherano",
+      "Lionel Messi"
+     ],
+     "top": "Javier Mascherano"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Lionel Messi"
+    }
+   },
+   "Barcelona|2015/16": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Neymar",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Javier Mascherano"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Javier Mascherano",
+      "Gerard Piqué",
+      "Jordi Alba"
+     ],
+     "top": "Javier Mascherano"
+    }
+   },
+   "Barcelona|2016/17": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi",
+      "Javier Mascherano"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Samuel Umtiti",
+      "Javier Mascherano"
+     ],
+     "top": "Samuel Umtiti"
+    }
+   },
+   "Barcelona|2017/18": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Luis Suárez"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Lionel Messi",
+      "Jordi Alba"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2018/19": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Ivan Rakitić",
+      "Gerard Piqué"
+     ],
+     "top": "Ivan Rakitić"
+    }
+   },
+   "Barcelona|2019/20": {
+    "att": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [
+      "Gerard Piqué"
+     ],
+     "top": "Gerard Piqué"
+    },
+    "org": {
+     "core_set": [
+      "Gerard Piqué",
+      "Sergio Busquets"
+     ],
+     "top": "Gerard Piqué"
+    }
+   },
+   "Barcelona|2020/21": {
+    "att": {
+     "core_set": [
+      "Lionel Messi",
+      "Jordi Alba"
+     ],
+     "top": "Lionel Messi"
+    },
+    "prog": {
+     "core_set": [
+      "Lionel Messi"
+     ],
+     "top": "Lionel Messi"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Antoine Griezmann"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Lionel Messi"
+    }
+   },
+   "Athletic Club|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Raúl García"
+    },
+    "prog": {
+     "core_set": [
+      "Beñat Etxebarria",
+      "Aymeric Laporte"
+     ],
+     "top": "Beñat Etxebarria"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aritz Aduriz"
+    },
+    "org": {
+     "core_set": [
+      "Aymeric Laporte",
+      "Beñat Etxebarria"
+     ],
+     "top": "Aymeric Laporte"
+    }
+   },
+   "Atlético Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Koke"
+     ],
+     "top": "Koke"
+    },
+    "prog": {
+     "core_set": [
+      "Gabi",
+      "Filipe Luis",
+      "Antoine Griezmann"
+     ],
+     "top": "Gabi"
+    },
+    "def": {
+     "core_set": [
+      "Saúl Ñíguez",
+      "Antoine Griezmann",
+      "Gabi"
+     ],
+     "top": "Saúl Ñíguez"
+    },
+    "org": {
+     "core_set": [
+      "Antoine Griezmann",
+      "Gabi",
+      "Filipe Luis"
+     ],
+     "top": "Antoine Griezmann"
+    }
+   },
+   "Celta Vigo|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Daniel Wass"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Andreu Fontàs"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Pablo Hernández"
+    },
+    "org": {
+     "core_set": [
+      "Gustavo Cabral"
+     ],
+     "top": "Gustavo Cabral"
+    }
+   },
+   "Eibar|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Borja Bastón"
+    },
+    "prog": {
+     "core_set": [
+      "David Juncà",
+      "Ander Capa"
+     ],
+     "top": "David Juncà"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Gonzalo Escalante"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Sergi Enrich"
+    }
+   },
+   "Espanyol|2015/16": {
+    "att": {
+     "core_set": [
+      "Marco Asensio Willemsen"
+     ],
+     "top": "Marco Asensio Willemsen"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Álvaro González"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Pape Diop"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Gerard Moreno"
+    }
+   },
+   "Getafe|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Víctor Rodríguez"
+    },
+    "prog": {
+     "core_set": [
+      "Damián Suárez",
+      "Pablo Sarabia"
+     ],
+     "top": "Damián Suárez"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Juan Rodríguez"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Emiliano Buendía"
+    }
+   },
+   "Granada|2015/16": {
+    "att": {
+     "core_set": [
+      "Rubén Rochina"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "prog": {
+     "core_set": [
+      "Rubén Rochina",
+      "Rubén Pérez",
+      "Adalberto Peñaranda"
+     ],
+     "top": "Rubén Rochina"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Rene Krhin"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Barral"
+    }
+   },
+   "Las Palmas|2015/16": {
+    "att": {
+     "core_set": [
+      "Jonathan Viera"
+     ],
+     "top": "Jonathan Viera"
+    },
+    "prog": {
+     "core_set": [
+      "Roque Mesa",
+      "Jonathan Viera"
+     ],
+     "top": "Roque Mesa"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Pedro Bigas"
+    },
+    "org": {
+     "core_set": [
+      "Roque Mesa"
+     ],
+     "top": "Roque Mesa"
+    }
+   },
+   "Levante UD|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "José Luis Morales"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Juanfran"
+    },
+    "def": {
+     "core_set": [
+      "Simão"
+     ],
+     "top": "Simão"
+    },
+    "org": {
+     "core_set": [
+      "Joan Verdú",
+      "Víctor Casadesús"
+     ],
+     "top": "Joan Verdú"
+    }
+   },
+   "Málaga|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Juanpi"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Fernando Tissone"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Ignacio Camacho"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Duda"
+    }
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "att": {
+     "core_set": [
+      "Luis Alberto",
+      "Lucas Pérez"
+     ],
+     "top": "Luis Alberto"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Lucas Pérez"
+    },
+    "def": {
+     "core_set": [
+      "Sidnei",
+      "Pedro Mosquera",
+      "Alejandro Arribas"
+     ],
+     "top": "Sidnei"
+    },
+    "org": {
+     "core_set": [
+      "Fayçal Fajr"
+     ],
+     "top": "Fayçal Fajr"
+    }
+   },
+   "Rayo Vallecano|2015/16": {
+    "att": {
+     "core_set": [
+      "Jozabed Sánchez",
+      "Miku Fedor"
+     ],
+     "top": "Jozabed Sánchez"
+    },
+    "prog": {
+     "core_set": [
+      "Roberto Trashorras",
+      "Zé Castro"
+     ],
+     "top": "Roberto Trashorras"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Bebé"
+    },
+    "org": {
+     "core_set": [
+      "Roberto Trashorras"
+     ],
+     "top": "Roberto Trashorras"
+    }
+   },
+   "Real Betis|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Joaquín"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Dani Ceballos"
+    },
+    "def": {
+     "core_set": [
+      "Heiko Westermann",
+      "Bruno González",
+      "Alfred N'Diaye"
+     ],
+     "top": "Heiko Westermann"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Francisco Portillo"
+    }
+   },
+   "Real Madrid|2015/16": {
+    "att": {
+     "core_set": [
+      "Cristiano Ronaldo"
+     ],
+     "top": "Cristiano Ronaldo"
+    },
+    "prog": {
+     "core_set": [
+      "Luka Modrić",
+      "Toni Kroos"
+     ],
+     "top": "Luka Modrić"
+    },
+    "def": {
+     "core_set": [
+      "Raphaël Varane",
+      "Casemiro"
+     ],
+     "top": "Raphaël Varane"
+    },
+    "org": {
+     "core_set": [
+      "Toni Kroos"
+     ],
+     "top": "Toni Kroos"
+    }
+   },
+   "Real Sociedad|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rubén Pardo"
+    },
+    "prog": {
+     "core_set": [],
+     "top": "Íñigo Martínez"
+    },
+    "def": {
+     "core_set": [],
+     "top": "Aritz Elustondo"
+    },
+    "org": {
+     "core_set": [],
+     "top": "David Zurutuza"
+    }
+   },
+   "Sevilla|2015/16": {
+    "att": {
+     "core_set": [
+      "Vicente Iborra",
+      "Kévin Gameiro"
+     ],
+     "top": "Vicente Iborra"
+    },
+    "prog": {
+     "core_set": [
+      "Kolo",
+      "Éver Banega"
+     ],
+     "top": "Kolo"
+    },
+    "def": {
+     "core_set": [
+      "Grzegorz Krychowiak"
+     ],
+     "top": "Grzegorz Krychowiak"
+    },
+    "org": {
+     "core_set": [
+      "Michael Krohn-Dehli",
+      "Kolo",
+      "Éver Banega"
+     ],
+     "top": "Michael Krohn-Dehli"
+    }
+   },
+   "Sporting Gijón|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Alen Halilović"
+    },
+    "prog": {
+     "core_set": [
+      "Alen Halilović",
+      "Isma López"
+     ],
+     "top": "Alen Halilović"
+    },
+    "def": {
+     "core_set": [
+      "Bernardo Espinosa"
+     ],
+     "top": "Bernardo Espinosa"
+    },
+    "org": {
+     "core_set": [],
+     "top": "Carlos Carmona"
+    }
+   },
+   "Valencia|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Rodrigo"
+    },
+    "prog": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    },
+    "def": {
+     "core_set": [
+      "Shkodran Mustafi",
+      "Aderllan Santos",
+      "Enzo Pérez"
+     ],
+     "top": "Shkodran Mustafi"
+    },
+    "org": {
+     "core_set": [
+      "Dani Parejo",
+      "Shkodran Mustafi"
+     ],
+     "top": "Dani Parejo"
+    }
+   },
+   "Villarreal|2015/16": {
+    "att": {
+     "core_set": [],
+     "top": "Cédric Bakambu"
+    },
+    "prog": {
+     "core_set": [
+      "Víctor Ruíz",
+      "Bruno Soriano"
+     ],
+     "top": "Víctor Ruíz"
+    },
+    "def": {
+     "core_set": [
+      "Bruno Soriano",
+      "Eric Bailly",
+      "Tomás Pina"
+     ],
+     "top": "Bruno Soriano"
+    },
+    "org": {
+     "core_set": [
+      "Bruno Soriano",
+      "Jonathan dos Santos"
+     ],
+     "top": "Bruno Soriano"
+    }
+   }
+  }
+ },
+ "six_role_constants": {
+  "rates": {
+   "att": {
+    "CB": 0.11155409977207802,
+    "CF": 0.9781515487418764,
+    "CM": 0.31907842149632404,
+    "FB": 0.16882216714910292,
+    "W": 0.7440358257241222,
+    "WM": 0.5107713328967419
+   },
+   "prog": {
+    "CB": 0.14555414868128716,
+    "CF": 0.060489193169167545,
+    "CM": 0.16331813192368072,
+    "FB": 0.14657513892558707,
+    "W": 0.12848624081261253,
+    "WM": 0.13319823162180577
+   },
+   "def": {
+    "CB": 1.4885043643570592,
+    "CF": 0.30199097099637795,
+    "CM": 0.6208731866978585,
+    "FB": 0.8107972043729181,
+    "W": 0.33731853434573716,
+    "WM": 0.3615384827838626
+   },
+   "org": {
+    "CB": 31.669160677511474,
+    "CF": 16.44120598547969,
+    "CM": 38.38273883865257,
+    "FB": 29.598720326000052,
+    "W": 25.046194950002192,
+    "WM": 26.377714985167863
+   }
+  },
+  "alpha": {
+   "att": {
+    "CB": 10.10469905062631,
+    "CF": 21.296060931278152,
+    "CM": 2.658749682591181,
+    "FB": 10.235208048551678,
+    "W": 9.227965720925205,
+    "WM": 15.326084843503187
+   },
+   "prog": {
+    "CB": 12.174085447308888,
+    "CF": 5.815805262990667,
+    "CM": 16.101867542121397,
+    "FB": 27.472226994429647,
+    "W": 13.6047928921219,
+    "WM": 20.843160756029693
+   },
+   "def": {
+    "CB": 40.72194848533825,
+    "CF": 6.169429592810899,
+    "CM": 7.781698106523894,
+    "FB": 61.74607276902118,
+    "W": 11.348465085534787,
+    "WM": 32.66417073037395
+   },
+   "org": {
+    "CB": 10.636277228282498,
+    "CF": 17.249797729481084,
+    "CM": 12.899797190642548,
+    "FB": 15.08219995598511,
+    "W": 14.939823096026066,
+    "WM": 12.978927355563387
+   }
+  }
+ }
+}

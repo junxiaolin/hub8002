@@ -1,0 +1,1387 @@
+{
+ "reps": 200,
+ "units": {
+  "Athletic Club|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.15,
+     "mean_size": 0.26
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.995,
+     "mean_size": 1.02
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.07,
+     "mean_size": 0.09
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.95,
+     "mean_size": 1.11
+    },
+    "mdl_cm": {
+     "fp_rate": 0.005,
+     "mean_size": 0.005
+    }
+   }
+  },
+  "Atlético Madrid|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.22,
+     "mean_size": 0.43
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.015
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.2,
+     "mean_size": 0.27
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.195,
+     "mean_size": 0.195
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.205,
+     "mean_size": 0.355
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.01
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.465,
+     "mean_size": 0.88
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.03,
+     "mean_size": 0.09
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Celta Vigo|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.035,
+     "mean_size": 0.035
+    },
+    "bayes_p": {
+     "fp_rate": 0.23,
+     "mean_size": 0.375
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.27,
+     "mean_size": 0.27
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.1,
+     "mean_size": 0.16
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Eibar|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.005,
+     "mean_size": 0.01
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.015
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.19,
+     "mean_size": 0.265
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.265,
+     "mean_size": 0.335
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Espanyol|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.175,
+     "mean_size": 0.175
+    },
+    "bayes_p": {
+     "fp_rate": 0.41,
+     "mean_size": 0.585
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.035
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.145,
+     "mean_size": 0.205
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.135,
+     "mean_size": 0.16
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Getafe|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.125,
+     "mean_size": 0.125
+    },
+    "bayes_p": {
+     "fp_rate": 0.235,
+     "mean_size": 0.235
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.63,
+     "mean_size": 0.63
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.235,
+     "mean_size": 0.36
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.245,
+     "mean_size": 0.285
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Granada|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.005,
+     "mean_size": 0.005
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.985,
+     "mean_size": 1.01
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.045,
+     "mean_size": 0.045
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.005,
+     "mean_size": 0.005
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Las Palmas|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.13,
+     "mean_size": 0.19
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.005
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.175,
+     "mean_size": 0.27
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.02,
+     "mean_size": 0.02
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Levante UD|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.02,
+     "mean_size": 0.02
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.015
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.07,
+     "mean_size": 0.09
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.205,
+     "mean_size": 0.23
+    },
+    "mdl_cm": {
+     "fp_rate": 0.01,
+     "mean_size": 0.01
+    }
+   }
+  },
+  "Málaga|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.025,
+     "mean_size": 0.035
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.01
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.085,
+     "mean_size": 0.115
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.31,
+     "mean_size": 0.365
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "RC Deportivo La Coruña|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.015,
+     "mean_size": 0.015
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.01
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.135,
+     "mean_size": 0.24
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.005,
+     "mean_size": 0.005
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Rayo Vallecano|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.005,
+     "mean_size": 0.01
+    },
+    "bayes_p": {
+     "fp_rate": 0.365,
+     "mean_size": 0.64
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.97,
+     "mean_size": 1.18
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.25,
+     "mean_size": 0.355
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.36,
+     "mean_size": 0.4
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Real Betis|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.02,
+     "mean_size": 0.02
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.015
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.07,
+     "mean_size": 0.11
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.125,
+     "mean_size": 0.135
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Real Madrid|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.01,
+     "mean_size": 0.01
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.92,
+     "mean_size": 0.935
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.305,
+     "mean_size": 0.58
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.73,
+     "mean_size": 0.795
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Real Sociedad|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.075,
+     "mean_size": 0.1
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.995,
+     "mean_size": 1.005
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.115,
+     "mean_size": 0.165
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.31,
+     "mean_size": 0.435
+    },
+    "mdl_cm": {
+     "fp_rate": 0.005,
+     "mean_size": 0.015
+    }
+   }
+  },
+  "Sevilla|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.11,
+     "mean_size": 0.17
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.035
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.305,
+     "mean_size": 0.45
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Sporting Gijón|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.025,
+     "mean_size": 0.04
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.99,
+     "mean_size": 1.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.04,
+     "mean_size": 0.05
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.075,
+     "mean_size": 0.085
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Valencia|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.01,
+     "mean_size": 0.015
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.955,
+     "mean_size": 0.98
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.22,
+     "mean_size": 0.27
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.445,
+     "mean_size": 0.475
+    },
+    "mdl_cm": {
+     "fp_rate": 0.005,
+     "mean_size": 0.01
+    }
+   }
+  },
+  "Villarreal|2015/16": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.15,
+     "mean_size": 0.245
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.05,
+     "mean_size": 0.065
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2004/05": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.085,
+     "mean_size": 0.1
+    },
+    "bayes_p": {
+     "fp_rate": 0.335,
+     "mean_size": 0.58
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.85,
+     "mean_size": 1.05
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.185,
+     "mean_size": 0.245
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2005/06": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.175,
+     "mean_size": 0.31
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.98,
+     "mean_size": 0.99
+    },
+    "mdl_cm": {
+     "fp_rate": 0.03,
+     "mean_size": 0.035
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.39,
+     "mean_size": 0.485
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2006/07": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.13,
+     "mean_size": 0.225
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.01
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.07,
+     "mean_size": 0.075
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2007/08": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.195,
+     "mean_size": 0.23
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.48,
+     "mean_size": 0.48
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.155,
+     "mean_size": 0.235
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2008/09": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.165,
+     "mean_size": 0.27
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.01
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.37,
+     "mean_size": 0.635
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.165,
+     "mean_size": 0.245
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2009/10": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.11,
+     "mean_size": 0.21
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.005
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.205,
+     "mean_size": 0.395
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.02,
+     "mean_size": 0.02
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2010/11": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.01,
+     "mean_size": 0.01
+    },
+    "bayes_p": {
+     "fp_rate": 0.505,
+     "mean_size": 1.07
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.905,
+     "mean_size": 0.91
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.47,
+     "mean_size": 0.8
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2011/12": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.24,
+     "mean_size": 0.475
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.02
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.235,
+     "mean_size": 0.385
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2012/13": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.095,
+     "mean_size": 0.165
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.005
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.245,
+     "mean_size": 0.455
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2013/14": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.04,
+     "mean_size": 0.09
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.015
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.335,
+     "mean_size": 0.57
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2014/15": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.155,
+     "mean_size": 0.285
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.005
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.325,
+     "mean_size": 0.605
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.065,
+     "mean_size": 0.165
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2016/17": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.27,
+     "mean_size": 0.365
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.18,
+     "mean_size": 0.18
+    },
+    "bayes_p": {
+     "fp_rate": 0.41,
+     "mean_size": 0.605
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.05,
+     "mean_size": 0.315
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2017/18": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.085,
+     "mean_size": 0.14
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.13,
+     "mean_size": 0.22
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.08,
+     "mean_size": 0.255
+    },
+    "mdl_cm": {
+     "fp_rate": 0.005,
+     "mean_size": 0.015
+    }
+   }
+  },
+  "Barcelona|2018/19": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.35,
+     "mean_size": 0.645
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.17,
+     "mean_size": 0.31
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2019/20": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.115,
+     "mean_size": 0.23
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.99,
+     "mean_size": 0.995
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.355,
+     "mean_size": 0.64
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.01,
+     "mean_size": 0.03
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  },
+  "Barcelona|2020/21": {
+   "org": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.2,
+     "mean_size": 0.38
+    },
+    "mdl_cm_min": {
+     "fp_rate": 1.0,
+     "mean_size": 1.01
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   },
+   "box": {
+    "bayes_nb": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    },
+    "bayes_p": {
+     "fp_rate": 0.33,
+     "mean_size": 0.63
+    },
+    "mdl_cm_min": {
+     "fp_rate": 0.235,
+     "mean_size": 0.56
+    },
+    "mdl_cm": {
+     "fp_rate": 0.0,
+     "mean_size": 0.0
+    }
+   }
+  }
+ },
+ "mean_fp_rate": {
+  "org": {
+   "bayes_nb": 0.012083333333333333,
+   "bayes_p": 0.155,
+   "mdl_cm_min": 0.9420833333333333,
+   "mdl_cm": 0.0008333333333333333
+  },
+  "box": {
+   "bayes_nb": 0.005,
+   "bayes_p": 0.21250000000000002,
+   "mdl_cm_min": 0.1398611111111111,
+   "mdl_cm": 0.0008333333333333334
+  }
+ }
+}

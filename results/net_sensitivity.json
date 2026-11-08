@@ -1,0 +1,2648 @@
+{
+ "summary": {
+  "base": {
+   "top_same": 1.0,
+   "core_set_same": 1.0,
+   "n_with_core": 15,
+   "top_same_barca": 1.0
+  },
+  "alpha x0.5": {
+   "top_same": 0.9090909090909091,
+   "core_set_same": 0.8787878787878788,
+   "n_with_core": 16,
+   "top_same_barca": 1.0
+  },
+  "alpha x2": {
+   "top_same": 0.8787878787878788,
+   "core_set_same": 0.8787878787878788,
+   "n_with_core": 15,
+   "top_same_barca": 0.9285714285714286
+  },
+  "phi = 1": {
+   "top_same": 0.9090909090909091,
+   "core_set_same": 0.7272727272727273,
+   "n_with_core": 20,
+   "top_same_barca": 1.0
+  },
+  "core set 80%": {
+   "top_same": 1.0,
+   "core_set_same": 0.7878787878787878,
+   "n_with_core": 18,
+   "top_same_barca": 1.0
+  },
+  "core set 95%": {
+   "top_same": 1.0,
+   "core_set_same": 0.7878787878787878,
+   "n_with_core": 10,
+   "top_same_barca": 1.0
+  },
+  "P(VOA>0) >= 0.8": {
+   "top_same": 1.0,
+   "core_set_same": 0.9393939393939394,
+   "n_with_core": 17,
+   "top_same_barca": 1.0
+  },
+  "P(VOA>0) >= 0.95": {
+   "top_same": 1.0,
+   "core_set_same": 1.0,
+   "n_with_core": 15,
+   "top_same_barca": 1.0
+  },
+  "min minutes 450": {
+   "top_same": 1.0,
+   "core_set_same": 1.0,
+   "n_with_core": 15,
+   "top_same_barca": 1.0
+  },
+  "xG/shot prior 20 shots": {
+   "top_same": 0.9393939393939394,
+   "core_set_same": 0.9696969696969697,
+   "n_with_core": 16,
+   "top_same_barca": 1.0
+  },
+  "average player shares passes equally": {
+   "top_same": 0.8787878787878788,
+   "core_set_same": 0.9090909090909091,
+   "n_with_core": 15,
+   "top_same_barca": 1.0
+  },
+  "six roles": {
+   "top_same": 0.36363636363636365,
+   "core_set_same": 0.48484848484848486,
+   "n_with_core": 15,
+   "top_same_barca": 0.35714285714285715
+  }
+ },
+ "units": {
+  "base": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.999
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    "p_top_max": 0.811
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.983
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.992
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.929
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.957
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.701
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.73
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.615
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.567
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.445
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Ivan Rakitić",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.501
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.415
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.613
+   },
+   "Athletic Club|2015/16": {
+    "top": "Mikel San José",
+    "core_set": [],
+    "p_top_max": 0.387
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [],
+    "p_top_max": 0.705
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Jonny Castro",
+    "core_set": [],
+    "p_top_max": 0.369
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.437
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.222
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.285
+   },
+   "Granada|2015/16": {
+    "top": "Jean-Sylvain Babin",
+    "core_set": [],
+    "p_top_max": 0.192
+   },
+   "Las Palmas|2015/16": {
+    "top": "Emmanuel Culio",
+    "core_set": [],
+    "p_top_max": 0.271
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.264
+   },
+   "Málaga|2015/16": {
+    "top": "Federico Ricca",
+    "core_set": [],
+    "p_top_max": 0.245
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Lucas Pérez",
+    "core_set": [],
+    "p_top_max": 0.332
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.494
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.306
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.595
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.426
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo",
+     "Grzegorz Krychowiak"
+    ],
+    "p_top_max": 0.641
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [],
+    "p_top_max": 0.368
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [
+     "Dani Parejo",
+     "Javi Fuego"
+    ],
+    "p_top_max": 0.75
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.601
+   }
+  },
+  "alpha x0.5": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.998
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    "p_top_max": 0.64
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.985
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.988
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.942
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.939
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.657
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.783
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.641
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto"
+    ],
+    "p_top_max": 0.579
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.439
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Sergio Busquets",
+     "Ivan Rakitić"
+    ],
+    "p_top_max": 0.454
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.446
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.581
+   },
+   "Athletic Club|2015/16": {
+    "top": "Iker Muniain",
+    "core_set": [],
+    "p_top_max": 0.353
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [],
+    "p_top_max": 0.733
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Fabián Orellana",
+    "core_set": [],
+    "p_top_max": 0.426
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.453
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.293
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.269
+   },
+   "Granada|2015/16": {
+    "top": "Fran Rico",
+    "core_set": [],
+    "p_top_max": 0.222
+   },
+   "Las Palmas|2015/16": {
+    "top": "Emmanuel Culio",
+    "core_set": [],
+    "p_top_max": 0.227
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.281
+   },
+   "Málaga|2015/16": {
+    "top": "Federico Ricca",
+    "core_set": [],
+    "p_top_max": 0.243
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Lucas Pérez",
+    "core_set": [],
+    "p_top_max": 0.366
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.433
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.298
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.584
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.409
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo"
+    ],
+    "p_top_max": 0.672
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [],
+    "p_top_max": 0.343
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [
+     "Dani Parejo",
+     "Javi Fuego"
+    ],
+    "p_top_max": 0.745
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.596
+   }
+  },
+  "alpha x2": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 1.0
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.927
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.967
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.972
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.913
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.958
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.731
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets",
+     "Dani Alves"
+    ],
+    "p_top_max": 0.619
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Jordi Alba",
+     "Dani Alves"
+    ],
+    "p_top_max": 0.5
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.504
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.431
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Ivan Rakitić",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.663
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergi Roberto",
+    "core_set": [],
+    "p_top_max": 0.381
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.597
+   },
+   "Athletic Club|2015/16": {
+    "top": "Mikel San José",
+    "core_set": [],
+    "p_top_max": 0.413
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [],
+    "p_top_max": 0.64
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Jonny Castro",
+    "core_set": [],
+    "p_top_max": 0.431
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.384
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.22
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.303
+   },
+   "Granada|2015/16": {
+    "top": "Jean-Sylvain Babin",
+    "core_set": [],
+    "p_top_max": 0.201
+   },
+   "Las Palmas|2015/16": {
+    "top": "Vicente Gómez",
+    "core_set": [],
+    "p_top_max": 0.307
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.235
+   },
+   "Málaga|2015/16": {
+    "top": "Roque Santa Cruz",
+    "core_set": [],
+    "p_top_max": 0.221
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Pedro Mosquera",
+    "core_set": [],
+    "p_top_max": 0.28
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.552
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.281
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.561
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.486
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo",
+     "Grzegorz Krychowiak"
+    ],
+    "p_top_max": 0.585
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [],
+    "p_top_max": 0.411
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [],
+    "p_top_max": 0.736
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.568
+   }
+  },
+  "phi = 1": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 1.0
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    "p_top_max": 0.712
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 1.0
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 1.0
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.981
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.99
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.714
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.888
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi"
+    ],
+    "p_top_max": 0.786
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto"
+    ],
+    "p_top_max": 0.733
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.497
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Sergio Busquets",
+     "Ivan Rakitić"
+    ],
+    "p_top_max": 0.509
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.563
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi"
+    ],
+    "p_top_max": 0.664
+   },
+   "Athletic Club|2015/16": {
+    "top": "Iker Muniain",
+    "core_set": [],
+    "p_top_max": 0.421
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [
+     "Antoine Griezmann",
+     "Filipe Luis"
+    ],
+    "p_top_max": 0.886
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Fabián Orellana",
+    "core_set": [
+     "Fabián Orellana",
+     "Jonny Castro",
+     "Iago Aspas"
+    ],
+    "p_top_max": 0.523
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.611
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.366
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.372
+   },
+   "Granada|2015/16": {
+    "top": "Abdoulaye Doucouré",
+    "core_set": [],
+    "p_top_max": 0.236
+   },
+   "Las Palmas|2015/16": {
+    "top": "Emmanuel Culio",
+    "core_set": [],
+    "p_top_max": 0.246
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.378
+   },
+   "Málaga|2015/16": {
+    "top": "Federico Ricca",
+    "core_set": [],
+    "p_top_max": 0.258
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Lucas Pérez",
+    "core_set": [],
+    "p_top_max": 0.489
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.537
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.436
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.672
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.51
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo"
+    ],
+    "p_top_max": 0.8
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [
+     "Alberto Lora",
+     "Luis Hernández",
+     "Nacho Cases"
+    ],
+    "p_top_max": 0.385
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [
+     "Dani Parejo",
+     "Javi Fuego"
+    ],
+    "p_top_max": 0.897
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.787
+   }
+  },
+  "core set 80%": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.999
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.811
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.983
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.992
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.929
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.957
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.701
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.73
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.615
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto"
+    ],
+    "p_top_max": 0.567
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.445
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Ivan Rakitić",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.501
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Lionel Messi"
+    ],
+    "p_top_max": 0.415
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi"
+    ],
+    "p_top_max": 0.613
+   },
+   "Athletic Club|2015/16": {
+    "top": "Mikel San José",
+    "core_set": [],
+    "p_top_max": 0.387
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [],
+    "p_top_max": 0.705
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Jonny Castro",
+    "core_set": [
+     "Jonny Castro",
+     "Fabián Orellana",
+     "Gustavo Cabral"
+    ],
+    "p_top_max": 0.369
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.437
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.222
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.285
+   },
+   "Granada|2015/16": {
+    "top": "Jean-Sylvain Babin",
+    "core_set": [],
+    "p_top_max": 0.192
+   },
+   "Las Palmas|2015/16": {
+    "top": "Emmanuel Culio",
+    "core_set": [],
+    "p_top_max": 0.271
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.264
+   },
+   "Málaga|2015/16": {
+    "top": "Federico Ricca",
+    "core_set": [],
+    "p_top_max": 0.245
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Lucas Pérez",
+    "core_set": [],
+    "p_top_max": 0.332
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.494
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.306
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.595
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.426
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo"
+    ],
+    "p_top_max": 0.641
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [],
+    "p_top_max": 0.368
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [
+     "Dani Parejo",
+     "Javi Fuego"
+    ],
+    "p_top_max": 0.75
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.601
+   }
+  },
+  "core set 95%": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.999
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    "p_top_max": 0.811
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.983
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.992
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Lionel Messi"
+    ],
+    "p_top_max": 0.929
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.957
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.701
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [],
+    "p_top_max": 0.73
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.615
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.567
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.445
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [],
+    "p_top_max": 0.501
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.415
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.613
+   },
+   "Athletic Club|2015/16": {
+    "top": "Mikel San José",
+    "core_set": [],
+    "p_top_max": 0.387
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [],
+    "p_top_max": 0.705
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Jonny Castro",
+    "core_set": [],
+    "p_top_max": 0.369
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.437
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.222
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.285
+   },
+   "Granada|2015/16": {
+    "top": "Jean-Sylvain Babin",
+    "core_set": [],
+    "p_top_max": 0.192
+   },
+   "Las Palmas|2015/16": {
+    "top": "Emmanuel Culio",
+    "core_set": [],
+    "p_top_max": 0.271
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.264
+   },
+   "Málaga|2015/16": {
+    "top": "Federico Ricca",
+    "core_set": [],
+    "p_top_max": 0.245
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Lucas Pérez",
+    "core_set": [],
+    "p_top_max": 0.332
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.494
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.306
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić",
+     "Marcelo"
+    ],
+    "p_top_max": 0.595
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.426
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo",
+     "Grzegorz Krychowiak"
+    ],
+    "p_top_max": 0.641
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [],
+    "p_top_max": 0.368
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [],
+    "p_top_max": 0.75
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.601
+   }
+  },
+  "P(VOA>0) >= 0.8": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.999
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    "p_top_max": 0.811
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.983
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.992
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.929
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.957
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.701
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.73
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.615
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.567
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.445
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Ivan Rakitić",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.501
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.415
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.613
+   },
+   "Athletic Club|2015/16": {
+    "top": "Mikel San José",
+    "core_set": [],
+    "p_top_max": 0.387
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [
+     "Antoine Griezmann",
+     "Filipe Luis",
+     "Gabi"
+    ],
+    "p_top_max": 0.705
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Jonny Castro",
+    "core_set": [],
+    "p_top_max": 0.369
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.437
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.222
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.285
+   },
+   "Granada|2015/16": {
+    "top": "Jean-Sylvain Babin",
+    "core_set": [],
+    "p_top_max": 0.192
+   },
+   "Las Palmas|2015/16": {
+    "top": "Emmanuel Culio",
+    "core_set": [],
+    "p_top_max": 0.271
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.264
+   },
+   "Málaga|2015/16": {
+    "top": "Federico Ricca",
+    "core_set": [],
+    "p_top_max": 0.245
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Lucas Pérez",
+    "core_set": [],
+    "p_top_max": 0.332
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.494
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.306
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.595
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.426
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo",
+     "Grzegorz Krychowiak"
+    ],
+    "p_top_max": 0.641
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [
+     "Alberto Lora",
+     "Luis Hernández",
+     "Nacho Cases"
+    ],
+    "p_top_max": 0.368
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [
+     "Dani Parejo",
+     "Javi Fuego"
+    ],
+    "p_top_max": 0.75
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.601
+   }
+  },
+  "P(VOA>0) >= 0.95": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.999
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    "p_top_max": 0.811
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.983
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.992
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.929
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.957
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.701
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.73
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.615
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.567
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.445
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Ivan Rakitić",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.501
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.415
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.613
+   },
+   "Athletic Club|2015/16": {
+    "top": "Mikel San José",
+    "core_set": [],
+    "p_top_max": 0.387
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [],
+    "p_top_max": 0.705
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Jonny Castro",
+    "core_set": [],
+    "p_top_max": 0.369
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.437
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.222
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.285
+   },
+   "Granada|2015/16": {
+    "top": "Jean-Sylvain Babin",
+    "core_set": [],
+    "p_top_max": 0.192
+   },
+   "Las Palmas|2015/16": {
+    "top": "Emmanuel Culio",
+    "core_set": [],
+    "p_top_max": 0.271
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.264
+   },
+   "Málaga|2015/16": {
+    "top": "Federico Ricca",
+    "core_set": [],
+    "p_top_max": 0.245
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Lucas Pérez",
+    "core_set": [],
+    "p_top_max": 0.332
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.494
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.306
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.595
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.426
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo",
+     "Grzegorz Krychowiak"
+    ],
+    "p_top_max": 0.641
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [],
+    "p_top_max": 0.368
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [
+     "Dani Parejo",
+     "Javi Fuego"
+    ],
+    "p_top_max": 0.75
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.601
+   }
+  },
+  "min minutes 450": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.999
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    "p_top_max": 0.811
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.983
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.992
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.929
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.957
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.701
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.73
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.615
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.567
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.445
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Ivan Rakitić",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.501
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.415
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.613
+   },
+   "Athletic Club|2015/16": {
+    "top": "Mikel San José",
+    "core_set": [],
+    "p_top_max": 0.387
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [],
+    "p_top_max": 0.705
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Jonny Castro",
+    "core_set": [],
+    "p_top_max": 0.369
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.449
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.222
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.285
+   },
+   "Granada|2015/16": {
+    "top": "Jean-Sylvain Babin",
+    "core_set": [],
+    "p_top_max": 0.192
+   },
+   "Las Palmas|2015/16": {
+    "top": "Emmanuel Culio",
+    "core_set": [],
+    "p_top_max": 0.316
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.269
+   },
+   "Málaga|2015/16": {
+    "top": "Federico Ricca",
+    "core_set": [],
+    "p_top_max": 0.247
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Lucas Pérez",
+    "core_set": [],
+    "p_top_max": 0.332
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.494
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.306
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.595
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.426
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo",
+     "Grzegorz Krychowiak"
+    ],
+    "p_top_max": 0.641
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [],
+    "p_top_max": 0.368
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [
+     "Dani Parejo",
+     "Javi Fuego"
+    ],
+    "p_top_max": 0.75
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.601
+   }
+  },
+  "xG/shot prior 20 shots": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.999
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    "p_top_max": 0.88
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.989
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.993
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.936
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.972
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.717
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.736
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.63
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.587
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.464
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Ivan Rakitić",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.606
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.416
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.676
+   },
+   "Athletic Club|2015/16": {
+    "top": "Mikel San José",
+    "core_set": [],
+    "p_top_max": 0.434
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [],
+    "p_top_max": 0.701
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Jonny Castro",
+    "core_set": [],
+    "p_top_max": 0.38
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.412
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.207
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.292
+   },
+   "Granada|2015/16": {
+    "top": "Fran Rico",
+    "core_set": [],
+    "p_top_max": 0.21
+   },
+   "Las Palmas|2015/16": {
+    "top": "Emmanuel Culio",
+    "core_set": [],
+    "p_top_max": 0.265
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.256
+   },
+   "Málaga|2015/16": {
+    "top": "Fábio Espinho",
+    "core_set": [],
+    "p_top_max": 0.252
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Lucas Pérez",
+    "core_set": [],
+    "p_top_max": 0.319
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.681
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.264
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.62
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.453
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo",
+     "Grzegorz Krychowiak"
+    ],
+    "p_top_max": 0.65
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [],
+    "p_top_max": 0.318
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [
+     "Dani Parejo",
+     "Javi Fuego"
+    ],
+    "p_top_max": 0.763
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.65
+   }
+  },
+  "average player shares passes equally": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.997
+   },
+   "Barcelona|2008/09": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Andrés Iniesta"
+    ],
+    "p_top_max": 0.688
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.969
+   },
+   "Barcelona|2010/11": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.997
+   },
+   "Barcelona|2011/12": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.987
+   },
+   "Barcelona|2012/13": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.955
+   },
+   "Barcelona|2013/14": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.632
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Sergio Busquets",
+     "Xavi"
+    ],
+    "p_top_max": 0.655
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.565
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Sergi Roberto",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.521
+   },
+   "Barcelona|2017/18": {
+    "top": "Ivan Rakitić",
+    "core_set": [
+     "Ivan Rakitić",
+     "Sergio Busquets",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.467
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Sergio Busquets",
+     "Ivan Rakitić"
+    ],
+    "p_top_max": 0.555
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.353
+   },
+   "Barcelona|2020/21": {
+    "top": "Sergio Busquets",
+    "core_set": [
+     "Sergio Busquets",
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.612
+   },
+   "Athletic Club|2015/16": {
+    "top": "Mikel San José",
+    "core_set": [],
+    "p_top_max": 0.328
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [],
+    "p_top_max": 0.512
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Fabián Orellana",
+    "core_set": [],
+    "p_top_max": 0.403
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.389
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.215
+   },
+   "Getafe|2015/16": {
+    "top": "Roberto Lago",
+    "core_set": [],
+    "p_top_max": 0.215
+   },
+   "Granada|2015/16": {
+    "top": "Rene Krhin",
+    "core_set": [],
+    "p_top_max": 0.18
+   },
+   "Las Palmas|2015/16": {
+    "top": "Vicente Gómez",
+    "core_set": [],
+    "p_top_max": 0.291
+   },
+   "Levante UD|2015/16": {
+    "top": "Simão",
+    "core_set": [],
+    "p_top_max": 0.219
+   },
+   "Málaga|2015/16": {
+    "top": "Federico Ricca",
+    "core_set": [],
+    "p_top_max": 0.184
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Pedro Mosquera",
+    "core_set": [],
+    "p_top_max": 0.32
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Roberto Trashorras",
+    "core_set": [],
+    "p_top_max": 0.634
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.244
+   },
+   "Real Madrid|2015/16": {
+    "top": "Toni Kroos",
+    "core_set": [
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.672
+   },
+   "Real Sociedad|2015/16": {
+    "top": "Asier Illarramendi",
+    "core_set": [],
+    "p_top_max": 0.387
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo",
+     "Grzegorz Krychowiak"
+    ],
+    "p_top_max": 0.67
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Alberto Lora",
+    "core_set": [],
+    "p_top_max": 0.276
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [
+     "Dani Parejo",
+     "Javi Fuego",
+     "Guilherme Siqueira"
+    ],
+    "p_top_max": 0.661
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [],
+    "p_top_max": 0.508
+   }
+  },
+  "six roles": {
+   "Barcelona|Rijkaard 2004-08": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi"
+    ],
+    "p_top_max": 0.996
+   },
+   "Barcelona|2008/09": {
+    "top": "Andrés Iniesta",
+    "core_set": [
+     "Andrés Iniesta",
+     "Xavi",
+     "Lionel Messi"
+    ],
+    "p_top_max": 0.448
+   },
+   "Barcelona|2009/10": {
+    "top": "Xavi",
+    "core_set": [
+     "Xavi",
+     "Maxwell"
+    ],
+    "p_top_max": 0.873
+   },
+   "Barcelona|2010/11": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi"
+    ],
+    "p_top_max": 0.983
+   },
+   "Barcelona|2011/12": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi"
+    ],
+    "p_top_max": 0.996
+   },
+   "Barcelona|2012/13": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi"
+    ],
+    "p_top_max": 0.916
+   },
+   "Barcelona|2013/14": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Xavi",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.73
+   },
+   "Barcelona|2014/15": {
+    "top": "Lionel Messi",
+    "core_set": [],
+    "p_top_max": 0.476
+   },
+   "Barcelona|2015/16": {
+    "top": "Sergio Busquets",
+    "core_set": [],
+    "p_top_max": 0.316
+   },
+   "Barcelona|2016/17": {
+    "top": "Sergi Roberto",
+    "core_set": [
+     "Sergi Roberto",
+     "Jordi Alba",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.694
+   },
+   "Barcelona|2017/18": {
+    "top": "Jordi Alba",
+    "core_set": [],
+    "p_top_max": 0.397
+   },
+   "Barcelona|2018/19": {
+    "top": "Jordi Alba",
+    "core_set": [
+     "Jordi Alba",
+     "Sergi Roberto",
+     "Sergio Busquets"
+    ],
+    "p_top_max": 0.824
+   },
+   "Barcelona|2019/20": {
+    "top": "Sergi Roberto",
+    "core_set": [],
+    "p_top_max": 0.549
+   },
+   "Barcelona|2020/21": {
+    "top": "Lionel Messi",
+    "core_set": [
+     "Lionel Messi",
+     "Jordi Alba"
+    ],
+    "p_top_max": 0.64
+   },
+   "Athletic Club|2015/16": {
+    "top": "Iker Muniain",
+    "core_set": [],
+    "p_top_max": 0.488
+   },
+   "Atlético Madrid|2015/16": {
+    "top": "Antoine Griezmann",
+    "core_set": [
+     "Filipe Luis",
+     "Antoine Griezmann",
+     "Gabi"
+    ],
+    "p_top_max": 0.46
+   },
+   "Celta Vigo|2015/16": {
+    "top": "Iago Aspas",
+    "core_set": [],
+    "p_top_max": 0.345
+   },
+   "Eibar|2015/16": {
+    "top": "Sergi Enrich",
+    "core_set": [],
+    "p_top_max": 0.484
+   },
+   "Espanyol|2015/16": {
+    "top": "Burgui",
+    "core_set": [],
+    "p_top_max": 0.24
+   },
+   "Getafe|2015/16": {
+    "top": "Damián Suárez",
+    "core_set": [],
+    "p_top_max": 0.417
+   },
+   "Granada|2015/16": {
+    "top": "Isaac Cuenca",
+    "core_set": [],
+    "p_top_max": 0.273
+   },
+   "Las Palmas|2015/16": {
+    "top": "Momo",
+    "core_set": [],
+    "p_top_max": 0.421
+   },
+   "Levante UD|2015/16": {
+    "top": "Verza",
+    "core_set": [],
+    "p_top_max": 0.3
+   },
+   "Málaga|2015/16": {
+    "top": "Charles",
+    "core_set": [],
+    "p_top_max": 0.301
+   },
+   "RC Deportivo La Coruña|2015/16": {
+    "top": "Fayçal Fajr",
+    "core_set": [
+     "Fayçal Fajr",
+     "Lucas Pérez"
+    ],
+    "p_top_max": 0.851
+   },
+   "Rayo Vallecano|2015/16": {
+    "top": "Pablo Hernández",
+    "core_set": [],
+    "p_top_max": 0.79
+   },
+   "Real Betis|2015/16": {
+    "top": "Martín Montoya",
+    "core_set": [],
+    "p_top_max": 0.244
+   },
+   "Real Madrid|2015/16": {
+    "top": "Karim Benzema",
+    "core_set": [
+     "Karim Benzema",
+     "Toni Kroos",
+     "Luka Modrić"
+    ],
+    "p_top_max": 0.492
+   },
+   "Real Sociedad|2015/16": {
+    "top": "David Zurutuza",
+    "core_set": [],
+    "p_top_max": 0.251
+   },
+   "Sevilla|2015/16": {
+    "top": "Michael Krohn-Dehli",
+    "core_set": [
+     "Michael Krohn-Dehli",
+     "Vitolo"
+    ],
+    "p_top_max": 0.698
+   },
+   "Sporting Gijón|2015/16": {
+    "top": "Luis Hernández",
+    "core_set": [],
+    "p_top_max": 0.43
+   },
+   "Valencia|2015/16": {
+    "top": "Dani Parejo",
+    "core_set": [],
+    "p_top_max": 0.404
+   },
+   "Villarreal|2015/16": {
+    "top": "Bruno Soriano",
+    "core_set": [
+     "Bruno Soriano",
+     "Mario Gaspar"
+    ],
+    "p_top_max": 0.661
+   }
+  }
+ }
+}

@@ -1,0 +1,2459 @@
+{
+ "rows": [
+  {
+   "team": "Athletic Club",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.03305266087839919,
+    "raw_per90": 0.055071657598911465,
+    "position_average": 0.03575622040245228
+   }
+  },
+  {
+   "team": "Athletic Club",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.001229546335050473,
+    "raw_per90": 0.001374314003433513,
+    "position_average": 0.002355930392755202
+   }
+  },
+  {
+   "team": "Athletic Club",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.01163354568621893,
+    "raw_per90": 0.01777965967989372,
+    "position_average": 0.07829315955302305
+   }
+  },
+  {
+   "team": "Atlético Madrid",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 16,
+   "mse": {
+    "ours": 0.06061554239519899,
+    "raw_per90": 0.06821058259157035,
+    "position_average": 0.10061949697822856
+   }
+  },
+  {
+   "team": "Atlético Madrid",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 16,
+   "mse": {
+    "ours": 0.0005742985380354472,
+    "raw_per90": 0.0005860700842102274,
+    "position_average": 0.00253082527490685
+   }
+  },
+  {
+   "team": "Atlético Madrid",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 16,
+   "mse": {
+    "ours": 0.01158214387712666,
+    "raw_per90": 0.01427504112071312,
+    "position_average": 0.06075985803748716
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.04795125530241164,
+    "raw_per90": 0.06878771234601574,
+    "position_average": 0.08029679742621434
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.001165161574819961,
+    "raw_per90": 0.0009819508645111678,
+    "position_average": 0.0069558989974632624
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.08193529843450106,
+    "raw_per90": 0.11174072540525835,
+    "position_average": 0.13584964284513582
+   }
+  },
+  {
+   "team": "Celta Vigo",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 14,
+   "mse": {
+    "ours": 0.038936931298187,
+    "raw_per90": 0.048216906137768474,
+    "position_average": 0.03361071784473876
+   }
+  },
+  {
+   "team": "Celta Vigo",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 14,
+   "mse": {
+    "ours": 0.0005517687948357471,
+    "raw_per90": 0.0005091264484159506,
+    "position_average": 0.0014894452001733473
+   }
+  },
+  {
+   "team": "Celta Vigo",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 14,
+   "mse": {
+    "ours": 0.03929802533632993,
+    "raw_per90": 0.03493628806868768,
+    "position_average": 0.1095952844050739
+   }
+  },
+  {
+   "team": "Eibar",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 16,
+   "mse": {
+    "ours": 0.011146751233483425,
+    "raw_per90": 0.019326760765933957,
+    "position_average": 0.02668965248590796
+   }
+  },
+  {
+   "team": "Eibar",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 16,
+   "mse": {
+    "ours": 0.0010326832766005011,
+    "raw_per90": 0.0013930052678914353,
+    "position_average": 0.0017830630591777652
+   }
+  },
+  {
+   "team": "Eibar",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 16,
+   "mse": {
+    "ours": 0.027482937989501605,
+    "raw_per90": 0.028864368591531103,
+    "position_average": 0.09092587309473987
+   }
+  },
+  {
+   "team": "Espanyol",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 19,
+   "mse": {
+    "ours": 0.06380057362982297,
+    "raw_per90": 0.11375775762273753,
+    "position_average": 0.08491653330637715
+   }
+  },
+  {
+   "team": "Espanyol",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 19,
+   "mse": {
+    "ours": 0.0011786858181399734,
+    "raw_per90": 0.0015970283229624345,
+    "position_average": 0.0015956239780225482
+   }
+  },
+  {
+   "team": "Espanyol",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 19,
+   "mse": {
+    "ours": 0.06259686258414791,
+    "raw_per90": 0.08329048912682503,
+    "position_average": 0.0632330986716952
+   }
+  },
+  {
+   "team": "Getafe",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 17,
+   "mse": {
+    "ours": 0.03174995732918957,
+    "raw_per90": 0.03504254976080318,
+    "position_average": 0.07297752215231804
+   }
+  },
+  {
+   "team": "Getafe",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 17,
+   "mse": {
+    "ours": 0.00038919065457415294,
+    "raw_per90": 0.0003515730520154731,
+    "position_average": 0.0016488026780795775
+   }
+  },
+  {
+   "team": "Getafe",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 17,
+   "mse": {
+    "ours": 0.04514176658691657,
+    "raw_per90": 0.07012566737149627,
+    "position_average": 0.05203513834495465
+   }
+  },
+  {
+   "team": "Granada",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 15,
+   "mse": {
+    "ours": 0.027860058632255796,
+    "raw_per90": 0.028582958293672436,
+    "position_average": 0.050920889632471135
+   }
+  },
+  {
+   "team": "Granada",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 15,
+   "mse": {
+    "ours": 0.0004026327048326302,
+    "raw_per90": 0.0004489681439743715,
+    "position_average": 0.001140470821870184
+   }
+  },
+  {
+   "team": "Granada",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 15,
+   "mse": {
+    "ours": 0.03274641937311689,
+    "raw_per90": 0.03701211551243313,
+    "position_average": 0.06811166843610544
+   }
+  },
+  {
+   "team": "Las Palmas",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 17,
+   "mse": {
+    "ours": 0.018282361511421,
+    "raw_per90": 0.02062004927734228,
+    "position_average": 0.025392901363167224
+   }
+  },
+  {
+   "team": "Las Palmas",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 17,
+   "mse": {
+    "ours": 0.0012460337172779563,
+    "raw_per90": 0.002090007069430944,
+    "position_average": 0.002035342248796121
+   }
+  },
+  {
+   "team": "Las Palmas",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 17,
+   "mse": {
+    "ours": 0.05123127628337821,
+    "raw_per90": 0.06824862798942562,
+    "position_average": 0.11695240252795118
+   }
+  },
+  {
+   "team": "Levante UD",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.028512729048957026,
+    "raw_per90": 0.028599620763795228,
+    "position_average": 0.05195707458499254
+   }
+  },
+  {
+   "team": "Levante UD",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0010532737652477384,
+    "raw_per90": 0.001578717183671817,
+    "position_average": 0.0008711087194120693
+   }
+  },
+  {
+   "team": "Levante UD",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.06525851675865621,
+    "raw_per90": 0.06201966908997435,
+    "position_average": 0.15034608359023208
+   }
+  },
+  {
+   "team": "Málaga",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 16,
+   "mse": {
+    "ours": 0.030559913308819953,
+    "raw_per90": 0.0326594094107305,
+    "position_average": 0.03132632173159453
+   }
+  },
+  {
+   "team": "Málaga",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 16,
+   "mse": {
+    "ours": 0.0004188196743165511,
+    "raw_per90": 0.0006415017857062826,
+    "position_average": 0.0005074790851583561
+   }
+  },
+  {
+   "team": "Málaga",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 16,
+   "mse": {
+    "ours": 0.03532867210241018,
+    "raw_per90": 0.058477958712134,
+    "position_average": 0.07747495987289768
+   }
+  },
+  {
+   "team": "RC Deportivo La Coruña",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.031959253483557805,
+    "raw_per90": 0.03182434798517237,
+    "position_average": 0.07924988447763699
+   }
+  },
+  {
+   "team": "RC Deportivo La Coruña",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0004994838661519294,
+    "raw_per90": 0.0005342638318019574,
+    "position_average": 0.0010970371390353459
+   }
+  },
+  {
+   "team": "RC Deportivo La Coruña",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.014972167181384971,
+    "raw_per90": 0.020571208739053066,
+    "position_average": 0.09811092477437643
+   }
+  },
+  {
+   "team": "Rayo Vallecano",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 16,
+   "mse": {
+    "ours": 0.07804669128082155,
+    "raw_per90": 0.2062622942282771,
+    "position_average": 0.06191049809775019
+   }
+  },
+  {
+   "team": "Rayo Vallecano",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 16,
+   "mse": {
+    "ours": 0.0010960128605867734,
+    "raw_per90": 0.001194842253287716,
+    "position_average": 0.0023425963045188604
+   }
+  },
+  {
+   "team": "Rayo Vallecano",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 16,
+   "mse": {
+    "ours": 0.037457702765519275,
+    "raw_per90": 0.04367624823004164,
+    "position_average": 0.05660515803266952
+   }
+  },
+  {
+   "team": "Real Betis",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 16,
+   "mse": {
+    "ours": 0.04210046453779551,
+    "raw_per90": 0.06655280407228609,
+    "position_average": 0.05517393061923976
+   }
+  },
+  {
+   "team": "Real Betis",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 16,
+   "mse": {
+    "ours": 0.0007820725852189917,
+    "raw_per90": 0.000654604767113637,
+    "position_average": 0.002184007953703042
+   }
+  },
+  {
+   "team": "Real Betis",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 16,
+   "mse": {
+    "ours": 0.04249544497500974,
+    "raw_per90": 0.04893534854277363,
+    "position_average": 0.11614308224563272
+   }
+  },
+  {
+   "team": "Real Madrid",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.02434637478288962,
+    "raw_per90": 0.024206001066661455,
+    "position_average": 0.10272897452498478
+   }
+  },
+  {
+   "team": "Real Madrid",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.000731210378905918,
+    "raw_per90": 0.0008645109543831662,
+    "position_average": 0.002981166865541391
+   }
+  },
+  {
+   "team": "Real Madrid",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.02014961713191597,
+    "raw_per90": 0.03513573890643368,
+    "position_average": 0.1085084183013836
+   }
+  },
+  {
+   "team": "Real Sociedad",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.039746673840479224,
+    "raw_per90": 0.047117657439471036,
+    "position_average": 0.03922674678992942
+   }
+  },
+  {
+   "team": "Real Sociedad",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0004899566917420735,
+    "raw_per90": 0.0005175540415789072,
+    "position_average": 0.0014936874919301494
+   }
+  },
+  {
+   "team": "Real Sociedad",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.019667947176500795,
+    "raw_per90": 0.022434641898367958,
+    "position_average": 0.04161081517106403
+   }
+  },
+  {
+   "team": "Sevilla",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.0729549831099375,
+    "raw_per90": 0.06432131589015481,
+    "position_average": 0.11910128535230004
+   }
+  },
+  {
+   "team": "Sevilla",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0009345025497276843,
+    "raw_per90": 0.002535500289379498,
+    "position_average": 0.001670315766774655
+   }
+  },
+  {
+   "team": "Sevilla",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.08292223829619823,
+    "raw_per90": 0.09770296681941026,
+    "position_average": 0.13860551317881137
+   }
+  },
+  {
+   "team": "Sporting Gijón",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.0275379966503847,
+    "raw_per90": 0.07040579672100516,
+    "position_average": 0.03356579501459583
+   }
+  },
+  {
+   "team": "Sporting Gijón",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0006102772673074292,
+    "raw_per90": 0.0006411453556583891,
+    "position_average": 0.0015494749282751765
+   }
+  },
+  {
+   "team": "Sporting Gijón",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.03575250185634009,
+    "raw_per90": 0.0404788456516126,
+    "position_average": 0.07650271065830225
+   }
+  },
+  {
+   "team": "Valencia",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 19,
+   "mse": {
+    "ours": 0.033978490836431646,
+    "raw_per90": 0.033338402802204625,
+    "position_average": 0.048897702820195905
+   }
+  },
+  {
+   "team": "Valencia",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 19,
+   "mse": {
+    "ours": 0.0011271965427629527,
+    "raw_per90": 0.0012184056390467809,
+    "position_average": 0.002281682619410695
+   }
+  },
+  {
+   "team": "Valencia",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 19,
+   "mse": {
+    "ours": 0.0547683643154801,
+    "raw_per90": 0.10135344375059419,
+    "position_average": 0.09166082177404195
+   }
+  },
+  {
+   "team": "Villarreal",
+   "season": "2015/16",
+   "layer": "att",
+   "n": 19,
+   "mse": {
+    "ours": 0.019601976739531676,
+    "raw_per90": 0.03189538965548061,
+    "position_average": 0.02855122769533676
+   }
+  },
+  {
+   "team": "Villarreal",
+   "season": "2015/16",
+   "layer": "prog",
+   "n": 19,
+   "mse": {
+    "ours": 0.0006965160552931606,
+    "raw_per90": 0.0008725616636669012,
+    "position_average": 0.0015292504519846468
+   }
+  },
+  {
+   "team": "Villarreal",
+   "season": "2015/16",
+   "layer": "def",
+   "n": 19,
+   "mse": {
+    "ours": 0.026945495939939293,
+    "raw_per90": 0.042554131087204024,
+    "position_average": 0.07516017111785231
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2006/07",
+   "layer": "att",
+   "n": 17,
+   "mse": {
+    "ours": 0.0810560838576403,
+    "raw_per90": 0.0793005306116201,
+    "position_average": 0.08927969070583937
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2006/07",
+   "layer": "prog",
+   "n": 17,
+   "mse": {
+    "ours": 0.001257224724892044,
+    "raw_per90": 0.0015318764976278655,
+    "position_average": 0.0039254735032337885
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2006/07",
+   "layer": "def",
+   "n": 17,
+   "mse": {
+    "ours": 0.068548426643525,
+    "raw_per90": 0.08031561630979488,
+    "position_average": 0.08854225119413198
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2007/08",
+   "layer": "att",
+   "n": 19,
+   "mse": {
+    "ours": 0.06642775426749038,
+    "raw_per90": 0.10635812033454006,
+    "position_average": 0.05905765368102147
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2007/08",
+   "layer": "prog",
+   "n": 19,
+   "mse": {
+    "ours": 0.0014967446020859442,
+    "raw_per90": 0.001537135802063866,
+    "position_average": 0.00466987369309402
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2007/08",
+   "layer": "def",
+   "n": 19,
+   "mse": {
+    "ours": 0.05038872661192346,
+    "raw_per90": 0.05079120580432961,
+    "position_average": 0.13085007750735228
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2008/09",
+   "layer": "att",
+   "n": 17,
+   "mse": {
+    "ours": 0.026460190001342667,
+    "raw_per90": 0.03300144620785323,
+    "position_average": 0.06924554997610011
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2008/09",
+   "layer": "prog",
+   "n": 17,
+   "mse": {
+    "ours": 0.0013876236515508236,
+    "raw_per90": 0.0012437790150644722,
+    "position_average": 0.004727898516806838
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2008/09",
+   "layer": "def",
+   "n": 17,
+   "mse": {
+    "ours": 0.01642189916716589,
+    "raw_per90": 0.02291314170995677,
+    "position_average": 0.04982755713857356
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2009/10",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.03590499680980448,
+    "raw_per90": 0.0400413661442641,
+    "position_average": 0.06954819220384863
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2009/10",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0007152358688215432,
+    "raw_per90": 0.0006423453444596494,
+    "position_average": 0.0035792086663064267
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2009/10",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.03113129272630622,
+    "raw_per90": 0.04113190888645904,
+    "position_average": 0.06537010286333475
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2010/11",
+   "layer": "att",
+   "n": 16,
+   "mse": {
+    "ours": 0.05675942526979464,
+    "raw_per90": 0.07105206549311516,
+    "position_average": 0.05931160777308855
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2010/11",
+   "layer": "prog",
+   "n": 16,
+   "mse": {
+    "ours": 0.0020719462394161196,
+    "raw_per90": 0.0020741809878647927,
+    "position_average": 0.0062242132284919096
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2010/11",
+   "layer": "def",
+   "n": 16,
+   "mse": {
+    "ours": 0.03992066501353026,
+    "raw_per90": 0.03337053693214391,
+    "position_average": 0.15307193413246475
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2011/12",
+   "layer": "att",
+   "n": 16,
+   "mse": {
+    "ours": 0.014995237015449712,
+    "raw_per90": 0.01586107155667508,
+    "position_average": 0.09158487996500378
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2011/12",
+   "layer": "prog",
+   "n": 16,
+   "mse": {
+    "ours": 0.000583773388373412,
+    "raw_per90": 0.0005873591164225683,
+    "position_average": 0.005606364957878417
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2011/12",
+   "layer": "def",
+   "n": 16,
+   "mse": {
+    "ours": 0.06029265982428728,
+    "raw_per90": 0.04980501800450257,
+    "position_average": 0.1306307044664623
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2012/13",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.020950019163015567,
+    "raw_per90": 0.023286880272834702,
+    "position_average": 0.04838220227202421
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2012/13",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0007670890049455043,
+    "raw_per90": 0.00033397133462399373,
+    "position_average": 0.005831603021359859
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2012/13",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.03044105090366426,
+    "raw_per90": 0.056665958786547496,
+    "position_average": 0.08998111849715093
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2013/14",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.030141660799587567,
+    "raw_per90": 0.04659721941362877,
+    "position_average": 0.03934454346460913
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2013/14",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0006853478687031541,
+    "raw_per90": 0.0006522711317696346,
+    "position_average": 0.0036689616266128364
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2013/14",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.10768853975443554,
+    "raw_per90": 0.09349625420674376,
+    "position_average": 0.34162184859961575
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2014/15",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.020612877587873408,
+    "raw_per90": 0.019070366605734173,
+    "position_average": 0.06836193230335692
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2014/15",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0009702211839905978,
+    "raw_per90": 0.001608564839127337,
+    "position_average": 0.003839171909787716
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2014/15",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.06203985034304043,
+    "raw_per90": 0.04108398054302732,
+    "position_average": 0.24786911886619278
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2016/17",
+   "layer": "att",
+   "n": 19,
+   "mse": {
+    "ours": 0.013023519207370389,
+    "raw_per90": 0.01849930260663807,
+    "position_average": 0.06662890915101913
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2016/17",
+   "layer": "prog",
+   "n": 19,
+   "mse": {
+    "ours": 0.0011504920018639184,
+    "raw_per90": 0.0008708434036860172,
+    "position_average": 0.005297971077908232
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2016/17",
+   "layer": "def",
+   "n": 19,
+   "mse": {
+    "ours": 0.06609673377313992,
+    "raw_per90": 0.08488012605828395,
+    "position_average": 0.18091153326136258
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2017/18",
+   "layer": "att",
+   "n": 18,
+   "mse": {
+    "ours": 0.015789856303054562,
+    "raw_per90": 0.03715146297284628,
+    "position_average": 0.12091493200079867
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2017/18",
+   "layer": "prog",
+   "n": 18,
+   "mse": {
+    "ours": 0.0016947969991108476,
+    "raw_per90": 0.0020970632116083807,
+    "position_average": 0.004040647653779474
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2017/18",
+   "layer": "def",
+   "n": 18,
+   "mse": {
+    "ours": 0.034087993605517015,
+    "raw_per90": 0.02696145302434394,
+    "position_average": 0.18947175266080213
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2018/19",
+   "layer": "att",
+   "n": 16,
+   "mse": {
+    "ours": 0.016796417797819027,
+    "raw_per90": 0.029025725074326488,
+    "position_average": 0.05359621361769931
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2018/19",
+   "layer": "prog",
+   "n": 16,
+   "mse": {
+    "ours": 0.0018143603061020642,
+    "raw_per90": 0.0021961131271150637,
+    "position_average": 0.004713584625846232
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2018/19",
+   "layer": "def",
+   "n": 16,
+   "mse": {
+    "ours": 0.05934589864696725,
+    "raw_per90": 0.06262880013544517,
+    "position_average": 0.2014205872982196
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2019/20",
+   "layer": "att",
+   "n": 16,
+   "mse": {
+    "ours": 0.02138768383337985,
+    "raw_per90": 0.03222956335125153,
+    "position_average": 0.028891930901729212
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2019/20",
+   "layer": "prog",
+   "n": 16,
+   "mse": {
+    "ours": 0.0006717173938581971,
+    "raw_per90": 0.0008770837603730118,
+    "position_average": 0.004428006977400029
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2019/20",
+   "layer": "def",
+   "n": 16,
+   "mse": {
+    "ours": 0.040771099550070945,
+    "raw_per90": 0.042929503433599914,
+    "position_average": 0.2660782013750215
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2020/21",
+   "layer": "att",
+   "n": 17,
+   "mse": {
+    "ours": 0.03419924876727534,
+    "raw_per90": 0.04950405783818658,
+    "position_average": 0.04249441282098402
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2020/21",
+   "layer": "prog",
+   "n": 17,
+   "mse": {
+    "ours": 0.001061454281643094,
+    "raw_per90": 0.0009179338243924056,
+    "position_average": 0.006305786192547423
+   }
+  },
+  {
+   "team": "Barcelona",
+   "season": "2020/21",
+   "layer": "def",
+   "n": 17,
+   "mse": {
+    "ours": 0.04945512887242897,
+    "raw_per90": 0.06419490344709945,
+    "position_average": 0.06908577484138478
+   }
+  }
+ ],
+ "agreement": [
+  {
+   "team": "Athletic Club",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [
+    "Aritz Aduriz",
+    "Raúl García"
+   ],
+   "h2": []
+  },
+  {
+   "team": "Athletic Club",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.5,
+   "h1": [
+    "Aymeric Laporte",
+    "Beñat Etxebarria"
+   ],
+   "h2": [
+    "Beñat Etxebarria"
+   ]
+  },
+  {
+   "team": "Athletic Club",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Atlético Madrid",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Koke",
+    "Antoine Griezmann"
+   ]
+  },
+  {
+   "team": "Atlético Madrid",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Gabi",
+    "Filipe Luis"
+   ],
+   "h2": [
+    "Gabi",
+    "Filipe Luis"
+   ]
+  },
+  {
+   "team": "Atlético Madrid",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Barcelona",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 0.3333333333333333,
+   "h1": [
+    "Neymar",
+    "Luis Suárez"
+   ],
+   "h2": [
+    "Luis Suárez",
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.5,
+   "h1": [
+    "Lionel Messi",
+    "Neymar"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 0.3333333333333333,
+   "h1": [
+    "Gerard Piqué"
+   ],
+   "h2": [
+    "Gerard Piqué",
+    "Sergio Busquets",
+    "Javier Mascherano"
+   ]
+  },
+  {
+   "team": "Celta Vigo",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Celta Vigo",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Fabián Orellana",
+    "Marcelo Díaz",
+    "Nolito"
+   ]
+  },
+  {
+   "team": "Celta Vigo",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Sergi Gómez",
+    "Gustavo Cabral"
+   ]
+  },
+  {
+   "team": "Eibar",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Eibar",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "David Juncà",
+    "Ander Capa"
+   ]
+  },
+  {
+   "team": "Eibar",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Mauro dos Santos",
+    "Aleksandar Pantić",
+    "Gonzalo Escalante"
+   ],
+   "h2": [
+    "Iván Ramis"
+   ]
+  },
+  {
+   "team": "Espanyol",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Marco Asensio Willemsen"
+   ],
+   "h2": [
+    "Marco Asensio Willemsen"
+   ]
+  },
+  {
+   "team": "Espanyol",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Espanyol",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Álvaro González"
+   ],
+   "h2": []
+  },
+  {
+   "team": "Getafe",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Pablo Sarabia"
+   ]
+  },
+  {
+   "team": "Getafe",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Abdoul Karim Yoda",
+    "Damián Suárez",
+    "Pedro León"
+   ]
+  },
+  {
+   "team": "Getafe",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Santiago Vergini",
+    "Juan Cala"
+   ],
+   "h2": []
+  },
+  {
+   "team": "Granada",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Granada",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Granada",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Las Palmas",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Las Palmas",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Jonathan Viera",
+    "Roque Mesa",
+    "Momo"
+   ]
+  },
+  {
+   "team": "Las Palmas",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.5,
+   "h1": [
+    "Aythami Artiles",
+    "Pedro Bigas"
+   ],
+   "h2": [
+    "Pedro Bigas"
+   ]
+  },
+  {
+   "team": "Levante UD",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "José Luis Morales"
+   ]
+  },
+  {
+   "team": "Levante UD",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Levante UD",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.5,
+   "h1": [
+    "Zouhair Feddal"
+   ],
+   "h2": [
+    "Simão",
+    "Zouhair Feddal"
+   ]
+  },
+  {
+   "team": "Málaga",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Málaga",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Málaga",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.5,
+   "h1": [
+    "Weligton",
+    "Marcos Angeleri",
+    "Raúl Albentosa"
+   ],
+   "h2": [
+    "Ignacio Camacho",
+    "Weligton",
+    "Raúl Albentosa"
+   ]
+  },
+  {
+   "team": "RC Deportivo La Coruña",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 1.0,
+   "h1": [
+    "Lucas Pérez",
+    "Luis Alberto"
+   ],
+   "h2": [
+    "Luis Alberto",
+    "Lucas Pérez"
+   ]
+  },
+  {
+   "team": "RC Deportivo La Coruña",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "RC Deportivo La Coruña",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.6666666666666666,
+   "h1": [
+    "Sidnei",
+    "Alejandro Arribas"
+   ],
+   "h2": [
+    "Alejandro Arribas",
+    "Sidnei",
+    "Pedro Mosquera"
+   ]
+  },
+  {
+   "team": "Rayo Vallecano",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Miku Fedor"
+   ]
+  },
+  {
+   "team": "Rayo Vallecano",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.6666666666666666,
+   "h1": [
+    "Bebé",
+    "Roberto Trashorras",
+    "Zé Castro"
+   ],
+   "h2": [
+    "Roberto Trashorras",
+    "Bebé"
+   ]
+  },
+  {
+   "team": "Rayo Vallecano",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Diego Llorente",
+    "Antonio Amaya"
+   ],
+   "h2": []
+  },
+  {
+   "team": "Real Betis",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Real Betis",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Real Betis",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Heiko Westermann"
+   ],
+   "h2": [
+    "Bruno González",
+    "Alfred N'Diaye"
+   ]
+  },
+  {
+   "team": "Real Madrid",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Cristiano Ronaldo",
+    "Karim Benzema"
+   ],
+   "h2": [
+    "Cristiano Ronaldo",
+    "Karim Benzema"
+   ]
+  },
+  {
+   "team": "Real Madrid",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.6666666666666666,
+   "h1": [
+    "Luka Modrić",
+    "Toni Kroos"
+   ],
+   "h2": [
+    "Luka Modrić",
+    "Toni Kroos",
+    "Marcelo"
+   ]
+  },
+  {
+   "team": "Real Madrid",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [
+    "Raphaël Varane",
+    "Sergio Ramos"
+   ],
+   "h2": []
+  },
+  {
+   "team": "Real Sociedad",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Real Sociedad",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Carlos Vela",
+    "Íñigo Martínez",
+    "David Zurutuza"
+   ]
+  },
+  {
+   "team": "Real Sociedad",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Diego Reyes",
+    "Mikel González",
+    "Íñigo Martínez"
+   ]
+  },
+  {
+   "team": "Sevilla",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Vicente Iborra",
+    "Kévin Gameiro"
+   ]
+  },
+  {
+   "team": "Sevilla",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Éver Banega",
+    "Yevgen Konoplyanka",
+    "Kolo"
+   ]
+  },
+  {
+   "team": "Sevilla",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.5,
+   "h1": [
+    "Grzegorz Krychowiak"
+   ],
+   "h2": [
+    "Adil Rami",
+    "Grzegorz Krychowiak"
+   ]
+  },
+  {
+   "team": "Sporting Gijón",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Sporting Gijón",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.6666666666666666,
+   "h1": [
+    "Alen Halilović",
+    "Jony"
+   ],
+   "h2": [
+    "Isma López",
+    "Alen Halilović",
+    "Jony"
+   ]
+  },
+  {
+   "team": "Sporting Gijón",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Bernardo Espinosa"
+   ],
+   "h2": [
+    "Luis Hernández"
+   ]
+  },
+  {
+   "team": "Valencia",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Valencia",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Dani Parejo",
+    "Shkodran Mustafi"
+   ]
+  },
+  {
+   "team": "Valencia",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 0.3333333333333333,
+   "h1": [
+    "Shkodran Mustafi",
+    "Aderllan Santos"
+   ],
+   "h2": [
+    "Shkodran Mustafi",
+    "Aymen Abdennour"
+   ]
+  },
+  {
+   "team": "Villarreal",
+   "season": "2015/16",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Villarreal",
+   "season": "2015/16",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.5,
+   "h1": [
+    "Víctor Ruíz",
+    "Bruno Soriano",
+    "Manu Trigueros"
+   ],
+   "h2": [
+    "Víctor Ruíz",
+    "Bruno Soriano",
+    "Adrián López"
+   ]
+  },
+  {
+   "team": "Villarreal",
+   "season": "2015/16",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.6666666666666666,
+   "h1": [
+    "Eric Bailly",
+    "Víctor Ruíz",
+    "Bruno Soriano"
+   ],
+   "h2": [
+    "Víctor Ruíz",
+    "Eric Bailly"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2006/07",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Samuel Eto'o"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2006/07",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.5,
+   "h1": [
+    "Xavi",
+    "Deco",
+    "Ronaldinho"
+   ],
+   "h2": [
+    "Xavi",
+    "Andrés Iniesta",
+    "Ronaldinho"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2006/07",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.3333333333333333,
+   "h1": [
+    "Carles Puyol",
+    "Rafael Márquez"
+   ],
+   "h2": [
+    "Lilian Thuram",
+    "Carles Puyol"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2007/08",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Barcelona",
+   "season": "2007/08",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Xavi",
+    "Lionel Messi"
+   ],
+   "h2": [
+    "Xavi",
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2007/08",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.6666666666666666,
+   "h1": [
+    "Gabriel Milito",
+    "Carles Puyol",
+    "Yaya Touré"
+   ],
+   "h2": [
+    "Carles Puyol",
+    "Gabriel Milito"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2008/09",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Lionel Messi",
+    "Xavi",
+    "Samuel Eto'o"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2008/09",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.3333333333333333,
+   "h1": [
+    "Xavi",
+    "Rafael Márquez"
+   ],
+   "h2": [
+    "Xavi",
+    "Andrés Iniesta"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2008/09",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Gerard Piqué",
+    "Rafael Márquez",
+    "Yaya Touré"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2009/10",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 1.0,
+   "h1": [
+    "Xavi",
+    "Lionel Messi"
+   ],
+   "h2": [
+    "Lionel Messi",
+    "Xavi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2009/10",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 1.0,
+   "h1": [
+    "Xavi",
+    "Gerard Piqué",
+    "Lionel Messi"
+   ],
+   "h2": [
+    "Lionel Messi",
+    "Xavi",
+    "Gerard Piqué"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2009/10",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 0.3333333333333333,
+   "h1": [
+    "Gerard Piqué"
+   ],
+   "h2": [
+    "Gerard Piqué",
+    "Sergio Busquets",
+    "Gabriel Milito"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2010/11",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.5,
+   "h1": [
+    "Lionel Messi"
+   ],
+   "h2": [
+    "Lionel Messi",
+    "Dani Alves"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2010/11",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Lionel Messi"
+   ],
+   "h2": [
+    "Xavi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2010/11",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Gerard Piqué",
+    "Éric Abidal"
+   ],
+   "h2": [
+    "Gerard Piqué",
+    "Éric Abidal"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2011/12",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Lionel Messi"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2011/12",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Xavi"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2011/12",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  },
+  {
+   "team": "Barcelona",
+   "season": "2012/13",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [
+    "Lionel Messi",
+    "Cesc Fàbregas",
+    "Andrés Iniesta"
+   ],
+   "h2": []
+  },
+  {
+   "team": "Barcelona",
+   "season": "2012/13",
+   "layer": "prog",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Xavi"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2012/13",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [],
+   "h2": [
+    "Gerard Piqué",
+    "Sergio Busquets"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2013/14",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 0.0,
+   "h1": [
+    "Cesc Fàbregas",
+    "Lionel Messi"
+   ],
+   "h2": []
+  },
+  {
+   "team": "Barcelona",
+   "season": "2013/14",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Lionel Messi",
+    "Xavi"
+   ],
+   "h2": [
+    "Lionel Messi",
+    "Xavi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2013/14",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 0.5,
+   "h1": [
+    "Gerard Piqué"
+   ],
+   "h2": [
+    "Gerard Piqué",
+    "Marc Bartra"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2014/15",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.3333333333333333,
+   "h1": [
+    "Lionel Messi",
+    "Neymar"
+   ],
+   "h2": [
+    "Lionel Messi",
+    "Luis Suárez"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2014/15",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.5,
+   "h1": [
+    "Lionel Messi",
+    "Javier Mascherano"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2014/15",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Gerard Piqué"
+   ],
+   "h2": [
+    "Gerard Piqué"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2016/17",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 1.0,
+   "h1": [
+    "Lionel Messi",
+    "Luis Suárez"
+   ],
+   "h2": [
+    "Luis Suárez",
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2016/17",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.5,
+   "h1": [
+    "Lionel Messi",
+    "Javier Mascherano"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2016/17",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Gerard Piqué"
+   ],
+   "h2": [
+    "Gerard Piqué"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2017/18",
+   "layer": "att",
+   "top_same": false,
+   "jaccard": 1.0,
+   "h1": [
+    "Lionel Messi",
+    "Luis Suárez"
+   ],
+   "h2": [
+    "Luis Suárez",
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2017/18",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Lionel Messi"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2017/18",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Gerard Piqué"
+   ],
+   "h2": [
+    "Gerard Piqué"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2018/19",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [
+    "Lionel Messi"
+   ],
+   "h2": []
+  },
+  {
+   "team": "Barcelona",
+   "season": "2018/19",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 0.5,
+   "h1": [
+    "Lionel Messi",
+    "Gerard Piqué"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2018/19",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Gerard Piqué"
+   ],
+   "h2": [
+    "Gerard Piqué"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2019/20",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.0,
+   "h1": [
+    "Lionel Messi",
+    "Luis Suárez"
+   ],
+   "h2": []
+  },
+  {
+   "team": "Barcelona",
+   "season": "2019/20",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Lionel Messi"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2019/20",
+   "layer": "def",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Gerard Piqué"
+   ],
+   "h2": [
+    "Gerard Piqué"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2020/21",
+   "layer": "att",
+   "top_same": true,
+   "jaccard": 0.25,
+   "h1": [
+    "Lionel Messi",
+    "Pedri",
+    "Philippe Coutinho"
+   ],
+   "h2": [
+    "Lionel Messi",
+    "Frenkie de Jong"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2020/21",
+   "layer": "prog",
+   "top_same": true,
+   "jaccard": 1.0,
+   "h1": [
+    "Lionel Messi"
+   ],
+   "h2": [
+    "Lionel Messi"
+   ]
+  },
+  {
+   "team": "Barcelona",
+   "season": "2020/21",
+   "layer": "def",
+   "top_same": false,
+   "jaccard": null,
+   "h1": [],
+   "h2": []
+  }
+ ],
+ "summary": {
+  "att": {
+   "n_units": 34,
+   "skill_vs_position_average": {
+    "ours": 0.41181973055994636,
+    "raw_per90": 0.1805901692731936,
+    "position_average": 0.0
+   },
+   "share_units_ours_beats_raw": 0.8235294117647058,
+   "top_core_same_both_halves": 0.47058823529411764,
+   "core_set_jaccard": 0.3659420289855072
+  },
+  "prog": {
+   "n_units": 34,
+   "skill_vs_position_average": {
+    "ours": 0.6956337712597883,
+    "raw_per90": 0.6468150172480494,
+    "position_average": 0.0
+   },
+   "share_units_ours_beats_raw": 0.7058823529411765,
+   "top_core_same_both_halves": 0.47058823529411764,
+   "core_set_jaccard": 0.4583333333333333
+  },
+  "def": {
+   "n_units": 34,
+   "skill_vs_position_average": {
+    "ours": 0.6220606417416862,
+    "raw_per90": 0.5535565798333792,
+    "position_average": 0.0
+   },
+   "share_units_ours_beats_raw": 0.7941176470588235,
+   "top_core_same_both_halves": 0.35294117647058826,
+   "core_set_jaccard": 0.40804597701149425
+  }
+ }
+}

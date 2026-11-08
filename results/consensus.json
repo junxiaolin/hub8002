@@ -1,0 +1,2221 @@
+{
+ "summary": {
+  "ballon_dor": {
+   "n": 17,
+   "average (main)": {
+    "top": 0.7058823529411765,
+    "core": 0.7647058823529411,
+    "top3": 0.8823529411764706
+   },
+   "replacement level": {
+    "top": 0.7647058823529411,
+    "core": 0.7647058823529411,
+    "top3": 0.8823529411764706
+   },
+   "eight roles": {
+    "top": 0.7058823529411765,
+    "core": 0.8235294117647058,
+    "top3": 0.8823529411764706
+   },
+   "four groups": {
+    "top": 0.7058823529411765,
+    "core": 0.7647058823529411,
+    "top3": 0.8823529411764706
+   }
+  },
+  "lfp": {
+   "n": 28,
+   "average (main)": {
+    "top": 0.6428571428571429,
+    "core": 0.75,
+    "top3": 0.8571428571428571
+   },
+   "replacement level": {
+    "top": 0.7142857142857143,
+    "core": 0.75,
+    "top3": 0.8571428571428571
+   },
+   "eight roles": {
+    "top": 0.6428571428571429,
+    "core": 0.6785714285714286,
+    "top3": 0.7857142857142857
+   },
+   "four groups": {
+    "top": 0.6071428571428571,
+    "core": 0.7142857142857143,
+    "top3": 0.8214285714285714
+   }
+  },
+  "top_scorer": {
+   "n": 20,
+   "average (main)": {
+    "top": 0.4,
+    "core": 0.5,
+    "top3": 0.75
+   },
+   "replacement level": {
+    "top": 0.65,
+    "core": 0.7,
+    "top3": 0.9
+   },
+   "eight roles": {
+    "top": 0.4,
+    "core": 0.25,
+    "top3": 0.6
+   },
+   "four groups": {
+    "top": 0.4,
+    "core": 0.5,
+    "top3": 0.75
+   }
+  }
+ },
+ "items": [
+  {
+   "kind": "ballon_dor",
+   "label": "Rijkaard 2004-08",
+   "team": "Barcelona",
+   "player": "Ronaldinho",
+   "layers": [
+    "any"
+   ],
+   "year": 2005,
+   "rank": 1,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "eight roles": {
+     "top": false,
+     "core": true,
+     "best_rank": 3
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2008/09",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "year": 2009,
+   "rank": 1,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2008/09",
+   "team": "Barcelona",
+   "player": "Xavi",
+   "layers": [
+    "any"
+   ],
+   "year": 2009,
+   "rank": 3,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2009/10",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "year": 2010,
+   "rank": 1,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2009/10",
+   "team": "Barcelona",
+   "player": "Andrés Iniesta",
+   "layers": [
+    "any"
+   ],
+   "year": 2010,
+   "rank": 2,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2009/10",
+   "team": "Barcelona",
+   "player": "Xavi",
+   "layers": [
+    "any"
+   ],
+   "year": 2010,
+   "rank": 3,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2010/11",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "year": 2011,
+   "rank": 1,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2010/11",
+   "team": "Barcelona",
+   "player": "Xavi",
+   "layers": [
+    "any"
+   ],
+   "year": 2011,
+   "rank": 3,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2011/12",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "year": 2012,
+   "rank": 1,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2011/12",
+   "team": "Barcelona",
+   "player": "Andrés Iniesta",
+   "layers": [
+    "any"
+   ],
+   "year": 2012,
+   "rank": 3,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2012/13",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "year": 2013,
+   "rank": 2,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2013/14",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "year": 2014,
+   "rank": 2,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2014/15",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "year": 2015,
+   "rank": 1,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2014/15",
+   "team": "Barcelona",
+   "player": "Neymar",
+   "layers": [
+    "any"
+   ],
+   "year": 2015,
+   "rank": 3,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2015/16",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "year": 2016,
+   "rank": 2,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2015/16",
+   "team": "Atlético Madrid",
+   "player": "Antoine Griezmann",
+   "layers": [
+    "any"
+   ],
+   "year": 2016,
+   "rank": 3,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "ballon_dor",
+   "label": "2018/19",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "year": 2019,
+   "rank": 1,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2008/09",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "award": "best_player",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2008/09",
+   "team": "Barcelona",
+   "player": "Dani Alves",
+   "layers": [
+    "def"
+   ],
+   "award": "best_defender",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 18
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 16
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2008/09",
+   "team": "Barcelona",
+   "player": "Xavi",
+   "layers": [
+    "prog",
+    "link"
+   ],
+   "award": "best_midfielder",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2008/09",
+   "team": "Barcelona",
+   "player": "Andrés Iniesta",
+   "layers": [
+    "att",
+    "prog"
+   ],
+   "award": "best_attacking_midfielder",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2008/09",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "att"
+   ],
+   "award": "best_forward",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2009/10",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "award": "best_player",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2009/10",
+   "team": "Barcelona",
+   "player": "Gerard Piqué",
+   "layers": [
+    "def"
+   ],
+   "award": "best_defender",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2009/10",
+   "team": "Barcelona",
+   "player": "Xavi",
+   "layers": [
+    "prog",
+    "link"
+   ],
+   "award": "best_midfielder",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2009/10",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "att"
+   ],
+   "award": "best_forward",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2010/11",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "award": "best_player",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2010/11",
+   "team": "Barcelona",
+   "player": "Éric Abidal",
+   "layers": [
+    "def"
+   ],
+   "award": "best_defender",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2010/11",
+   "team": "Barcelona",
+   "player": "Xavi",
+   "layers": [
+    "prog",
+    "link"
+   ],
+   "award": "best_midfielder",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2010/11",
+   "team": "Barcelona",
+   "player": "Andrés Iniesta",
+   "layers": [
+    "att",
+    "prog"
+   ],
+   "award": "best_attacking_midfielder",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 6
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2010/11",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "att"
+   ],
+   "award": "best_forward",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2011/12",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "award": "best_player",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2011/12",
+   "team": "Barcelona",
+   "player": "Andrés Iniesta",
+   "layers": [
+    "att",
+    "prog"
+   ],
+   "award": "best_attacking_midfielder",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2011/12",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "att"
+   ],
+   "award": "best_forward",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2012/13",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "award": "best_player",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2012/13",
+   "team": "Barcelona",
+   "player": "Andrés Iniesta",
+   "layers": [
+    "att",
+    "prog"
+   ],
+   "award": "best_attacking_midfielder",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": true,
+     "best_rank": 3
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    },
+    "four groups": {
+     "top": false,
+     "core": true,
+     "best_rank": 3
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2012/13",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "att"
+   ],
+   "award": "best_forward",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2013/14",
+   "team": "Barcelona",
+   "player": "Andrés Iniesta",
+   "layers": [
+    "att",
+    "prog"
+   ],
+   "award": "best_attacking_midfielder",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 6
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 6
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2014/15",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "award": "best_player",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2014/15",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "att"
+   ],
+   "award": "best_forward",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2015/16",
+   "team": "Atlético Madrid",
+   "player": "Antoine Griezmann",
+   "layers": [
+    "any"
+   ],
+   "award": "best_player",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2015/16",
+   "team": "Atlético Madrid",
+   "player": "Diego Godín",
+   "layers": [
+    "def"
+   ],
+   "award": "best_defender",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 20
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 18
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2015/16",
+   "team": "Real Madrid",
+   "player": "Luka Modrić",
+   "layers": [
+    "prog",
+    "link"
+   ],
+   "award": "best_midfielder",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": true,
+     "best_rank": 3
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2015/16",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "att"
+   ],
+   "award": "best_forward",
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "lfp",
+   "label": "2016/17",
+   "team": "Barcelona",
+   "player": "Lionel Messi",
+   "layers": [
+    "any"
+   ],
+   "award": "best_player",
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Athletic Club",
+   "player": "Aritz Aduriz",
+   "layers": [
+    "att"
+   ],
+   "goals": 20,
+   "penalties": 3,
+   "rate_vs_position_average": 1.2594014277787875,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Atlético Madrid",
+   "player": "Antoine Griezmann",
+   "layers": [
+    "att"
+   ],
+   "goals": 22,
+   "penalties": 1,
+   "rate_vs_position_average": 1.3083012398422618,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Barcelona",
+   "player": "Luis Suárez",
+   "layers": [
+    "att"
+   ],
+   "goals": 40,
+   "penalties": 3,
+   "rate_vs_position_average": 1.5963252219337034,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": true,
+     "best_rank": 3
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Celta Vigo",
+   "player": "Iago Aspas",
+   "layers": [
+    "att"
+   ],
+   "goals": 14,
+   "penalties": 1,
+   "rate_vs_position_average": 1.1137314571110186,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 5
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Eibar",
+   "player": "Borja Bastón",
+   "layers": [
+    "att"
+   ],
+   "goals": 18,
+   "penalties": 3,
+   "rate_vs_position_average": 1.2999719688416516,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Espanyol",
+   "player": "Felipe Caicedo",
+   "layers": [
+    "att"
+   ],
+   "goals": 8,
+   "penalties": 0,
+   "rate_vs_position_average": 0.8407590688182471,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 22
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 20
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 23
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 22
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Getafe",
+   "player": "Pablo Sarabia",
+   "layers": [
+    "att"
+   ],
+   "goals": 7,
+   "penalties": 0,
+   "rate_vs_position_average": 2.3186634035882707,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Granada",
+   "player": "Youssef El-Arabi",
+   "layers": [
+    "att"
+   ],
+   "goals": 16,
+   "penalties": 7,
+   "rate_vs_position_average": 0.9382643437260523,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 18
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 24
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 17
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Las Palmas",
+   "player": "Jonathan Viera",
+   "layers": [
+    "att"
+   ],
+   "goals": 10,
+   "penalties": 4,
+   "rate_vs_position_average": 1.6298705663011785,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 23
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Levante UD",
+   "player": "Deyverson",
+   "layers": [
+    "att"
+   ],
+   "goals": 9,
+   "penalties": 0,
+   "rate_vs_position_average": 0.9661516152751917,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 18
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 21
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 18
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Málaga",
+   "player": "Charles",
+   "layers": [
+    "att"
+   ],
+   "goals": 12,
+   "penalties": 1,
+   "rate_vs_position_average": 0.8854604395128808,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 24
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 8
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 24
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 24
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "RC Deportivo La Coruña",
+   "player": "Lucas Pérez",
+   "layers": [
+    "att"
+   ],
+   "goals": 17,
+   "penalties": 1,
+   "rate_vs_position_average": 1.3998694968885304,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Rayo Vallecano",
+   "player": "Javi Guerra",
+   "layers": [
+    "att"
+   ],
+   "goals": 12,
+   "penalties": 0,
+   "rate_vs_position_average": 1.0499310958454682,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    },
+    "replacement level": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 20
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 4
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Real Betis",
+   "player": "Rubén Castro",
+   "layers": [
+    "att"
+   ],
+   "goals": 19,
+   "penalties": 3,
+   "rate_vs_position_average": 1.021820799464225,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    },
+    "replacement level": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 26
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Real Madrid",
+   "player": "Cristiano Ronaldo",
+   "layers": [
+    "att"
+   ],
+   "goals": 35,
+   "penalties": 6,
+   "rate_vs_position_average": 1.570250412135315,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Real Sociedad",
+   "player": "Imanol Agirretxe",
+   "layers": [
+    "att"
+   ],
+   "goals": 13,
+   "penalties": 0,
+   "rate_vs_position_average": 1.323108510276498,
+   "result": {
+    "average (main)": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    },
+    "replacement level": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    },
+    "four groups": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Sevilla",
+   "player": "Kévin Gameiro",
+   "layers": [
+    "att"
+   ],
+   "goals": 16,
+   "penalties": 4,
+   "rate_vs_position_average": 1.4764303311766245,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Sporting Gijón",
+   "player": "Antonio Sanabria",
+   "layers": [
+    "att"
+   ],
+   "goals": 11,
+   "penalties": 1,
+   "rate_vs_position_average": 1.1727753907798089,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Valencia",
+   "player": "Paco Alcácer",
+   "layers": [
+    "att"
+   ],
+   "goals": 13,
+   "penalties": 2,
+   "rate_vs_position_average": 1.1423125585428209,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": true,
+     "core": true,
+     "best_rank": 1
+    },
+    "eight roles": {
+     "top": false,
+     "core": false,
+     "best_rank": 3
+    },
+    "four groups": {
+     "top": false,
+     "core": false,
+     "best_rank": 2
+    }
+   }
+  },
+  {
+   "kind": "top_scorer",
+   "label": "2015/16",
+   "team": "Villarreal",
+   "player": "Cédric Bakambu",
+   "layers": [
+    "att"
+   ],
+   "goals": 12,
+   "penalties": 0,
+   "rate_vs_position_average": 1.2882701469880466,
+   "result": {
+    "average (main)": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "replacement level": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    },
+    "eight roles": {
+     "top": true,
+     "core": false,
+     "best_rank": 1
+    },
+    "four groups": {
+     "top": false,
+     "core": true,
+     "best_rank": 2
+    }
+   }
+  }
+ ]
+}

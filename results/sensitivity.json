@@ -1,0 +1,6675 @@
+{
+ "constants_alt_groupings": {
+  "wingers_mid": [
+   {
+    "org": {
+     "DEF": 30.743551290812228,
+     "FWD": 16.39012906474672,
+     "MID": 33.17150726763515
+    },
+    "box": {
+     "DEF": 0.4731477868560817,
+     "FWD": 0.6867621646937225,
+     "MID": 0.9479647489984968
+    }
+   },
+   {
+    "org": {
+     "DEF": 75.35659294528742,
+     "FWD": 29.99999999999999,
+     "MID": 11.943215116604916
+    },
+    "box": {
+     "DEF": 0.7535659294528739,
+     "FWD": 94.8683298050514,
+     "MID": 3.7767762353825
+    }
+   }
+  ],
+  "roles6": [
+   {
+    "org": {
+     "CB": 31.669160677511474,
+     "CF": 16.44120598547969,
+     "CM": 38.38273883865257,
+     "FB": 29.598720326000052,
+     "W": 25.046194950002192,
+     "WM": 26.377714985167863
+    },
+    "box": {
+     "CB": 0.11434506448493072,
+     "CF": 0.6976121464374803,
+     "CM": 0.6994637444625786,
+     "FB": 0.822852413921189,
+     "W": 1.4060816443939563,
+     "WM": 1.2069242643135607
+    }
+   },
+   {
+    "org": {
+     "CB": 75.35659294528742,
+     "CF": 29.99999999999999,
+     "CM": 29.99999999999999,
+     "FB": 189.28720334405796,
+     "W": 47.54679577383338,
+     "WM": 23.82984704172844
+    },
+    "box": {
+     "CB": 2.999999999999999,
+     "CF": 2999.9999999999977,
+     "CM": 3.7767762353825,
+     "FB": 29.99999999999999,
+     "W": 18.928720334405792,
+     "WM": 2999.9999999999977
+    }
+   }
+  ]
+ },
+ "summary": [
+  {
+   "variant": "base",
+   "hubs_org": 3,
+   "Xavi|org": 0,
+   "hubs_box": 8,
+   "Lionel Messi|box": 5,
+   "share_units_unchanged": 1.0,
+   "messi_threat_seasons": 5,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "rho_max=2",
+   "hubs_org": 3,
+   "Xavi|org": 0,
+   "hubs_box": 0,
+   "Lionel Messi|box": 0,
+   "share_units_unchanged": 0.8787878787878788,
+   "messi_threat_seasons": 0,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "rho_max=10",
+   "hubs_org": 3,
+   "Xavi|org": 0,
+   "hubs_box": 7,
+   "Lionel Messi|box": 4,
+   "share_units_unchanged": 0.9848484848484849,
+   "messi_threat_seasons": 4,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "prior shape 0.5",
+   "hubs_org": 3,
+   "Xavi|org": 0,
+   "hubs_box": 7,
+   "Lionel Messi|box": 4,
+   "share_units_unchanged": 0.9848484848484849,
+   "messi_threat_seasons": 4,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "prior shape 2",
+   "hubs_org": 3,
+   "Xavi|org": 0,
+   "hubs_box": 8,
+   "Lionel Messi|box": 6,
+   "share_units_unchanged": 0.9696969696969697,
+   "messi_threat_seasons": 6,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "prior mean x0.5",
+   "hubs_org": 4,
+   "Xavi|org": 0,
+   "hubs_box": 12,
+   "Lionel Messi|box": 8,
+   "share_units_unchanged": 0.9393939393939394,
+   "messi_threat_seasons": 8,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "prior mean x2",
+   "hubs_org": 3,
+   "Xavi|org": 0,
+   "hubs_box": 6,
+   "Lionel Messi|box": 4,
+   "share_units_unchanged": 0.9696969696969697,
+   "messi_threat_seasons": 4,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "min minutes 450",
+   "hubs_org": 4,
+   "Xavi|org": 0,
+   "hubs_box": 8,
+   "Lionel Messi|box": 5,
+   "share_units_unchanged": 0.9545454545454546,
+   "messi_threat_seasons": 5,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "s_max=4",
+   "hubs_org": 3,
+   "Xavi|org": 0,
+   "hubs_box": 8,
+   "Lionel Messi|box": 5,
+   "share_units_unchanged": 1.0,
+   "messi_threat_seasons": 5,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "no phi correction",
+   "hubs_org": 12,
+   "Xavi|org": 0,
+   "hubs_box": 8,
+   "Lionel Messi|box": 5,
+   "share_units_unchanged": 0.9090909090909091,
+   "messi_threat_seasons": 5,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "alpha x0.5",
+   "hubs_org": 0,
+   "Xavi|org": 0,
+   "hubs_box": 0,
+   "Lionel Messi|box": 0,
+   "share_units_unchanged": 0.8484848484848485,
+   "messi_threat_seasons": 0,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "alpha x2",
+   "hubs_org": 23,
+   "Xavi|org": 1,
+   "hubs_box": 33,
+   "Lionel Messi|box": 10,
+   "share_units_unchanged": 0.6515151515151515,
+   "messi_threat_seasons": 10,
+   "xavi_org_seasons": 1
+  },
+  {
+   "variant": "wingers in midfield",
+   "hubs_org": 7,
+   "Xavi|org": 0,
+   "hubs_box": 8,
+   "Lionel Messi|box": 5,
+   "share_units_unchanged": 0.8181818181818182,
+   "messi_threat_seasons": 5,
+   "xavi_org_seasons": 0
+  },
+  {
+   "variant": "six roles",
+   "hubs_org": 14,
+   "Xavi|org": 0,
+   "hubs_box": 32,
+   "Lionel Messi|box": 6,
+   "share_units_unchanged": 0.6818181818181818,
+   "messi_threat_seasons": 6,
+   "xavi_org_seasons": 0
+  }
+ ],
+ "fits": {
+  "base": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Lilian Thuram": 0.20907939143203566,
+     "Gabriel Milito": 0.3066531859528689
+    },
+    "log_bf": -0.4477790215741777
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.3103700800151269
+    },
+    "log_bf": 0.03429896796687615
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3055875339851484
+    },
+    "log_bf": -0.8145098917925253
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.2652160778560153,
+     "Xavi": 0.5996720337996863
+    },
+    "log_bf": 0.6796210564706939
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.225578165096266
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.24671206471359222,
+     "Lionel Messi": 0.2099373884446448,
+     "Xavi": 0.3154756212198497
+    },
+    "log_bf": 0.20510361040433622
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.2459356573039556
+    },
+    "log_bf": -0.914112753590075
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.22576890132918045,
+     "Lionel Messi": 0.6125933280566976,
+     "Xavi": 0.23362569430851593
+    },
+    "log_bf": 0.9380730835579527
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.20555652037980524
+    },
+    "log_bf": -0.8234903876966513
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.8027210592283567
+    },
+    "log_bf": 1.5326751821469742
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4751584808846587
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.24543659013009314,
+     "Andrés Iniesta": 0.2855557380458893,
+     "Lionel Messi": 0.5086111310445016
+    },
+    "log_bf": 0.6798644278690915
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.241375978513446
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.22171935523758013
+    },
+    "log_bf": -0.10181779425174398
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4181536604901055
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7466337208574788
+    },
+    "log_bf": 1.2260719760296013
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Neymar": 0.2141688863130428,
+     "Lionel Messi": 0.33220843892114726
+    },
+    "log_bf": -0.9147273327269545
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.2753895750663155,
+     "Lionel Messi": 0.8329513362014409
+    },
+    "log_bf": 1.7165885835910473
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.9600169064010942
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3508113312982507,
+     "Lionel Messi": 0.5763933012370994
+    },
+    "log_bf": 0.7862041681647156
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1809974829303087
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3076338885475078,
+     "Lionel Messi": 0.2115846728080178
+    },
+    "log_bf": 0.11487303110109792
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.365503152651229
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Jordi Alba": 0.20327475192001757,
+     "Lionel Messi": 0.5544124641333116
+    },
+    "log_bf": 0.4823030215725339
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3966828295425984
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [],
+    "incl": {
+     "Ousmane Dembélé": 0.3011514718158362,
+     "Lionel Messi": 0.6469313956495725
+    },
+    "log_bf": 0.8216220609468508
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.220840606358152
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7626914084047273
+    },
+    "log_bf": 1.260980508754315
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Aymeric Laporte": 0.27570007831195603,
+     "Iker Muniain": 0.5064928879194867
+    },
+    "log_bf": 0.14669748483744627
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3146355220640942
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.24148388326486886,
+     "Filipe Luis": 0.9696428214450481
+    },
+    "log_bf": 2.910902847240152
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.28252574334169367
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.22129296010762117,
+     "Andreu Fontàs": 0.8872625128216587,
+     "Fabián Orellana": 0.5599851170163826
+    },
+    "log_bf": 1.9712628024664411
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.6322341837008286
+    },
+    "log_bf": 0.6650495298764554
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lillo Castellano": 0.24692183757886646
+    },
+    "log_bf": -0.8629019616612084
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2998912886450569
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Mickaël Ciani": 0.2755932300502176
+    },
+    "log_bf": -0.6388840737610622
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.22909746430792266,
+     "Burgui": 0.338543603670464
+    },
+    "log_bf": 0.16775173585305936
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5091871580082739
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.40227349279539704,
+     "Pedro León": 0.22434114775671826
+    },
+    "log_bf": 0.3232847726738157
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.405356981224486
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.37386388647450985
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Juan Carlos Valerón": 0.2879269946345027
+    },
+    "log_bf": -0.7675314914135498
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.29647251099080174,
+     "Jonathan Viera": 0.34391386056295964
+    },
+    "log_bf": 0.1818997541078744
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0995411447072598
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3886878651125585
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1074085734841788
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4319182502323713
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.111445176724601
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Luis Alberto": 0.21275940088616538
+    },
+    "log_bf": -0.1906423115924767
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Roberto Trashorras": 0.49710458775305705
+    },
+    "log_bf": -0.11614760235121935
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.22681585960138761
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4300717984940547
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2831671103206048
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4972679336183035
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "James Rodríguez": 0.21207820302075864
+    },
+    "log_bf": -0.0852094444074396
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2547842490692744
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2278952418180893
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Michael Krohn-Dehli": 0.34499919775883914
+    },
+    "log_bf": -0.4587807032046385
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.7513827669505055
+    },
+    "log_bf": 1.2415225490507424
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.2744892288119934
+    },
+    "log_bf": -0.7995417288646678
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.20106826753374207
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4825970461631925
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.36912996514959673
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Rodri": 0.20310376585784576,
+     "Bruno Soriano": 0.20426885736886471
+    },
+    "log_bf": -0.7635542589851951
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3168828631999787
+   }
+  },
+  "rho_max=2": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Rafael Márquez": 0.21490335957579645,
+     "Lilian Thuram": 0.2569366225112525,
+     "Gabriel Milito": 0.37668327205396274
+    },
+    "log_bf": 0.22226902961969586
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.223853970327801
+    },
+    "log_bf": 0.10294029565606877
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3337082795246154,
+     "Xavi": 0.2412698822027064
+    },
+    "log_bf": -0.2891480239020012
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [],
+    "incl": {
+     "Xavi": 0.33859608640796635
+    },
+    "log_bf": 0.2656174174024386
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.5646537586039244
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": 0.13704844345039646
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.24633008126153383
+    },
+    "log_bf": -0.40261666697313103
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.4037383773865719
+    },
+    "log_bf": 0.46618862166016584
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.23564058388768352,
+     "Xavi": 0.22479385399189086
+    },
+    "log_bf": -0.2209969345055498
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.5257925071563156
+    },
+    "log_bf": 0.7046714311874638
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.8044774239187404
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.20346404002368143,
+     "Lionel Messi": 0.3451832275320143
+    },
+    "log_bf": 0.3696658917262994
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {
+     "Jordi Alba": 0.21491110638116975
+    },
+    "log_bf": -0.5679079857127363
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": 0.04694860438026183
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.7998538671565143
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.49330594682857726
+    },
+    "log_bf": 0.5968436838137166
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.31257690995115406
+    },
+    "log_bf": -0.5187608906342689
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.201933665295311,
+     "Lionel Messi": 0.5603304867500294
+    },
+    "log_bf": 0.7716232117591773
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4164813421743787
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.22940413112368635,
+     "Lionel Messi": 0.3792256189577697
+    },
+    "log_bf": 0.4174170584396677
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {
+     "Ivan Rakitić": 0.20461693766063485
+    },
+    "log_bf": -0.5532373919561735
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.2141187847615881
+    },
+    "log_bf": 0.13472747701538879
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.7330808910274129
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.3776501725850467
+    },
+    "log_bf": 0.28275815145249794
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.7639236041439119
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.3802789400182026
+    },
+    "log_bf": 0.35181058180261005
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.577509992338193
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.4916259138497718
+    },
+    "log_bf": 0.5746988770300163
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Aymeric Laporte": 0.3772458458777209,
+     "Iker Muniain": 0.4823493228673543
+    },
+    "log_bf": 0.608772857500611
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.06506650822399251
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.24504307651325405,
+     "Filipe Luis": 0.9778713555879495
+    },
+    "log_bf": 3.544413453382674
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.05165836742793317
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.24260569703963095,
+     "Andreu Fontàs": 0.9146830837668242,
+     "Fabián Orellana": 0.5599339711199185
+    },
+    "log_bf": 2.584200301298864
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Nolito": 0.4229623692923491
+    },
+    "log_bf": 0.3533076825476371
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lillo Castellano": 0.31827538136062905
+    },
+    "log_bf": -0.20014672659476673
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.06389919224352525
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Anaitz Arbilla": 0.24581941822805017,
+     "Mickaël Ciani": 0.3099959135066442
+    },
+    "log_bf": -0.033171811596645284
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Burgui": 0.2227742627943533
+    },
+    "log_bf": 0.10733636716695116
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.8419159953863584
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.22976921047202087
+    },
+    "log_bf": 0.15187781455665572
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.7389456062698798
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.1249193110016904
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Juan Carlos Valerón": 0.325249205798869
+    },
+    "log_bf": -0.24227030484485113
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Jonathan Viera": 0.20801018887266265
+    },
+    "log_bf": 0.09538622854883272
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.48407744886540627
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.11435425939274069
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.5568034081518931
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.13417859446221314
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4930454042728627
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.02008712382767186
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Zé Castro": 0.22807681783309336,
+     "Roberto Trashorras": 0.5067088657084887
+    },
+    "log_bf": 0.37769828054919685
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.0263814002928342
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.761342856730721
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.06461805283505839
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.8417097797458268
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": 0.06371862184641941
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.6364455117903987
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.003938203284519659
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Michael Krohn-Dehli": 0.34774891958539444
+    },
+    "log_bf": 0.0616034371207661
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Éver Banega": 0.37740269641626106
+    },
+    "log_bf": 0.38038028038521077
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.3579243450521621
+    },
+    "log_bf": -0.14424519785339385
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.05116885027472051
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.810335820447392
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.10495898803421255
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Rodri": 0.21502374798021143,
+     "Bruno Soriano": 0.24472530855730482
+    },
+    "log_bf": -0.18378733892778598
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.07584973799818329
+   }
+  },
+  "rho_max=10": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Gabriel Milito": 0.2500163607421768
+    },
+    "log_bf": -0.9550513820006188
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.2743680671650606
+    },
+    "log_bf": -0.33201289934395106
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.23854878720986472
+    },
+    "log_bf": -1.3202999971547769
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.33901039556341017,
+     "Xavi": 0.6913627592323691
+    },
+    "log_bf": 0.7891603306569266
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.732788735732612
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.20184171548997173,
+     "Andrés Iniesta": 0.29209584014922224,
+     "Xavi": 0.35759962812455826
+    },
+    "log_bf": 0.02362073536681919
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4202016384581668
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.23566453296568468,
+     "Lionel Messi": 0.589762234411586,
+     "Xavi": 0.24333909847721016
+    },
+    "log_bf": 0.7486352770245617
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3302515154641412
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.8230462574596354
+    },
+    "log_bf": 1.4366120570963403
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.9824460638946562
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.2804725610135175,
+     "Andrés Iniesta": 0.2682469774798505,
+     "Lionel Messi": 0.48131850192621517
+    },
+    "log_bf": 0.44889900068281463
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.748709813959806
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4273635158324538
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.9249681839164907
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7560732365798672
+    },
+    "log_bf": 1.0573170742734135
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.25663908001066016
+    },
+    "log_bf": -1.4184790229558644
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.24329053189240385,
+     "Lionel Messi": 0.8537355168594575
+    },
+    "log_bf": 1.6719137486276878
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.464565076981259
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3446310014713061,
+     "Lionel Messi": 0.5561054991710207
+    },
+    "log_bf": 0.5232871145021534
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.68775674112797
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.29272074744882676
+    },
+    "log_bf": -0.20767894841148404
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.872493072938454
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Jordi Alba": 0.2263505812052113,
+     "Lionel Messi": 0.5285138692464588
+    },
+    "log_bf": 0.21305157159451937
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.9036142044678286
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [],
+    "incl": {
+     "Ousmane Dembélé": 0.34475133287344606,
+     "Lionel Messi": 0.6723602457225578
+    },
+    "log_bf": 0.6725496491798566
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.7278772895391512
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7782073657270151
+    },
+    "log_bf": 1.1363615215459077
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Aymeric Laporte": 0.23918022419161045,
+     "Iker Muniain": 0.44373504651888235
+    },
+    "log_bf": -0.35420223858791644
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.6956941728287092
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.23867676841354238,
+     "Filipe Luis": 0.9583546741540838
+    },
+    "log_bf": 2.4035095140615397
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.6341324718939205
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.21494586585224817,
+     "Andreu Fontàs": 0.8618054369304634,
+     "Fabián Orellana": 0.5441312066239282
+    },
+    "log_bf": 1.4640972770979772
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.6206972626158171
+    },
+    "log_bf": 0.3940753346628867
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.37019700567501
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.6613450998660824
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Mickaël Ciani": 0.21948223693426444
+    },
+    "log_bf": -1.1461623267913552
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.21900110077356197,
+     "Burgui": 0.3211432058862503
+    },
+    "log_bf": -0.11985679284403261
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -2.0164495784544556
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.4376952854055289
+    },
+    "log_bf": 0.14139646104216297
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.9126115773293861
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.7225219809743777
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Juan Carlos Valerón": 0.2254836810486315
+    },
+    "log_bf": -1.2715272094618797
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.3039058576897228,
+     "Jonathan Viera": 0.3499175556155669
+    },
+    "log_bf": -0.07271335617163288
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.6064927977783157
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.7483429218535349
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.6006957916758893
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.8075910545559992
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.6184297406358894
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.5236686578607035
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Roberto Trashorras": 0.42178825950482984
+    },
+    "log_bf": -0.6219807375100999
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.5693435143265191
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.9373538370636254
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.6441454073603268
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -2.0043876254150064
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4087434787484199
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.7615369491616661
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.6080975540225637
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Michael Krohn-Dehli": 0.28189674929328784
+    },
+    "log_bf": -0.9635727837037962
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.8673099442380097
+    },
+    "log_bf": 1.7067006806520908
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.21420267782695473
+    },
+    "log_bf": -1.3065040760768056
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.49510108603861624
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.989927325185235
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.7283678052225042
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2693007206006968
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.6824522551555958
+   }
+  },
+  "prior shape 0.5": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Lilian Thuram": 0.2077495099420734,
+     "Gabriel Milito": 0.3048256768863363
+    },
+    "log_bf": -0.4568412549767231
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.3125291397412359
+    },
+    "log_bf": 0.045027463204817764
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.299120040831432
+    },
+    "log_bf": -0.8389228101816997
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.26488503028107724,
+     "Xavi": 0.610121339772248
+    },
+    "log_bf": 0.6963313882759223
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.243144922798777
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.24887149366290065,
+     "Lionel Messi": 0.20782578435669363,
+     "Xavi": 0.3167023388175627
+    },
+    "log_bf": 0.1962763075386107
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.23395809866268813
+    },
+    "log_bf": -0.964180848463144
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.22128746805268784,
+     "Lionel Messi": 0.6008716670401182,
+     "Xavi": 0.22890828485395875
+    },
+    "log_bf": 0.886115489079458
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.8547282854710545
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.795314502828056
+    },
+    "log_bf": 1.4759332672591654
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.501974934693763
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.24336613592285625,
+     "Andrés Iniesta": 0.27283657920537907,
+     "Lionel Messi": 0.49567817690437865
+    },
+    "log_bf": 0.6186598159323466
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2634134660257104
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.21150008390573455
+    },
+    "log_bf": -0.1435278521761063
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4411396686186322
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7305004671072205
+    },
+    "log_bf": 1.1286469738423364
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Neymar": 0.20913485929385625,
+     "Lionel Messi": 0.32503691938575
+    },
+    "log_bf": -0.9415599648075812
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.2667197021230471,
+     "Lionel Messi": 0.8129527105546487
+    },
+    "log_bf": 1.5691938686909026
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.9804658529770052
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.34454495754558634,
+     "Lionel Messi": 0.5443747298000926
+    },
+    "log_bf": 0.6880905177833938
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1969659420729073
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.30060853511418173
+    },
+    "log_bf": 0.06157547255727991
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3914425433664235
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Jordi Alba": 0.2024663704021607,
+     "Lionel Messi": 0.53382310797292
+    },
+    "log_bf": 0.42494130423565935
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4160712958411068
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [],
+    "incl": {
+     "Ousmane Dembélé": 0.2964499599341962,
+     "Lionel Messi": 0.6353735648566868
+    },
+    "log_bf": 0.7751838485600189
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2461701287246854
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7505554704585999
+    },
+    "log_bf": 1.186401903978691
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Aymeric Laporte": 0.27560472828414595,
+     "Iker Muniain": 0.5074625681796946
+    },
+    "log_bf": 0.15051767918396308
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3168822259998194
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.24178371868955884,
+     "Filipe Luis": 0.9698193557034144
+    },
+    "log_bf": 2.9167235275752432
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2807831873604272
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.21979263900782928,
+     "Andreu Fontàs": 0.8860448938909458,
+     "Fabián Orellana": 0.5605081406823851
+    },
+    "log_bf": 1.9591308338710576
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.6299770881900469
+    },
+    "log_bf": 0.6681283728913456
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lillo Castellano": 0.24837519027433544
+    },
+    "log_bf": -0.8540084241796677
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.29286143495184547
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Mickaël Ciani": 0.27619381167711693
+    },
+    "log_bf": -0.6341614009983658
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.23497167417748624,
+     "Burgui": 0.34425555768152516
+    },
+    "log_bf": 0.1909663275478124
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5041912421447137
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.4156448839222925,
+     "Pedro León": 0.2335563079429008
+    },
+    "log_bf": 0.3662889217263512
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4000326444354698
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3385835678584641
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Juan Carlos Valerón": 0.2872981556041001
+    },
+    "log_bf": -0.7692421055174634
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.3007813836434219,
+     "Jonathan Viera": 0.3489390332982582
+    },
+    "log_bf": 0.2094215912425028
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0892154042928013
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.374685344476859
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1045340019605163
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.43206988614232955
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1073358374167697
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Luis Alberto": 0.21931793756389045
+    },
+    "log_bf": -0.16217399379025466
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Roberto Trashorras": 0.4994731897303454
+    },
+    "log_bf": -0.10903345559364652
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.21154673550809378
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4262021135014464
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2674123353192357
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5080702946261795
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "James Rodríguez": 0.20176660330070775
+    },
+    "log_bf": -0.13565947786815968
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2558516401649484
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2323549765931716
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Michael Krohn-Dehli": 0.34650971223361554
+    },
+    "log_bf": -0.4537643312332591
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.7658849598356054
+    },
+    "log_bf": 1.299642222246149
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.2762926200383728
+    },
+    "log_bf": -0.7907886554488357
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.17199370816217652
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4817497416281213
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.35899934248989496
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Rodri": 0.20396496838246495,
+     "Bruno Soriano": 0.20551356075024746
+    },
+    "log_bf": -0.7582976745575252
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3040315848499091
+   }
+  },
+  "prior shape 2": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Lilian Thuram": 0.21174929343057816,
+     "Gabriel Milito": 0.3103159554047459
+    },
+    "log_bf": -0.4296732560659109
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.306252818976284
+    },
+    "log_bf": 0.014558688086040661
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.31852085942945324,
+     "Xavi": 0.20001715449547927
+    },
+    "log_bf": -0.765994177480863
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.26310473309686944,
+     "Xavi": 0.5796299947047141
+    },
+    "log_bf": 0.6455440991267665
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1906150794023347
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.24260767880085643,
+     "Lionel Messi": 0.2138686546154413,
+     "Xavi": 0.3129444052243616
+    },
+    "log_bf": 0.21779498136889686
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Ibrahim Afellay": 0.21217731474816073,
+     "Lionel Messi": 0.27086980477772854
+    },
+    "log_bf": -0.8123855054440128
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.23394545126696403,
+     "Lionel Messi": 0.633710120751712,
+     "Xavi": 0.24223417933226296
+    },
+    "log_bf": 1.031605014812186
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.2168966867228948
+    },
+    "log_bf": -0.7607938297418002
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.8157079315590638
+    },
+    "log_bf": 1.6349802361560393
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4215308398492823
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.24717369925366448,
+     "Andrés Iniesta": 0.309203223066197,
+     "Lionel Messi": 0.5320997748129056
+    },
+    "log_bf": 0.7906238282992177
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1974381114530246
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.24132679705298035
+    },
+    "log_bf": -0.026511159227254666
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3723220031382368
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7742738056919914,
+     "Xavi": 0.20554329599760282
+    },
+    "log_bf": 1.4013596484632416
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Neymar": 0.22418544453632072,
+     "Lionel Messi": 0.34639336753726196
+    },
+    "log_bf": -0.8617827211107425
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.29120935076744686,
+     "Lionel Messi": 0.8647036961736396
+    },
+    "log_bf": 1.9835824207157486
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.9195298745275124
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3618496893144616,
+     "Lionel Messi": 0.6330750304665138
+    },
+    "log_bf": 0.9723164096586174
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1493366683284876
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3212123880935237,
+     "Lionel Messi": 0.254380337787224
+    },
+    "log_bf": 0.2171194036970121
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3136826530749346
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Jordi Alba": 0.20375409865975525,
+     "Lionel Messi": 0.5917654475398861
+    },
+    "log_bf": 0.5902000300192185
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3580975890650393
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Ousmane Dembélé": 0.3096715764613439,
+     "Lionel Messi": 0.6676697337982679
+    },
+    "log_bf": 0.9058380319623751
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1702195502025319
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7837285970843735
+    },
+    "log_bf": 1.3951716882619962
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Aymeric Laporte": 0.2758767021626646,
+     "Iker Muniain": 0.5045871672489497
+    },
+    "log_bf": 0.139189013667405
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.31393108228257915
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.2408959906655222,
+     "Filipe Luis": 0.969288252515984
+    },
+    "log_bf": 2.8993172542822805
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2868517416246448
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.22429302237494797,
+     "Andreu Fontàs": 0.8896509231656123,
+     "Fabián Orellana": 0.5589462748093976
+    },
+    "log_bf": 1.9954842793836178
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.6366906312913447
+    },
+    "log_bf": 0.6622892282628783
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lillo Castellano": 0.24405726349426643
+    },
+    "log_bf": -0.8803942415091086
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.31258224062905526
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Mickaël Ciani": 0.27440535919440934
+    },
+    "log_bf": -0.6481650810017072
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.2184999471337776,
+     "Burgui": 0.32796122274698036
+    },
+    "log_bf": 0.1251571712552817
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.518949976727768
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.37822171116571995,
+     "Pedro León": 0.20790724852688577
+    },
+    "log_bf": 0.24619256798685285
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.415855274917547
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4353014023566075
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Juan Carlos Valerón": 0.28917512237725235
+    },
+    "log_bf": -0.7640546486843931
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.28843190679845615,
+     "Jonathan Viera": 0.3345596817564752
+    },
+    "log_bf": 0.1334177503611187
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1194994369044338
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4139842497792614
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1131127593498746
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.43255921694603217
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1194778301273232
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Luis Alberto": 0.20123347975398945
+    },
+    "log_bf": -0.24081866962402643
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Roberto Trashorras": 0.4924409499854296
+    },
+    "log_bf": -0.13009337827698175
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.25539431829467674
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4376534033936963
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3114626986199056
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4758696566327103
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "James Rodríguez": 0.23136776267121467
+    },
+    "log_bf": 0.00166247473227088
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.252692374823937
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.22257499853188278
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Michael Krohn-Dehli": 0.34204518506008974
+    },
+    "log_bf": -0.46862142839802345
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.7225341616924189
+    },
+    "log_bf": 1.133854601417795
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.2709327410879494
+    },
+    "log_bf": -0.8167767951567839
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2531924430341448
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4842687881123737
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.38865538089532947
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Rodri": 0.2014159973303798,
+     "Bruno Soriano": 0.20183071200590108
+    },
+    "log_bf": -0.7738758309468494
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3386993975187096
+   }
+  },
+  "prior mean x0.5": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Lilian Thuram": 0.21943703991186855,
+     "Gabriel Milito": 0.32114489260142043
+    },
+    "log_bf": -0.3646323933716076
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.3441884025910908
+    },
+    "log_bf": 0.17544405785015726
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3512137649922277,
+     "Xavi": 0.22269092553530806
+    },
+    "log_bf": -0.6371431428108849
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.34506392811943304,
+     "Xavi": 0.6902604393019534
+    },
+    "log_bf": 1.1198198061876212
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1200609900238305
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.2180995719638815,
+     "Andrés Iniesta": 0.31514269877406154,
+     "Lionel Messi": 0.24529389461538112,
+     "Xavi": 0.39923660297401947
+    },
+    "log_bf": 0.5521904236549346
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Ibrahim Afellay": 0.25853866245074075,
+     "Lionel Messi": 0.3222974808414923
+    },
+    "log_bf": -0.6442034834520456
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Dani Alves": 0.21238701101948318,
+     "Andrés Iniesta": 0.284421991235395,
+     "Lionel Messi": 0.7060206880028163,
+     "Xavi": 0.2938752335251368
+    },
+    "log_bf": 1.4749640547981926
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.23833110656949524,
+     "Xavi": 0.2076759721143462
+    },
+    "log_bf": -0.6666717379857232
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.8665487565259768
+    },
+    "log_bf": 2.079404669428257
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3604509025031746
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.3074457456357949,
+     "Andrés Iniesta": 0.3623227596932635,
+     "Lionel Messi": 0.6111076573273141
+    },
+    "log_bf": 1.202649597461459
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1295123980447386
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.21520540704612431,
+     "Lionel Messi": 0.28325431479204166
+    },
+    "log_bf": 0.19140267965593694
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2942816052407693
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.8300998211725568,
+     "Xavi": 0.24064091034227322
+    },
+    "log_bf": 1.8027895316899247
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Neymar": 0.2763474704202181,
+     "Lionel Messi": 0.40595380066648756
+    },
+    "log_bf": -0.6702835851710631
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Dani Alves": 0.2222113369533857,
+     "Andrés Iniesta": 0.33943603406870865,
+     "Lionel Messi": 0.9067863048262421
+    },
+    "log_bf": 2.4823674084571508
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.2257540940984273,
+     "Arda Turan": 0.24041524449968718
+    },
+    "log_bf": -0.7521459116124163
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [
+     "Andrés Iniesta",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.42411972078602345,
+     "Lionel Messi": 0.7090311033892929
+    },
+    "log_bf": 1.3624951757865915
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0577335395123413
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.36627381991487257,
+     "Lionel Messi": 0.32248741933882247
+    },
+    "log_bf": 0.4692640675608004
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2350758935259734
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Jordi Alba": 0.2565658809087481,
+     "Lionel Messi": 0.6661945653996945
+    },
+    "log_bf": 0.928820410610939
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.298262183093854
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Ousmane Dembélé": 0.3598762769593383,
+     "Lionel Messi": 0.7430067516420717
+    },
+    "log_bf": 1.2647449110357059
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1004998054345378
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Jordi Alba": 0.217826187348216,
+     "Lionel Messi": 0.8407367388895973
+    },
+    "log_bf": 1.8066994827317586
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [
+     "Iker Muniain"
+    ],
+    "incl": {
+     "Aymeric Laporte": 0.28509618088415595,
+     "Iker Muniain": 0.5350492058134984
+    },
+    "log_bf": 0.27119584421210163
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Beñat Etxebarria": 0.20460683172873964
+    },
+    "log_bf": -0.16976206524651616
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.26514586523241546,
+     "Filipe Luis": 0.97300754010201
+    },
+    "log_bf": 3.0623205749265736
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.1465389234479204
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.22991037810639506,
+     "Andreu Fontàs": 0.8994701751702494,
+     "Fabián Orellana": 0.5840509772136591
+    },
+    "log_bf": 2.173223035957676
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.6986219982191835
+    },
+    "log_bf": 0.9662218314612687
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lillo Castellano": 0.254591983507653
+    },
+    "log_bf": -0.8108018408654942
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.173720536445245
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Mickaël Ciani": 0.2814070467498794
+    },
+    "log_bf": -0.5861569021649586
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.2660833383262865,
+     "Burgui": 0.3862719375776497
+    },
+    "log_bf": 0.35908751687261997
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4725230356937544
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.46232982182263826,
+     "Pedro León": 0.25419977458725773
+    },
+    "log_bf": 0.5421016508086751
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3714553081015737
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3069297907217745
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Juan Carlos Valerón": 0.3048817692282535
+    },
+    "log_bf": -0.6706883821815239
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.33023420534932824,
+     "Jonathan Viera": 0.3837667336227325
+    },
+    "log_bf": 0.341556223480481
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0388722939488133
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2987176362334196
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0502260778886807
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.33183113088122695
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0334675096718513
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Luis Alberto": 0.24317246027229122
+    },
+    "log_bf": -0.04518439987006673
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Roberto Trashorras": 0.5230641730144578
+    },
+    "log_bf": -0.01299622303001513
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.10612669806111796
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3934381659088615
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.18590396122043273
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4178398212430352
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "James Rodríguez": 0.2675340545963343
+    },
+    "log_bf": 0.20021945771266303
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1874855441156598
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.08274306542840293
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Michael Krohn-Dehli": 0.36934800579621424
+    },
+    "log_bf": -0.37166120148344817
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.801366065629954
+    },
+    "log_bf": 1.5614230998639442
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.2867029340656869
+    },
+    "log_bf": -0.735543901132587
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.11006689476954534
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4382259979515197
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2672156013727829
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Rodri": 0.2108972386422407,
+     "Bruno Soriano": 0.2155846454283975
+    },
+    "log_bf": -0.6985365793959346
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.20279498666319284
+   }
+  },
+  "prior mean x2": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Lilian Thuram": 0.20399164489444127,
+     "Gabriel Milito": 0.2995144182590027
+    },
+    "log_bf": -0.4886254569912012
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.2940035001153598
+    },
+    "log_bf": -0.03510977098446233
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.2844073395734318
+    },
+    "log_bf": -0.8988567317813647
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.22340129450067334,
+     "Xavi": 0.5484543396012651
+    },
+    "log_bf": 0.4607996994819672
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.276812910532172
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.2153292041859469,
+     "Xavi": 0.2759188092402543
+    },
+    "log_bf": 0.037420536329761944
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.2152461782013109
+    },
+    "log_bf": -1.0317147636103812
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.5585889739953599,
+     "Xavi": 0.20501653252053442
+    },
+    "log_bf": 0.6780936018322592
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.8984729626505299
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7610476576443322
+    },
+    "log_bf": 1.2584711713564047
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5306129496694467
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.2118059179830232,
+     "Andrés Iniesta": 0.24828690534955009,
+     "Lionel Messi": 0.45320861171241494
+    },
+    "log_bf": 0.4280935061254212
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.295678179428819
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.24582118853334123
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4767223120302049
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.6931599599824713
+    },
+    "log_bf": 0.9375238681653713
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.29925382660169053
+    },
+    "log_bf": -1.0263040000536705
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.24296708420460525,
+     "Lionel Messi": 0.7776407620120745
+    },
+    "log_bf": 1.3303087657614157
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0493439221976075
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3132395115074266,
+     "Lionel Messi": 0.5009916044192805
+    },
+    "log_bf": 0.5120798336986638
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2382748453320573
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.28026191567295283
+    },
+    "log_bf": -0.04582536702412199
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.427365636821122
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.4935962900951842
+    },
+    "log_bf": 0.26583578964223875
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4442846832275649
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [],
+    "incl": {
+     "Ousmane Dembélé": 0.27091434856169316,
+     "Lionel Messi": 0.5912738615809273
+    },
+    "log_bf": 0.603407423651646
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.278807837279743
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7128207318957536
+    },
+    "log_bf": 0.9880082812992725
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Aymeric Laporte": 0.2709068994987341,
+     "Iker Muniain": 0.4920501335104402
+    },
+    "log_bf": 0.08538040991842877
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3900305873045653
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.23006252149002956,
+     "Filipe Luis": 0.9678231453268616
+    },
+    "log_bf": 2.8366330883586244
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.35311768685933487
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.21684750022439675,
+     "Andreu Fontàs": 0.8805791460423091,
+     "Fabián Orellana": 0.547441022684768
+    },
+    "log_bf": 1.8719201208640754
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.5958274425252817
+    },
+    "log_bf": 0.5150996718925
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lillo Castellano": 0.24314789620899713
+    },
+    "log_bf": -0.8886454419243961
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3650858810819386
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Mickaël Ciani": 0.2727223178158441
+    },
+    "log_bf": -0.6647685043913754
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.21157949666627612,
+     "Burgui": 0.3151249364581478
+    },
+    "log_bf": 0.07287981186584602
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5273094099084688
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.3722078715149287,
+     "Pedro León": 0.21001939570162176
+    },
+    "log_bf": 0.21493639627379935
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4221797748963496
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4087334890586334
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Juan Carlos Valerón": 0.2797531254997734
+    },
+    "log_bf": -0.8145034552680244
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.28007857655184704,
+     "Jonathan Viera": 0.32442886936490667
+    },
+    "log_bf": 0.10195267884748205
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1290516471385104
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4355427468325388
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1357868665306086
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.48552547615452113
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1491920668393618
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.26447126124227793
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Roberto Trashorras": 0.4841008979722881
+    },
+    "log_bf": -0.16696285771863018
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2896180278544591
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.448150250222497
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3330075182354477
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5361252635696303
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.22893184721550597
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2876164604510336
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.30360937180454073
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Michael Krohn-Dehli": 0.3331320072944328
+    },
+    "log_bf": -0.5013370574458804
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.7220389666431154
+    },
+    "log_bf": 1.078748652666377
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.2685225622933594
+    },
+    "log_bf": -0.8310640066594601
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.24845454412349
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5045316969826104
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.42283783053923685
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.795495423889804
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3752005240585703
+   }
+  },
+  "min minutes 450": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Gabriel Milito": 0.2223890669943565
+    },
+    "log_bf": -0.731616859954471
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.3689069060189773
+    },
+    "log_bf": 0.13749130145237132
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.35120676852592353,
+     "Xavi": 0.22541130901197567
+    },
+    "log_bf": -0.73021465383286
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.30837490692161584,
+     "Xavi": 0.6586223817701298
+    },
+    "log_bf": 0.9231973300166132
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1951638611431576
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.26406167065622194,
+     "Lionel Messi": 0.2577638747797426,
+     "Xavi": 0.3367917599364767
+    },
+    "log_bf": 0.31664791245944457
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.23130420332283083
+    },
+    "log_bf": -0.9475757316827895
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.25164445681147074,
+     "Lionel Messi": 0.571157567277321,
+     "Xavi": 0.2597806506399215
+    },
+    "log_bf": 0.87017191041366
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.24665138502691147
+    },
+    "log_bf": -0.8324332790545839
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Dani Alves": 0.2216444857684876,
+     "Lionel Messi": 0.8459280559075129
+    },
+    "log_bf": 1.790845283317637
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5127889192075372
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.2775714402495485,
+     "Andrés Iniesta": 0.30200804678108367,
+     "Lionel Messi": 0.5268118283393087
+    },
+    "log_bf": 0.7428279411247729
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.302675745391909
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.24611789214503207
+    },
+    "log_bf": -0.04490081982567773
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4386377169300602
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.6518779064638996,
+     "Xavi": 0.20662913597856095
+    },
+    "log_bf": 0.883816387794738
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.20440867590232956
+    },
+    "log_bf": -1.3217050822879344
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.2517838986073488,
+     "Lionel Messi": 0.7087159784233554
+    },
+    "log_bf": 1.1394768774621724
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0628186759137606
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3657291476550317,
+     "Lionel Messi": 0.5920741277375379
+    },
+    "log_bf": 0.8207314902144986
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1364182285098536
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.31902121215366636,
+     "Lionel Messi": 0.22047751578575223
+    },
+    "log_bf": 0.12343149458084213
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.464067474499899
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Jordi Alba": 0.2152683869523572,
+     "Lionel Messi": 0.4708470139966289
+    },
+    "log_bf": 0.2843067079911208
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.22648383141583242
+    },
+    "log_bf": -1.2269173535501068
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.8725870969787425
+    },
+    "log_bf": 1.7892419569901108
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1542190130102057
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7833044092594827
+    },
+    "log_bf": 1.348877845568353
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [
+     "Iker Muniain"
+    ],
+    "incl": {
+     "Aymeric Laporte": 0.3174912263194197,
+     "Iker Muniain": 0.5558349278112541
+    },
+    "log_bf": 0.3107606081615586
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Beñat Etxebarria": 0.21150247565359623
+    },
+    "log_bf": -0.2839049466418686
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.2830694387136869,
+     "Filipe Luis": 0.9755941390360617
+    },
+    "log_bf": 3.0990569831583485
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3163332659436833
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Andreu Fontàs": 0.842794596040692,
+     "Fabián Orellana": 0.5445806760957393
+    },
+    "log_bf": 1.5300590189097392
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.6051690441189888
+    },
+    "log_bf": 0.5635160292560144
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lillo Castellano": 0.2764991151094948
+    },
+    "log_bf": -0.8748933419901874
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.208449684938266
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Anaitz Arbilla": 0.2020322443814682
+    },
+    "log_bf": -1.1021970342627014
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.2621357427942092,
+     "Burgui": 0.2745822200618431
+    },
+    "log_bf": 0.09071287501151915
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5557754698580482
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.4561508122742592,
+     "Pedro León": 0.2292335034945746
+    },
+    "log_bf": 0.39095494921201634
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.395357630701227
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3692716257806836
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4995348755288376
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.2741275093775552,
+     "Jonathan Viera": 0.3119411738592357
+    },
+    "log_bf": 0.05426101558865781
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0410462535455025
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4122365337928642
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3742995812983025
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4142427400206259
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1866662457125159
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Luis Alberto": 0.23998578918598912
+    },
+    "log_bf": -0.13362266381625432
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Zé Castro": 0.21227689857034893,
+     "Roberto Trashorras": 0.20271781783636686
+    },
+    "log_bf": -0.746962590113526
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.18939062081511793
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4370596900659791
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.304342078944444
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5239008834586372
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "James Rodríguez": 0.2331488495578504
+    },
+    "log_bf": -0.09431552056889814
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.237538176489366
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Carlos Vela": 0.20350195606744406
+    },
+    "log_bf": -0.16864588963161964
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Michael Krohn-Dehli": 0.20521370988662796
+    },
+    "log_bf": -0.9608863406342323
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.7517140109447662
+    },
+    "log_bf": 1.1252308083440568
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0139026210839575
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Jony": 0.23500783412166965
+    },
+    "log_bf": -0.2749904055751955
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4902981498441505
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.37485504235633016
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Bruno Soriano": 0.21681116773773257
+    },
+    "log_bf": -0.9659077129769571
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.32287409956826707
+   }
+  },
+  "s_max=4": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Rafael Márquez": 0.28594947724710496,
+     "Lilian Thuram": 0.32553404618996207,
+     "Gabriel Milito": 0.4279279896115531
+    },
+    "log_bf": -0.2902235292254147
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.37000244375111657
+    },
+    "log_bf": 0.03350560371225697
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.33339658564265456,
+     "Xavi": 0.22620563194389817
+    },
+    "log_bf": -0.9353103445329936
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.32519644645218393,
+     "Xavi": 0.6464504609264776
+    },
+    "log_bf": 0.676405902945362
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2842634626862264
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.24070064292441762,
+     "Andrés Iniesta": 0.32941884843851243,
+     "Lionel Messi": 0.28118504480519024,
+     "Xavi": 0.40109534192253504
+    },
+    "log_bf": 0.2686415010015679
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Ibrahim Afellay": 0.22558586404976247,
+     "Lionel Messi": 0.2802903128099443
+    },
+    "log_bf": -0.9949396076391963
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Dani Alves": 0.23996263646715305,
+     "Thiago Alcântara": 0.23157550406126942,
+     "Andrés Iniesta": 0.366510655113473,
+     "Lionel Messi": 0.6955570954282517,
+     "Xavi": 0.37506813579930104
+    },
+    "log_bf": 1.141134553136581
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.2407065370785211,
+     "Xavi": 0.22156653496209977
+    },
+    "log_bf": -0.8874355733903911
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Cesc Fàbregas": 0.205360563447146,
+     "Dani Alves": 0.21682640973178355,
+     "Lionel Messi": 0.8416618048073171,
+     "Xavi": 0.20340824091634532
+    },
+    "log_bf": 1.6373476263678413
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5440197656074588
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Cesc Fàbregas": 0.22345342440572677,
+     "Dani Alves": 0.3199345246972125,
+     "Andrés Iniesta": 0.3943067712325405,
+     "Lionel Messi": 0.5893456306157829
+    },
+    "log_bf": 0.8003189893181712
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.298163125593362
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.21937643225000075,
+     "Lionel Messi": 0.275551258153527
+    },
+    "log_bf": -0.11415265291691412
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5316068125681284
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.789608503043791,
+     "Xavi": 0.27244849267259846
+    },
+    "log_bf": 1.2824659340868294
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Neymar": 0.22581572790980106,
+     "Lionel Messi": 0.3417561919483851
+    },
+    "log_bf": -1.0781452601166563
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Dani Alves": 0.25207170782174376,
+     "Andrés Iniesta": 0.36506121819553283,
+     "Lionel Messi": 0.8650692579670919
+    },
+    "log_bf": 1.7900916874344688
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.2020565051683906,
+     "Arda Turan": 0.21625976650335182
+    },
+    "log_bf": -1.0289626192233214
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.4372570075191201,
+     "Lionel Messi": 0.6541873746372084
+    },
+    "log_bf": 0.8820060025097973
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2714309574057978
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3742624476834399,
+     "Lionel Messi": 0.26820685970857877
+    },
+    "log_bf": 0.13112657485825707
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4531502545560073
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Jordi Alba": 0.2624492352049589,
+     "Lionel Messi": 0.6156957608277043
+    },
+    "log_bf": 0.4977019448979405
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4942115928991768
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [],
+    "incl": {
+     "Ousmane Dembélé": 0.383169479302411,
+     "Lionel Messi": 0.7080314274039232
+    },
+    "log_bf": 0.885486900150454
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2831159230168652
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Jordi Alba": 0.2400663203029658,
+     "Lionel Messi": 0.8035126864094644,
+     "Miralem Pjanić": 0.20745758334945694
+    },
+    "log_bf": 1.3083438196702133
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Aymeric Laporte": 0.3782352195582092,
+     "Iker Muniain": 0.5521739972131775
+    },
+    "log_bf": 0.16540600467938305
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Beñat Etxebarria": 0.21533407205436386
+    },
+    "log_bf": -0.36520929319330264
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.3064824096564077,
+     "Filipe Luis": 0.9739853470956151
+    },
+    "log_bf": 2.846201725825651
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.31853540349649734
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.3259661364462272,
+     "Andreu Fontàs": 0.9188632655721125,
+     "Fabián Orellana": 0.6489273323130684,
+     "Augusto Fernández": 0.24458887282737138
+    },
+    "log_bf": 2.1234467885864063
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.67860916647623
+    },
+    "log_bf": 0.655652777816158
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lillo Castellano": 0.29787117134778257
+    },
+    "log_bf": -0.9050476729515537
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3411363994437835
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Anaitz Arbilla": 0.24153878851335678,
+     "Mickaël Ciani": 0.31576358924737735
+    },
+    "log_bf": -0.686582111146322
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.291152927643482,
+     "Burgui": 0.39996357991195763
+    },
+    "log_bf": 0.17325916037279399
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5888077182917897
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.47744145446317815,
+     "Pedro León": 0.2912370853404813
+    },
+    "log_bf": 0.36964446738284096
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4786189923254511
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4351917641280849
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Juan Carlos Valerón": 0.3154558705559059
+    },
+    "log_bf": -0.8771766369359568
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.3758044285448603,
+     "Jonathan Viera": 0.42382332111123977
+    },
+    "log_bf": 0.22067352967616216
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1694206292503821
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.44719810229193513
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2055480171383834
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4962938531188996
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1993186384386405
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Luis Alberto": 0.26294987545725496
+    },
+    "log_bf": -0.2104543067613207
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Zé Castro": 0.24134346496096715,
+     "Roberto Trashorras": 0.5315417397474478
+    },
+    "log_bf": -0.16343078338054795
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.24927332288305593
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.512756875508174
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3202062584901739
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.58534082915331
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "James Rodríguez": 0.26899197132524066
+    },
+    "log_bf": -0.07944489825565881
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3426309450622682
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.24629541138666866
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Michael Krohn-Dehli": 0.3848049631704652
+    },
+    "log_bf": -0.507215294382064
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.7810894635807024
+    },
+    "log_bf": 1.2364405912976082
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.34273833434715323,
+     "Carlos Carmona": 0.20432638059577782
+    },
+    "log_bf": -0.8146779093744811
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Jony": 0.20902040190799503,
+     "Hugo Fraile": 0.20049776911278425
+    },
+    "log_bf": -0.24534579326363826
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.565146128330511
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4247731858249466
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Rodri": 0.23648530582800562,
+     "Bruno Soriano": 0.24722752344177493
+    },
+    "log_bf": -0.820510437780797
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3629783789182284
+   }
+  },
+  "no phi correction": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [
+     "Rafael Márquez",
+     "Lilian Thuram",
+     "Gabriel Milito"
+    ],
+    "incl": {
+     "Rafael Márquez": 0.406466803027103,
+     "Lilian Thuram": 0.4904805084704477,
+     "Gabriel Milito": 0.6473358508712368
+    },
+    "log_bf": 0.7019613609686814
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.3193168340692673
+    },
+    "log_bf": 0.05388764776191124
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3198891904857183,
+     "Xavi": 0.20468070329169083
+    },
+    "log_bf": -0.7928367011444948
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.2694919367693439,
+     "Xavi": 0.6150013878903521
+    },
+    "log_bf": 0.7221423844036252
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1485903891281168
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.25510817148318415,
+     "Lionel Messi": 0.21173279005965717,
+     "Xavi": 0.32414036317540956
+    },
+    "log_bf": 0.22526387344251475
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Ibrahim Afellay": 0.23961865482605466,
+     "Lionel Messi": 0.28401513611179324
+    },
+    "log_bf": -0.804063553564788
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.22833653667267992,
+     "Lionel Messi": 0.6270195232147028,
+     "Xavi": 0.23674017160844915
+    },
+    "log_bf": 0.9876604639325421
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.22668536589603444,
+     "Xavi": 0.20983313838098458
+    },
+    "log_bf": -0.6520971510449556
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.8150251498675223
+    },
+    "log_bf": 1.6020474344761908
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3950160286623259
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.2471277077815494,
+     "Andrés Iniesta": 0.2902744129277803,
+     "Lionel Messi": 0.5175212095935063
+    },
+    "log_bf": 0.706744188940732
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {
+     "Jordi Alba": 0.23102251375391047
+    },
+    "log_bf": -1.041180142682606
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.22370962630892802
+    },
+    "log_bf": -0.09856162787724543
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4119089035735328
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7615878151244005
+    },
+    "log_bf": 1.2927215822661964
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Neymar": 0.25765564088412374,
+     "Lionel Messi": 0.3893019607667525
+    },
+    "log_bf": -0.7630505020533747
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.28075025895181865,
+     "Lionel Messi": 0.8435648681100983
+    },
+    "log_bf": 1.788068621113112
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {
+     "Marlon": 0.27012235841123117,
+     "Lionel Messi": 0.20869775724317224,
+     "Arda Turan": 0.23215516387620785
+    },
+    "log_bf": -0.551447757357522
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3596190998604524,
+     "Lionel Messi": 0.586523439695705
+    },
+    "log_bf": 0.822244550406424
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1305441208717184
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3124708292168387,
+     "Lionel Messi": 0.21246301681095722
+    },
+    "log_bf": 0.12227574246608697
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3180314295799178
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Jordi Alba": 0.2061258561534224,
+     "Lionel Messi": 0.5708900104500717
+    },
+    "log_bf": 0.5254873685322252
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4020575344061115
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [],
+    "incl": {
+     "Ousmane Dembélé": 0.32643357841797105,
+     "Lionel Messi": 0.6592396679301129
+    },
+    "log_bf": 0.8659114557518421
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2080633712831457
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7754342435554479
+    },
+    "log_bf": 1.321761344267827
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [
+     "Iker Muniain"
+    ],
+    "incl": {
+     "Aymeric Laporte": 0.3591280240519745,
+     "Iker Muniain": 0.5997375919876677
+    },
+    "log_bf": 0.5967992120318399
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.31254577395520755
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.25579029808294756,
+     "Filipe Luis": 0.9915477973903023
+    },
+    "log_bf": 4.2063580174279025
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2763237883143148
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Gustavo Cabral",
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.3888324505995307,
+     "Andreu Fontàs": 0.9944571128616232,
+     "Fabián Orellana": 0.6570658222706419
+    },
+    "log_bf": 5.206142214210928
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.6521623222335879
+    },
+    "log_bf": 0.730451541340841
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Dani García": 0.23522193739997063,
+     "Iván Ramis": 0.21574380239711347,
+     "Lillo Castellano": 0.6244030618769698
+    },
+    "log_bf": 0.18475543293331498
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.30248966260087684
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [
+     "Mickaël Ciani"
+    ],
+    "incl": {
+     "Anaitz Arbilla": 0.49801687096287645,
+     "Mickaël Ciani": 0.8977599007477821
+    },
+    "log_bf": 1.9129475282136355
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.23542371963784434,
+     "Burgui": 0.3590070589969483
+    },
+    "log_bf": 0.21184734953347117
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4746484088909426
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.41511454158860017,
+     "Pedro León": 0.23462096114465636
+    },
+    "log_bf": 0.3587985755475245
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3800386914176102
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3711755325528685
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Juan Carlos Valerón": 0.40595765957365343,
+     "Nauzet Alemán": 0.2412497107111241
+    },
+    "log_bf": -0.3918388755964486
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.3126540310954461,
+     "Jonathan Viera": 0.3580241769678421
+    },
+    "log_bf": 0.22175688521834047
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.972797944564121
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.39014756755942415
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Fábio Espinho": 0.3393474292827415
+    },
+    "log_bf": -0.6481125614678831
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.43576068129216594
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Manuel Pablo": 0.2661532328672652
+    },
+    "log_bf": -0.717032405051583
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Luis Alberto": 0.21751055425923274
+    },
+    "log_bf": -0.18055375634840232
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [
+     "Roberto Trashorras"
+    ],
+    "incl": {
+     "Roberto Trashorras": 0.638330758568172
+    },
+    "log_bf": 0.4003336515101239
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.21776425452060266
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4202699790298823
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.28256095388290703
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4715710841164196
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "James Rodríguez": 0.21440288915308545
+    },
+    "log_bf": -0.07921747201604035
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1714625489493073
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2241809603877698
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [
+     "Michael Krohn-Dehli",
+     "Nicolás Pareja"
+    ],
+    "incl": {
+     "Michael Krohn-Dehli": 0.5542772942046186,
+     "Nicolás Pareja": 0.5929390774442683,
+     "Kolo": 0.22232187908443873
+    },
+    "log_bf": 0.8249707372326611
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.7764883179866163
+    },
+    "log_bf": 1.360685090754572
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.6439107665003305,
+     "Carlos Carmona": 0.22422668881229235,
+     "Alberto Lora": 0.37467997461371494
+    },
+    "log_bf": 0.3089703742365373
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.17722110812641745
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.468479538506756
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3658183882288597
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Rodri": 0.47280632407696505,
+     "Daniele Bonera": 0.20780332300071222,
+     "Bruno Soriano": 0.30062091680439146
+    },
+    "log_bf": -0.023268073032653547
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3134721374432985
+   }
+  },
+  "alpha x0.5": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.9944368565762716
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.22422353963311537
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1193609068750732
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [],
+    "incl": {
+     "Xavi": 0.2748128982504062
+    },
+    "log_bf": -0.026810019510691063
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2425386742862514
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.12960076206066162
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.136504115846435
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.29817868668907227
+    },
+    "log_bf": 0.10151150662018438
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0822287738735383
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.381819319672057
+    },
+    "log_bf": 0.23549249569069275
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3151538013870265
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.2449872742272505
+    },
+    "log_bf": 0.03327554950774925
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2425899251917087
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.17469908372763143
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3394795356027487
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.3734657786611794
+    },
+    "log_bf": 0.21732435054667576
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2325240236170316
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.43574121696516266
+    },
+    "log_bf": 0.3600156331401507
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1404615220827452
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.27433294688616733
+    },
+    "log_bf": 0.07591522703742726
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2611631811577269
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.11346320536091525
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2634752984972124
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.29186050391349255
+    },
+    "log_bf": -0.014639468261449906
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2986276956866476
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.25583151468839277
+    },
+    "log_bf": -0.00831156706030356
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.22396149611032
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.356397813211192
+    },
+    "log_bf": 0.16453707940509332
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Iker Muniain": 0.21543299714000164
+    },
+    "log_bf": -0.7623469882892664
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3077701923887304
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Filipe Luis": 0.6185118272619334
+    },
+    "log_bf": 0.16610116743370895
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2573686798458823
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Andreu Fontàs": 0.5443375679817237,
+     "Fabián Orellana": 0.23500760045218727
+    },
+    "log_bf": 0.10194041552111344
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Nolito": 0.31186782194150287
+    },
+    "log_bf": -0.01990097191168161
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.043899104540941
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.27595306180060675
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Mickaël Ciani": 0.21490580676898066
+    },
+    "log_bf": -0.8302509707382342
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.12160833106733548
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.372818681661201
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.10215244154404957
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2770750782120075
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3451146307639448
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.073516292350817
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.16220430443273415
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1893425144707663
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3255745218798012
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1379725002343264
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3331326859667598
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1432648924298405
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.24761717790785553
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Roberto Trashorras": 0.2148355275842059
+    },
+    "log_bf": -0.8680626834439806
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2514564322444244
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3149059419397986
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.295051529759391
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3504909713576865
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.16164435100735375
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2451286485395059
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.23965903740999295
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.9207542214118689
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Éver Banega": 0.32871497262375715
+    },
+    "log_bf": 0.13616222489490326
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0414453276750208
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.23226729116537115
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3494145492638836
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3177860980823368
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.032237078731427
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.27694028387051617
+   }
+  },
+  "alpha x2": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [
+     "Rafael Márquez",
+     "Lilian Thuram",
+     "Gabriel Milito"
+    ],
+    "incl": {
+     "Rafael Márquez": 0.6462271881928198,
+     "Lilian Thuram": 0.7000520193397106,
+     "Gabriel Milito": 0.8322152716533829
+    },
+    "log_bf": 2.1510294883017878
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [
+     "Ronaldinho"
+    ],
+    "incl": {
+     "Deco": 0.3629008304782387,
+     "Ronaldinho": 0.7227188254414146
+    },
+    "log_bf": 1.2892613444820569
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [
+     "Andrés Iniesta",
+     "Xavi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.7914538174798011,
+     "Lionel Messi": 0.22620364615497213,
+     "Xavi": 0.5438089091408422
+    },
+    "log_bf": 1.0029348448227324
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [
+     "Dani Alves",
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.6429584104260108,
+     "Xavi": 0.9481866109256984
+    },
+    "log_bf": 3.1137334021951517
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.24561764834607727,
+     "Dmytro Chygrynskiy": 0.2711233393733435
+    },
+    "log_bf": -0.7200469932298006
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [
+     "Dani Alves",
+     "Andrés Iniesta",
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.37248024162033117,
+     "Andrés Iniesta": 0.6920006737526053,
+     "Lionel Messi": 0.3121979898678669,
+     "Xavi": 0.790594667292558
+    },
+    "log_bf": 2.0045388530501214
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [
+     "Pedro",
+     "Ibrahim Afellay",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Pedro": 0.7789680896327821,
+     "Ibrahim Afellay": 0.8362471100642156,
+     "Lionel Messi": 0.8845269954160366
+    },
+    "log_bf": 1.5973276230443219
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [
+     "Andrés Iniesta",
+     "Lionel Messi",
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.22218121656280324,
+     "Andrés Iniesta": 0.6058797885542564,
+     "Lionel Messi": 0.9153053525621867,
+     "Xavi": 0.6160247082869724
+    },
+    "log_bf": 3.829379716135847
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.24181209328899425,
+     "Lionel Messi": 0.5751342020401498,
+     "Jonathan dos Santos": 0.2242445883147391,
+     "Xavi": 0.5407236921009076
+    },
+    "log_bf": 0.6655188747921272
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Dani Alves": 0.33122719433006237,
+     "Lionel Messi": 0.9890352176501536
+    },
+    "log_bf": 4.808889069810647
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.416419171762243
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [
+     "Dani Alves",
+     "Andrés Iniesta",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Cesc Fàbregas": 0.20650836170136444,
+     "Dani Alves": 0.5316655233211885,
+     "Andrés Iniesta": 0.5898743776483968,
+     "Lionel Messi": 0.8847136217047419
+    },
+    "log_bf": 3.1516692618427413
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.20349280966304065,
+     "Jordi Alba": 0.30548283066740267,
+     "Xavi": 0.21820646418081383
+    },
+    "log_bf": -0.7873731604901764
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.3422646731046491,
+     "Andrés Iniesta": 0.21876962193289828,
+     "Lionel Messi": 0.41405151447113153
+    },
+    "log_bf": 0.46554008661073
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.35898264111402534
+    },
+    "log_bf": -0.9526713953862043
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.23500891452841702,
+     "Lionel Messi": 0.9791711957031665,
+     "Xavi": 0.391962276642809
+    },
+    "log_bf": 3.971682536557722
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [
+     "Neymar",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Neymar": 0.8033423232399786,
+     "Lionel Messi": 0.893729373302901
+    },
+    "log_bf": 1.418921893328502
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Andrés Iniesta",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Dani Alves": 0.3475060083537948,
+     "Andrés Iniesta": 0.5160905778321475,
+     "Lionel Messi": 0.9926091882362068
+    },
+    "log_bf": 5.160270838387419
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [
+     "Neymar",
+     "Lionel Messi",
+     "Arda Turan"
+    ],
+    "incl": {
+     "Neymar": 0.8100250172765417,
+     "Lionel Messi": 0.8287638047224245,
+     "Arda Turan": 0.8328780769954828
+    },
+    "log_bf": 1.3100665537024554
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [
+     "Andrés Iniesta",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.726228826342141,
+     "Lionel Messi": 0.9359150519355979
+    },
+    "log_bf": 3.222633407355815
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {
+     "Sergio Busquets": 0.4032377575377648,
+     "Andrés Iniesta": 0.3828278697122088,
+     "Ivan Rakitić": 0.5358782377120921
+    },
+    "log_bf": -0.00990827214958756
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [
+     "Andrés Iniesta",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.6874906545084856,
+     "Lionel Messi": 0.43885997013929656
+    },
+    "log_bf": 1.2844020544972778
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {
+     "Philippe Coutinho": 0.29629829806812136
+    },
+    "log_bf": -1.0687855761930223
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Jordi Alba": 0.4728182658902564,
+     "Lionel Messi": 0.8937339446155785
+    },
+    "log_bf": 2.1476328932922826
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.23895515279442447
+    },
+    "log_bf": -1.0880310565068498
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [
+     "Ousmane Dembélé",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Ousmane Dembélé": 0.5877330394240643,
+     "Lionel Messi": 0.9761966420192097
+    },
+    "log_bf": 3.6205660663630113
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.3046400004313825
+    },
+    "log_bf": -0.716454371879621
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Jordi Alba": 0.37267459567762123,
+     "Lionel Messi": 0.9856303208264885,
+     "Miralem Pjanić": 0.20245257044698162
+    },
+    "log_bf": 4.216115940411285
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [
+     "Aymeric Laporte",
+     "Eneko Bóveda",
+     "Iker Muniain"
+    ],
+    "incl": {
+     "Aymeric Laporte": 0.6347421706479414,
+     "Eneko Bóveda": 0.3019916672845427,
+     "Iker Muniain": 0.8902261356760374
+    },
+    "log_bf": 2.9836385083140584
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Markel Susaeta": 0.22041960515178058,
+     "Beñat Etxebarria": 0.3329826345281458
+    },
+    "log_bf": -0.03922835100037503
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.5207153006087802,
+     "Filipe Luis": 0.9997271752448635
+    },
+    "log_bf": 7.8562895600423985
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.16412956428490588
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Gustavo Cabral",
+     "Andreu Fontàs",
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Gustavo Cabral": 0.3349198294911934,
+     "Andreu Fontàs": 0.9884748101141042,
+     "Fabián Orellana": 0.8993013537446525
+    },
+    "log_bf": 5.6832269077288515
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.935278083454694
+    },
+    "log_bf": 2.5315562909797507
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Dani García": 0.35044607432531655,
+     "Lillo Castellano": 0.405156199910749
+    },
+    "log_bf": -0.2542334527272203
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Keko": 0.20467704270077958
+    },
+    "log_bf": -0.11888727943741628
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Anaitz Arbilla": 0.301108125104264,
+     "Mickaël Ciani": 0.3320403233827975
+    },
+    "log_bf": -0.2558575370620133
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [
+     "Marco Asensio Willemsen",
+     "Burgui"
+    ],
+    "incl": {
+     "Marco Asensio Willemsen": 0.5423913725232713,
+     "Burgui": 0.6263232613172072
+    },
+    "log_bf": 1.1837950132214132
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.5159230355813378
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [
+     "Pablo Sarabia",
+     "Pedro León",
+     "Víctor Rodríguez"
+    ],
+    "incl": {
+     "Pablo Sarabia": 0.8493876091691794,
+     "Pedro León": 0.41724799043182376,
+     "Víctor Rodríguez": 0.35352487968803803
+    },
+    "log_bf": 2.0427801365009373
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3640878177140792
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Fran Rico": 0.20169316949252442
+    },
+    "log_bf": -0.25873997483920164
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [
+     "Juan Carlos Valerón"
+    ],
+    "incl": {
+     "Juan Carlos Valerón": 0.6569253235240038,
+     "Nauzet Alemán": 0.358053701470599
+    },
+    "log_bf": 0.4206110675340682
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [
+     "Momo",
+     "Jonathan Viera"
+    ],
+    "incl": {
+     "Momo": 0.7330572992845901,
+     "David Simón": 0.20832106530623248,
+     "Jonathan Viera": 0.8183014393777206
+    },
+    "log_bf": 1.8500841344746135
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Víctor Casadesús": 0.255348340521951,
+     "Rubén García": 0.28560571666189694,
+     "Verza": 0.2149992893594072
+    },
+    "log_bf": -0.39237156406396423
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.30392801160535043
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Fábio Espinho": 0.22747001953019716
+    },
+    "log_bf": -0.867154406643607
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4184915141779726
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Fede Cartabia": 0.33133817964218876,
+     "Cani": 0.2615025710294342
+    },
+    "log_bf": -0.6232190470148851
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Luis Alberto": 0.4238376416663553
+    },
+    "log_bf": 0.23202899123850784
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [
+     "Roberto Trashorras"
+    ],
+    "incl": {
+     "Patrick Ebert": 0.21910299698249897,
+     "Zé Castro": 0.4168914473168859,
+     "Roberto Trashorras": 0.9069063565932214
+    },
+    "log_bf": 2.2556099958819686
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Răzvan Raț": 0.242511200267617
+    },
+    "log_bf": 0.0255965814295962
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3533628999440168
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Joaquín": 0.3446526439752176,
+     "Dani Ceballos": 0.2533560893473115
+    },
+    "log_bf": 0.09251626842875282
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.40379982846855
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marcelo": 0.2703572861013311,
+     "James Rodríguez": 0.4124484003323768
+    },
+    "log_bf": 0.4643249066706403
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "David Zurutuza": 0.35363914739256297
+    },
+    "log_bf": -0.7706649545484936
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Carlos Vela": 0.28290017866798356
+    },
+    "log_bf": 0.011091949194664608
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [
+     "Michael Krohn-Dehli"
+    ],
+    "incl": {
+     "Michael Krohn-Dehli": 0.7565247074055893,
+     "Kolo": 0.2773162127429629
+    },
+    "log_bf": 1.069658942584681
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.9801796015411642,
+     "Mariano": 0.24215955277850074
+    },
+    "log_bf": 3.887534901262157
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.5660331651502978,
+     "Carlos Carmona": 0.37106180367661495,
+     "Alberto Lora": 0.24453870794465654
+    },
+    "log_bf": 0.14983887085088554
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Jony": 0.29968865074475204
+    },
+    "log_bf": 0.046296289943313695
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4013570521961327
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2973663858519444
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Rodri": 0.34757900965136246,
+     "Daniele Bonera": 0.23581202272440518,
+     "Bruno Soriano": 0.5634711230137536
+    },
+    "log_bf": 0.3249664809258519
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Adrián López": 0.20483088896502297
+    },
+    "log_bf": -0.21581092043696515
+   }
+  },
+  "wingers in midfield": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {
+     "Xavi": 0.21103949293819554,
+     "Gabriel Milito": 0.2991836451454351
+    },
+    "log_bf": -0.2678583562016854
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Ronaldinho": 0.23577410073092725
+    },
+    "log_bf": -0.210041608657491
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2499315997952323
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.2093027996509986,
+     "Andrés Iniesta": 0.2070855207583355
+    },
+    "log_bf": 0.004045207298503328
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {
+     "Xavi": 0.24333107957146333
+    },
+    "log_bf": -0.8518979077992981
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.24532710237181732
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [],
+    "incl": {
+     "Thiago Alcântara": 0.2213795008414581,
+     "Xavi": 0.4366782344925425
+    },
+    "log_bf": -0.24549626960467208
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.28962469434431426
+    },
+    "log_bf": 0.24336815571196269
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Thiago Alcântara": 0.22992355471975837,
+     "Jonathan dos Santos": 0.4057732147233339,
+     "Xavi": 0.5921451580292582
+    },
+    "log_bf": 0.4184328615044137
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.30495232029669783
+    },
+    "log_bf": 0.23981813163258892
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {
+     "Thiago Alcântara": 0.2185243940902301,
+     "Xavi": 0.27623316877358106
+    },
+    "log_bf": -0.631127820062332
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.23229305858493166,
+     "Andrés Iniesta": 0.27590670918636073,
+     "Lionel Messi": 0.28440925116645266
+    },
+    "log_bf": 0.3251641710998001
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {
+     "Xavi": 0.31609577598246924
+    },
+    "log_bf": -0.546026585712994
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.24934293994796877
+    },
+    "log_bf": -0.0209496518878467
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3010338346052919
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.5349885962839521
+    },
+    "log_bf": 0.4789372757136334
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4403827099876878
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.7734573555293658
+    },
+    "log_bf": 1.2864926627261184
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2890024804528792
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [
+     "Luis Suárez",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Luis Suárez": 0.5204002417330045,
+     "Lionel Messi": 0.6861871107697993
+    },
+    "log_bf": 1.4123551400863903
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.3709088325443565
+    },
+    "log_bf": -0.6091538975092305
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.32598487555201094,
+     "Lionel Messi": 0.9990337391889756
+    },
+    "log_bf": 7.009025783531399
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.415846719802886
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Jordi Alba": 0.21455506680118336,
+     "Lionel Messi": 0.7118892492295734
+    },
+    "log_bf": 1.0947950155755706
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.254736375706912
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [],
+    "incl": {
+     "Ousmane Dembélé": 0.3002147172317831,
+     "Lionel Messi": 0.631457645105921
+    },
+    "log_bf": 0.8106474751553776
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.9869134202450496
+    },
+    "log_bf": 3.8886486269654483
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Jordi Alba": 0.22710236384057225,
+     "Lionel Messi": 0.999988751704702
+    },
+    "log_bf": 11.355205106472582
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Aymeric Laporte": 0.2969757277419844
+    },
+    "log_bf": -0.5512912974259194
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.37194374104167593
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Antoine Griezmann",
+     "Filipe Luis",
+     "Luciano Vietto"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.5793454041497035,
+     "Filipe Luis": 0.9786421126145893,
+     "Luciano Vietto": 0.24747685509083345
+    },
+    "log_bf": 3.611412405022847
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Antoine Griezmann": 0.6357878817608206,
+     "Jackson Martínez": 0.23268319670249488
+    },
+    "log_bf": 0.7910177065302832
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Andreu Fontàs",
+     "Augusto Fernández",
+     "Marcelo Díaz"
+    ],
+    "incl": {
+     "Andreu Fontàs": 0.8833471141460252,
+     "Augusto Fernández": 0.5339444111556133,
+     "Marcelo Díaz": 0.4404334573770922
+    },
+    "log_bf": 2.5212229361381304
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.6902605822002892
+    },
+    "log_bf": 0.8526995325432267
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Lillo Castellano": 0.24694264435935742
+    },
+    "log_bf": -0.8347467506143715
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.4325121648138719
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Gerard Moreno": 0.203248613376911,
+     "Mickaël Ciani": 0.25248119865289287
+    },
+    "log_bf": -0.5322849416152593
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Burgui": 0.29589007278901974
+    },
+    "log_bf": -0.09259370712523207
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.392659662499824
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Pablo Sarabia": 0.2672629031483067
+    },
+    "log_bf": 0.015079469573308302
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0622929771281093
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.41858976968420336
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1705641794872435
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.25021768566501607,
+     "Jonathan Viera": 0.2899984591608026
+    },
+    "log_bf": 0.004369995318199926
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Víctor Casadesús": 0.383163561790033
+    },
+    "log_bf": -0.5587479031422617
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.26619089230048587
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.270099768583819
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.5022379686296716
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2375703841307768
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [
+     "Lucas Pérez"
+    ],
+    "incl": {
+     "Lucas Pérez": 0.9143223832008491
+    },
+    "log_bf": 2.3459099752000796
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Roberto Trashorras": 0.497960031500103
+    },
+    "log_bf": -0.10789034348341886
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Miku Fedor": 0.20879238422175952
+    },
+    "log_bf": -0.17984386931165375
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4405909969524089
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3459443321441711
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2174644219744692
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.0864012513311252
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.479593913565779
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2742684136853484
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.8302123677494535
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": 0.08105401595518913
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.2723895194239267
+    },
+    "log_bf": -0.8584571025911885
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.2127687945123995
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1867878948098678
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.3963315957334288
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.9432609271772634
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Adrián López": 0.5446845229898144,
+     "Léo Baptistão": 0.41160523619107825
+    },
+    "log_bf": 0.6408285639978573
+   }
+  },
+  "six roles": {
+   "Barcelona|Rijkaard 2004-08|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1449513611512714
+   },
+   "Barcelona|Rijkaard 2004-08|box": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.2942824756383487,
+     "Ronaldinho": 0.6781845918222646
+    },
+    "log_bf": 0.8257665851334366
+   },
+   "Barcelona|2008/09|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.549823801355367,
+     "Xavi": 0.38480033478584735
+    },
+    "log_bf": -0.06654292744467227
+   },
+   "Barcelona|2008/09|box": {
+    "hubs": [
+     "Dani Alves",
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.9783798358858127,
+     "Xavi": 0.793608146034228
+    },
+    "log_bf": 4.2328716838122915
+   },
+   "Barcelona|2009/10|org": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.2199686269308154
+    },
+    "log_bf": -0.8932419734499746
+   },
+   "Barcelona|2009/10|box": {
+    "hubs": [
+     "Dani Alves",
+     "Andrés Iniesta",
+     "Xavi"
+    ],
+    "incl": {
+     "Dani Alves": 0.8680874801625328,
+     "Andrés Iniesta": 0.2934578014439689,
+     "Rafael Márquez": 0.31136100820979323,
+     "Xavi": 0.39787992099534353
+    },
+    "log_bf": 2.2418214672809427
+   },
+   "Barcelona|2010/11|org": {
+    "hubs": [
+     "Pedro",
+     "Ibrahim Afellay"
+    ],
+    "incl": {
+     "Pedro": 0.977215884885567,
+     "Ibrahim Afellay": 0.9852637250300775,
+     "Lionel Messi": 0.26636180745837335
+    },
+    "log_bf": 4.023953417442186
+   },
+   "Barcelona|2010/11|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.5487536743261789,
+     "Andrés Iniesta": 0.22570692318382982,
+     "Lionel Messi": 0.3046916083391441,
+     "Xavi": 0.2331079152732006
+    },
+    "log_bf": 0.8714283239016822
+   },
+   "Barcelona|2011/12|org": {
+    "hubs": [],
+    "incl": {
+     "Dani Alves": 0.3720302519776766,
+     "Xavi": 0.34378649666462274
+    },
+    "log_bf": -0.07946159926888186
+   },
+   "Barcelona|2011/12|box": {
+    "hubs": [
+     "Dani Alves"
+    ],
+    "incl": {
+     "Dani Alves": 0.6952589903346641,
+     "Lionel Messi": 0.33572895988497947,
+     "Éric Abidal": 0.20177663657736888
+    },
+    "log_bf": 1.5898574779919983
+   },
+   "Barcelona|2012/13|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3813483105253397
+   },
+   "Barcelona|2012/13|box": {
+    "hubs": [
+     "Dani Alves"
+    ],
+    "incl": {
+     "Dani Alves": 0.9994722279268622,
+     "Andrés Iniesta": 0.34683174854792775,
+     "Lionel Messi": 0.4024166541743913,
+     "Marc Bartra": 0.2375132274075968
+    },
+    "log_bf": 7.72330546319229
+   },
+   "Barcelona|2013/14|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.1589002093405867
+   },
+   "Barcelona|2013/14|box": {
+    "hubs": [
+     "Dani Alves"
+    ],
+    "incl": {
+     "Dani Alves": 0.8924282019282064,
+     "Lionel Messi": 0.34034416569794296
+    },
+    "log_bf": 2.1192567575972987
+   },
+   "Barcelona|2014/15|org": {
+    "hubs": [],
+    "incl": {
+     "Lionel Messi": 0.2416322525411494
+    },
+    "log_bf": -1.2415254785373975
+   },
+   "Barcelona|2014/15|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Lionel Messi": 0.9922612958912732,
+     "Xavi": 0.21622418337943614
+    },
+    "log_bf": 4.88304521394474
+   },
+   "Barcelona|2015/16|org": {
+    "hubs": [
+     "Neymar",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Neymar": 0.48601966155317217,
+     "Lionel Messi": 0.6255098250763657
+    },
+    "log_bf": -0.058047634760796996
+   },
+   "Barcelona|2015/16|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Dani Alves": 0.30387674581504887,
+     "Andrés Iniesta": 0.28779924601899354,
+     "Lionel Messi": 0.9947969445978773,
+     "Javier Mascherano": 0.31535803985747984
+    },
+    "log_bf": 5.538301142930052
+   },
+   "Barcelona|2016/17|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.6295562662970724
+   },
+   "Barcelona|2016/17|box": {
+    "hubs": [
+     "Andrés Iniesta",
+     "Luis Suárez",
+     "Javier Mascherano"
+    ],
+    "incl": {
+     "Andrés Iniesta": 0.3770019948993956,
+     "Luis Suárez": 0.5791366623346389,
+     "Lionel Messi": 0.351155720949111,
+     "Javier Mascherano": 0.6105360990076114
+    },
+    "log_bf": 1.755419575496603
+   },
+   "Barcelona|2017/18|org": {
+    "hubs": [],
+    "incl": {
+     "Andrés Iniesta": 0.3621108350360669,
+     "Lionel Messi": 0.4123551092149739
+    },
+    "log_bf": -0.2844482707891558
+   },
+   "Barcelona|2017/18|box": {
+    "hubs": [
+     "Andrés Iniesta",
+     "Lionel Messi",
+     "Javier Mascherano"
+    ],
+    "incl": {
+     "Philippe Coutinho": 0.2023004746249997,
+     "Andrés Iniesta": 0.9930602052821537,
+     "Lionel Messi": 0.999999085723928,
+     "Javier Mascherano": 0.313710865836811
+    },
+    "log_bf": 18.14934092972898
+   },
+   "Barcelona|2018/19|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.585367040086382
+   },
+   "Barcelona|2018/19|box": {
+    "hubs": [
+     "Jordi Alba",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Jordi Alba": 0.6792598958388386,
+     "Lionel Messi": 0.795704586286672
+    },
+    "log_bf": 2.069868842496909
+   },
+   "Barcelona|2019/20|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.9977315980301853
+   },
+   "Barcelona|2019/20|box": {
+    "hubs": [
+     "Ousmane Dembélé",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Ousmane Dembélé": 0.6119828057313819,
+     "Lionel Messi": 0.9859903376317567
+    },
+    "log_bf": 4.057803697470831
+   },
+   "Barcelona|2020/21|org": {
+    "hubs": [
+     "Antoine Griezmann",
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.6409482885262546,
+     "Lionel Messi": 0.8215389702061159
+    },
+    "log_bf": 1.1083267990651677
+   },
+   "Barcelona|2020/21|box": {
+    "hubs": [
+     "Lionel Messi"
+    ],
+    "incl": {
+     "Ousmane Dembélé": 0.2276204929326711,
+     "Lionel Messi": 0.9999999999999323,
+     "Clément Lenglet": 0.43492852165160006,
+     "Óscar Mingueza": 0.2984481789164434
+    },
+    "log_bf": 30.817820247407354
+   },
+   "Athletic Club|2015/16|org": {
+    "hubs": [
+     "Eneko Bóveda",
+     "Iker Muniain"
+    ],
+    "incl": {
+     "Eneko Bóveda": 0.8335950671690158,
+     "Iker Muniain": 0.9321574399117214
+    },
+    "log_bf": 3.528660392788538
+   },
+   "Athletic Club|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.5489020391400601
+   },
+   "Atlético Madrid|2015/16|org": {
+    "hubs": [
+     "Filipe Luis"
+    ],
+    "incl": {
+     "Antoine Griezmann": 0.5119913496688537,
+     "Filipe Luis": 0.9919563576214455
+    },
+    "log_bf": 4.500281431565668
+   },
+   "Atlético Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Antoine Griezmann": 0.5224288830286429,
+     "Ángel Correa": 0.5252351769527055
+    },
+    "log_bf": 0.4704256045579882
+   },
+   "Celta Vigo|2015/16|org": {
+    "hubs": [
+     "Fabián Orellana"
+    ],
+    "incl": {
+     "Iago Aspas": 0.2411125907897248,
+     "Nolito": 0.2618447389952212,
+     "Andreu Fontàs": 0.476080039184873,
+     "Fabián Orellana": 0.9480534228765034
+    },
+    "log_bf": 2.8207299617530595
+   },
+   "Celta Vigo|2015/16|box": {
+    "hubs": [
+     "Nolito"
+    ],
+    "incl": {
+     "Nolito": 0.9632687418414314
+    },
+    "log_bf": 3.0514913612742234
+   },
+   "Eibar|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Iván Ramis": 0.29026230639103634,
+     "Lillo Castellano": 0.27221584377347513
+    },
+    "log_bf": -0.5689907011754087
+   },
+   "Eibar|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.633250531190086
+   },
+   "Espanyol|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Anaitz Arbilla": 0.6228747933355259,
+     "Gerard Moreno": 0.24773201280855311,
+     "Mickaël Ciani": 0.29930207373391093,
+     "Rober Correa": 0.24770017618714593
+    },
+    "log_bf": 0.47749474438272443
+   },
+   "Espanyol|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marco Asensio Willemsen": 0.22477910949217528,
+     "Burgui": 0.31227540530664294
+    },
+    "log_bf": 0.0011273190858247517
+   },
+   "Getafe|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4702765030370983
+   },
+   "Getafe|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Víctor Rodríguez": 0.21900273723918723
+    },
+    "log_bf": -0.07532751501686619
+   },
+   "Granada|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3710969414767646
+   },
+   "Granada|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.6007535879137151
+   },
+   "Las Palmas|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Momo": 0.2622901431633711,
+     "Juan Carlos Valerón": 0.2830294280073677
+    },
+    "log_bf": -0.6120879594922002
+   },
+   "Las Palmas|2015/16|box": {
+    "hubs": [
+     "Momo",
+     "David Simón",
+     "Jonathan Viera"
+    ],
+    "incl": {
+     "Momo": 0.9129947644327148,
+     "David Simón": 0.4760481226862213,
+     "Jonathan Viera": 0.5711826494857208
+    },
+    "log_bf": 3.0497629837787485
+   },
+   "Levante UD|2015/16|org": {
+    "hubs": [
+     "Giuseppe Rossi",
+     "Víctor Casadesús",
+     "Joan Verdú"
+    ],
+    "incl": {
+     "Giuseppe Rossi": 0.3279598746345584,
+     "Víctor Casadesús": 0.5806999678569986,
+     "Joan Verdú": 0.8148655127644966
+    },
+    "log_bf": 1.298228282091955
+   },
+   "Levante UD|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Toño": 0.5052017009985632,
+     "Giuseppe Rossi": 0.20151040720635308,
+     "Juanfran": 0.3212394095324885
+    },
+    "log_bf": 0.506926270541399
+   },
+   "Málaga|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.3206672374160888
+   },
+   "Málaga|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.6850232473623521
+   },
+   "RC Deportivo La Coruña|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.055623700355639
+   },
+   "RC Deportivo La Coruña|2015/16|box": {
+    "hubs": [
+     "Lucas Pérez",
+     "Juanfran",
+     "Luis Alberto"
+    ],
+    "incl": {
+     "Lucas Pérez": 0.9714450877940479,
+     "Juanfran": 0.7993387434513975,
+     "Sidnei": 0.2966228899367893,
+     "Luis Alberto": 0.38181124017297524
+    },
+    "log_bf": 4.883634387947595
+   },
+   "Rayo Vallecano|2015/16|org": {
+    "hubs": [
+     "Roberto Trashorras"
+    ],
+    "incl": {
+     "Pablo Hernández": 0.4869629475763996,
+     "Răzvan Raț": 0.238666456935228,
+     "Roberto Trashorras": 0.8659715931383135
+    },
+    "log_bf": 1.7425648613818083
+   },
+   "Rayo Vallecano|2015/16|box": {
+    "hubs": [
+     "Răzvan Raț"
+    ],
+    "incl": {
+     "Răzvan Raț": 0.7898967832035503,
+     "Miku Fedor": 0.302893014663399
+    },
+    "log_bf": 1.3667701995404684
+   },
+   "Real Betis|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4076540006986562
+   },
+   "Real Betis|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Dani Ceballos": 0.34703157273932767
+    },
+    "log_bf": -0.04754799974435997
+   },
+   "Real Madrid|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.421498620102895
+   },
+   "Real Madrid|2015/16|box": {
+    "hubs": [],
+    "incl": {
+     "Marcelo": 0.40113353435320914,
+     "James Rodríguez": 0.21016077623642926
+    },
+    "log_bf": 0.475772644822527
+   },
+   "Real Sociedad|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.4901961767599374
+   },
+   "Real Sociedad|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.46530923911743116
+   },
+   "Sevilla|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.0569485936143508
+   },
+   "Sevilla|2015/16|box": {
+    "hubs": [
+     "Éver Banega"
+    ],
+    "incl": {
+     "Éver Banega": 0.6639373264509891,
+     "Kévin Gameiro": 0.2164420949556061
+    },
+    "log_bf": 0.8295385682645957
+   },
+   "Sporting Gijón|2015/16|org": {
+    "hubs": [],
+    "incl": {
+     "Luis Hernández": 0.34606445757741483,
+     "Carlos Carmona": 0.26384799561147,
+     "Alberto Lora": 0.26537888774290186
+    },
+    "log_bf": -0.2845425945648685
+   },
+   "Sporting Gijón|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.27339855628297016
+   },
+   "Valencia|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.6183863849665272
+   },
+   "Valencia|2015/16|box": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -0.608713904287967
+   },
+   "Villarreal|2015/16|org": {
+    "hubs": [],
+    "incl": {},
+    "log_bf": -1.2555294053806278
+   },
+   "Villarreal|2015/16|box": {
+    "hubs": [
+     "Adrián López",
+     "Léo Baptistão"
+    ],
+    "incl": {
+     "Adrián López": 0.6295232026137262,
+     "Léo Baptistão": 0.5115100981054447
+    },
+    "log_bf": 0.8463763075125996
+   }
+  }
+ }
+}
