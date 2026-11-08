@@ -2,7 +2,7 @@
 PY ?= .venv/bin/python -I
 W ?= 12
 
-.PHONY: all data calib sim real figs v2 net v3 test clean-results
+.PHONY: all data calib sim real figs v2 net v3 test clean-results check-repro reproduce
 
 all: data calib sim real figs v2 net v3
 
@@ -70,6 +70,17 @@ v3:
 
 test:
 	$(PY) -m pytest -q
+
+# compare the regenerated results/ with the versions committed in git (tolerances: see the script)
+check-repro:
+	$(PY) scripts/check_reproduction.py
+
+# full reproduction from the raw data: clears results/, figures/ and data/interim/, reruns, checks
+reproduce:
+	$(MAKE) clean-results
+	rm -f data/interim/*.parquet
+	$(MAKE) all PY="$(PY)" W=$(W)
+	$(PY) scripts/check_reproduction.py
 
 clean-results:   # keeps the hand-written results/SUMMARY*.md
 	find results -maxdepth 1 -type f ! -name 'SUMMARY*.md' -delete

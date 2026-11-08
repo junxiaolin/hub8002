@@ -28,13 +28,37 @@ make figs    # figures/*.pdf|png 和 results/tables.md
 make v2      # 价值核心（进攻 / 推进 / 防守）：值表、校准、真实数据、模拟、检验、图
 make net     # 网络扩展（串联核心）：控球链、校准、真实数据、模拟、检验、图
 make v3      # 改进与外部检验：替补水平、位置划分选择、缺阵检验、公认评价对照、数据核对、报告用图
-make all     # 以上全部（12 进程约 1 小时）
+make all     # 以上全部（12 进程约 33 分钟）
 make test    # 单元测试
 ```
 
 `make clean-results` 清空 `results/`（保留手写的 `SUMMARY*.md`）和 `figures/`。
 
 读取下载文件的 Python 一律用 `-I`（隔离模式）运行。每个进程设置 `OMP_NUM_THREADS=1`，以免和多进程抢占 CPU。
+
+## 从零复现
+
+从克隆仓库到核对结果的完整步骤（2026-11-08 在本机从零跑通：清空全部结果和中间表后 `make all`，12 进程 33 分钟，结果与仓库中提交的版本一致）：
+
+```bash
+git clone git@github.com:junxiaolin/hub8002.git && cd hub8002
+conda env create -f environment.yml && conda activate hub8002   # 或按上文"环境"一节建 .venv
+./scripts/fetch_third_party.sh                                  # Kirkley 官方代码（v1 对照与测试用）
+export OMP_NUM_THREADS=1
+make all PY="python -I" W=12        # 下载约 2.6 GB 原始数据，跑完全部实验和出图
+make check-repro PY="python -I"     # 逐个文件与仓库中提交的 results/ 比对
+make test PY="python -I"
+```
+
+- **`PY`：** Makefile 默认用 `.venv/bin/python -I`。用 conda 环境时必须传 `PY="python -I"`，否则找不到解释器；用 `.venv` 时可省略。`-I`（隔离模式）是为了读取下载文件时不加载当前目录里的代码，不要去掉。
+- **`W`：** 并行进程数，按机器核数调整。
+- **`make check-repro`：** 运行 `scripts/check_reproduction.py`，对 `results/` 中每个提交过的 json 按相对误差 1e-6 比较。
+    - 两个串联模拟文件的行按并行完成顺序写出，比较时先排序。
+    - 位置划分选择用到 L-BFGS-B 优化，放宽到 1e-3。
+    - md 表格要求逐字相同，手写的 `SUMMARY*.md` 不比较。
+    - 有差异时逐个文件列出，并以非零状态退出。
+- **`make reproduce`：** 一步完成"清空 → 从零重跑 → 核对"。它会删除 `results/`（保留 `SUMMARY*.md`）、`figures/` 和 `data/interim/` 里的现有文件，已下载的原始数据保留、不会重新下载。
+- **尚未验证：** 本机实际使用的是"环境"一节的 venv 方式；`environment.yml` 这条路径还没在一台新机器上完整跑过，遇到安装问题请反馈。
 
 ## 目录
 
